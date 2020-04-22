@@ -11,7 +11,7 @@ Please see the OSF Wiki page for details about this Analysis:
   https://osf.io/7nrd3/wiki/home/
 
 # 2019 Novel Coronavirus (SARS-CoV-2)
-Contributors: Krista Ternus Yongze Yin Robert Meller Michael Jochum
+Contributors: Michael Jochum Yongze Yin Deanne Taylor Robert Meller Katie Fisch Chai Fungtammasan Jason Chin Todd Treangen Krista Ternus
 Date created: 2020-01-27 07:52 PM | Last Updated: 2020-03-24 07:20 PM
 Identifier: DOI 10.17605/OSF.IO/7NRD3
 
