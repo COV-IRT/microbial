@@ -1,4 +1,4 @@
-<img src="https://github.com/MADscientist314/hybrid_metagenomics/blob/master/images/hybrid_microbiome_workflow.svg">
+<img src="https://github.com/MADscientist314/COVIRT19_Microbial/blob/master/images/coverphoto.png">
 # Analysis of 2019 Novel Coronavirus (SARS-CoV-2) Metatransciptomic Data
 # COVIRT19 Microbial subgroup git repo
 This is the version control repo for COVIRT19 microbial subgroup code on the TACC cluster
