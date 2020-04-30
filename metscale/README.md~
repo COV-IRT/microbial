@@ -1,0 +1,2 @@
+This directory contains the neccessary job submission script for launching metscale on the stampede2 cluster.
+Please see https://github.com/signaturescience/metagenomics for more information
