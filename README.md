@@ -1,8 +1,8 @@
 <img src="https://github.com/MADscientist314/COVIRT19_Microbial/blob/master/images/coverphoto.png">
 
-# Analysis of 2019 Novel Coronavirus (SARS-CoV-2) Metatransciptomic Data
-# COVIRT19 Microbial subgroup git repo
-This is the version control repo for COVIRT19 microbial subgroup code on the TACC cluster
+# Analysis of 2019 Novel Coronavirus (SARS-CoV-2) Metatranscriptomic Data
+# COVIRT19 Microbial subgroup
+This is the version control repository for COVIRT19 microbial subgroup code on the TACC cluster
 
 Please see the Groups.io page for more detaials about this effort:
  https://covirt19.org/g/microbial
