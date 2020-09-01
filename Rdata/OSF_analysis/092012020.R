@@ -175,7 +175,10 @@ sigtab_res_Healthy_vs_COVID19_with_tax<-sigtab_res_Healthy_vs_COVID19_with_tax[o
 sigtab_res_Sick_vs_COVID19_with_tax<-sigtab_res_Sick_vs_COVID19_with_tax[order(sigtab_res_Sick_vs_COVID19_with_tax$baseMean, decreasing=T), ]
 sigtab_res_Healthy_vs_Sick_with_tax<-sigtab_res_Healthy_vs_Sick_with_tax[order(sigtab_res_Healthy_vs_Sick_with_tax$baseMean, decreasing=T), ]
 
-dim(sigtab_res_Healthy_vs_COVID19_with_tax)
+write.table(x = sigtab_res_Healthy_vs_COVID19_with_tax,file = "DESEQ2_Healthy_vs_COVID19.tsv",sep = "\t")
+write.table(x = sigtab_res_Sick_vs_COVID19_with_tax,file = "DESEQ2_Sick_vs_COVID19.tsv",sep = "\t")
+write.table(x = sigtab_res_Healthy_vs_Sick_with_tax,file = "DESEQ2_Healthy_vs_Sick.tsv",sep = "\t")
+
 dim(sigtab_res_Sick_vs_COVID19_with_tax)
 dim(sigtab_res_Healthy_vs_Sick_with_tax)
 
@@ -265,9 +268,13 @@ c25 <- c(
 )
 #subset the top 25 taxa and change the tax_ids to the names
 ps_balf_comp_top<-prune_taxa(taxa = top_taxa(x = ps_balf_comp,n = 25),x = ps_balf_comp)
-taxa_names(ps_balf_comp_top)<-get_taxa_unique(ps_balf_comp_top,taxonomic.rank = "species")
-
-plot_composition(x = ps_balf_comp_top,
+ps_balf_Deseq2<-prune_taxa(taxa =list2, x=ps_balf_comp)
+ps_balf_Deseq2<-tax_glom(ps_balf_Deseq2,taxrank = "genus")
+taxa_names(ps_balf_Deseq2)<-get_taxa_unique(ps_balf_Deseq2,taxonomic.rank = "genus")
+ps_balf_Deseq2
+ps_balf_Deseq2<-subset_samples(physeq = ps_balf_Deseq2,sample_sums(ps_balf_Deseq2)>0)
+taxa_sums(ps_balf_Deseq2)
+plot_composition(x = ps_balf_Deseq2,
                  sample.sort = 'neatmap',
                  otu.sort = "abundance",
                  x.label = "publication",
@@ -275,7 +282,8 @@ plot_composition(x = ps_balf_comp_top,
                  verbose = T,
                  group_by = "case")+
   scale_fill_manual(values = c25)+
-  theme_bw()+rotate_x_text()
+  theme_bw()+
+  rotate_x_text()
 
 
 
