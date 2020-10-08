@@ -1,0 +1,9 @@
+	namespace	depth	name
+GO:0000175	molecular_function	8	3-5-exoribonuclease activity
+GO:0004527	molecular_function	5	exonuclease activity
+GO:0008242	molecular_function	5	omega peptidase activity
+GO:0019079	biological_process	4	viral genome replication
+GO:0039554	biological_process	14	suppression by virus of host MDA-5 activity
+GO:0039646	biological_process	9	modulation by virus of host G0/G1 transition checkpoint
+GO:0042802	molecular_function	3	identical protein binding
+GO:0090503	biological_process	8	RNA phosphodiester bond hydrolysis, exonucleolytic
