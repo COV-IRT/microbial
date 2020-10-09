@@ -91,7 +91,7 @@ mkdir -p $PWD/metaphlan3/bams/
 fileBasename=$(basename $forwardReads .fq.gz)
 
 if [[ "$pairedEnd" == "true" ]]; then
-    echo "LOG: Starting paired-end pipeline at $(date -Iseconds)"
+    echo "LOG: Starting paired-end pipeline at $(date -Iseconds) on $fileBasename"
     if [[ "$verbose" == "true" ]]; then
         echo "LOG: Forward Reads: $(realpath $forwardReads)"
         echo "LOG: Reverse Reads: $(realpath $reverseReads)"
@@ -100,7 +100,7 @@ if [[ "$pairedEnd" == "true" ]]; then
 
     fileBasename=${fileBasename%_1*}
 
-    echo "LOG: running metaphlan3"
+    echo "LOG: running metaphlan3 on $fileBasename"
     echo ""
 # I removed this option to build the bowtie2db in the tmp dir because it takes a long time,
 #but I'm not sure about the ability to 91 nodes to all read from the same db so I might put it back.
@@ -115,19 +115,19 @@ if [[ "$pairedEnd" == "true" ]]; then
         -o $PWD/metaphlan3/profiles/$fileBasename.PE.profile.tsv \
         --nproc $threads
 
-    echo "LOG: running samtools sam to bam"
+    echo "LOG: running samtools sam to bam on $fileBasename"
     samtools view --threads $threads -bS $PWD/metaphlan3/sams/$fileBasename.PE.sam > $PWD/metaphlan3/bams/$fileBasename.PE.bam \
 #    samtools view --threads $threads -f 4 -bS $PWD/metaphlan3/sams/$fileBasename.sam > $PWD/metaphlan3/bams/$fileBasename.unmapped.bam
 
-    echo "LOG: job completed"
+    echo "LOG: $fileBasename job completed"
 
 else # pairedEnd == "false"
-    echo "LOG: Starting single-end pipeline at $(date -Iseconds)"
+    echo "LOG: Starting single-end pipeline at $(date -Iseconds) on $fileBasename"
     if [[ "$verbose" == "true" ]]; then
         echo "LOG: Reads: $(realpath $forwardReads)"
     fi
     echo ""
-    echo "LOG: running metaphlan3"
+    echo "LOG: running metaphlan3 on on $fileBasename"
     echo ""
     metaphlan \
             $forwardReads \
@@ -139,8 +139,8 @@ else # pairedEnd == "false"
             -o $PWD/metaphlan3/profiles/$fileBasename.SE.profile.tsv \
             --nproc $threads
 
-    echo "LOG: running samtools sam to bam"
+    echo "LOG: running samtools sam to bam on on $fileBasename"
     samtools view --threads $threads -bS $PWD/metaphlan3/sams/$fileBasename.SE.sam > $PWD/metaphlan3/bams/$fileBasename.SE.bam \
-#    samtools view --threads $threads -f 4 -bS $PWD/metaphlan3/sams/$forwardReads.sam > $PWD/metaphlan3/bams/$forwardReads.unmapped.bam
-
+#   samtools view --threads $threads -f 4 -bS $PWD/metaphlan3/sams/$forwardReads.sam > $PWD/metaphlan3/bams/$forwardReads.unmapped.bam
+    echo "LOG: $fileBasename job completed"
 fi
