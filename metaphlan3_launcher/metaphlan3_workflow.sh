@@ -1,12 +1,9 @@
 #!/bin/bash
 
 # the following modules are required
-module load tacc-singularity
-#singularity pull docker://cmirzayi/metaphlanwithconda
 #!/bin/bash
 
 # the following modules are required
-module load tacc-singularity
 
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -61,7 +58,7 @@ shift $((OPTIND - 1))
 
 
 # early error detection
-# assert that bowtie2 is in $PATH
+# assert that metaphlan is in $PATH
 type metaphlan > /dev/null 2>&1 || { echo "ERROR: metaphlan not found" >&2 ; exit 1; }
 # assert that $forwardReads is a valid file
 [ -f "$forwardReads" ] || { echo "ERROR: Forward reads file $forwardReads not found" >&2 ; exit 1; }
@@ -83,12 +80,26 @@ fi
 
 
 # start pipeline
-mkdir -p /tmp/metaphlan3/mpa_v30_CHOCOPhlAn_201901 
+mkdir -p /tmp/metaphlan3/mpa_v30_CHOCOPhlAn_201901
 mkdir -p $PWD/metaphlan3/bowtie2/
 mkdir -p $PWD/metaphlan3/metaphlan3/profile/
 mkdir -p $PWD/metaphlan3/sams/
 mkdir -p $PWD/metaphlan3/bams/
 
+
+# start pipeline
+
+fileBasename=$(basename $forwardReads .fq.gz)
+
+if [[ "$pairedEnd" == "true" ]]; then
+    echo "LOG: Starting paired-end pipeline at $(date -Iseconds)"
+    if [[ "$verbose" == "true" ]]; then
+        echo "LOG: Forward Reads: $(realpath $forwardReads)"
+        echo "LOG: Reverse Reads: $(realpath $reverseReads)"
+    fi
+    echo ""
+
+    fileBasename=${fileBasename%_1*}
 
 if [[ "$pairedEnd" == "true" ]]; then
     echo "LOG: Starting paired-end pipeline at $(date -Iseconds)"
@@ -99,18 +110,21 @@ if [[ "$pairedEnd" == "true" ]]; then
 
     echo "LOG: running metaphlan3"
     echo ""
+# I removed this option to build the bowtie2db in the tmp dir because it takes a long time,
+#but I'm not sure about the ability to 91 nodes to all read from the same db so I might put it back.
+#        --bowtie2db /tmp/metaphlan3/mpa_v30_CHOCOPhlAn_201901 \
     metaphlan \
-        $forwardReads\_filtered_1_reads_trim25_1.fq.gz,$reverseReads\_filtered_1_reads_trim25_1.fq.gz \
-        --bowtie2db /tmp/metaphlan3/mpa_v30_CHOCOPhlAn_201901 \
+        $forwardReads,$reverseReads \
+        --bowtie2db /scratch/06176/jochum00/COVIRT19/metaphlan3/mpa_v30_CHOCOPhlAn_201901 \
         --input_type fastq \
-        -s $PWD/metaphlan3/sams/$forwardReads.sam \
-        --bowtie2out $PWD/metaphlan3/bowtie2/$forwardReads.bowtie2.bz2 \
-        -o $PWD/metaphlan3/profiles/$forwardReads\_profile.tsv \
-        --nproc $threads 
+        -s $PWD/metaphlan3/sams/$fileBasename.PE.sam \
+        --bowtie2out $PWD/metaphlan3/bowtie2/$fileBasename.PE.bowtie2.bz2 \
+        -o $PWD/metaphlan3/profiles/$fileBasename.PE.profile.tsv \
+        --nproc $threads
 
     echo "LOG: running samtools sam to bam"
-    samtools view --threads $threads -bS $PWD/metaphlan3/sams/$forwardReads.sam > $PWD/metaphlan3/bams/$forwardReads.bam \
-#    samtools view --threads $threads -f 4 -bS $PWD/metaphlan3/sams/$forwardReads.sam > $PWD/metaphlan3/bams/$forwardReads.unmapped.bam
+    samtools view --threads $threads -bS $PWD/metaphlan3/sams/$fileBasename.PE.sam > $PWD/metaphlan3/bams/$fileBasename.PE.bam \
+#    samtools view --threads $threads -f 4 -bS $PWD/metaphlan3/sams/$fileBasename.sam > $PWD/metaphlan3/bams/$fileBasename.unmapped.bam
 
     echo "LOG: job completed"
 
@@ -123,16 +137,17 @@ else # pairedEnd == "false"
     echo "LOG: running metaphlan3"
     echo ""
     metaphlan \
-            $forwardReads\_filtered_1_reads_trim25_1.fq.gz \
+            $forwardReads\_trim30.fq.gz \
             --bowtie2db /tmp/metaphlan3/mpa_v30_CHOCOPhlAn_201901 \
             --input_type fastq \
-            -s $PWD/metaphlan3/sams/$forwardReads.sam \
-            --bowtie2out $PWD/metaphlan3/bowtie2/$forwardReads.bowtie2.bz2 \
-            -o $PWD/metaphlan3/profiles/$forwardReads\_profile.tsv \
-            --nproc $threads 
-    
+            --add-viruses \
+            -s $PWD/metaphlan3/sams/$fileBasename.SE.sam \
+            --bowtie2out $PWD/metaphlan3/bowtie2/$fileBasename.SE.bowtie2.bz2 \
+            -o $PWD/metaphlan3/profiles/$fileBasename.SE.profile.tsv \
+            --nproc $threads
+
     echo "LOG: running samtools sam to bam"
-    samtools view --threads $threads -bS $PWD/metaphlan3/sams/$forwardReads.sam > $PWD/metaphlan3/bams/$forwardReads.bam \
+    samtools view --threads $threads -bS $PWD/metaphlan3/sams/$fileBasename.SE.sam > $PWD/metaphlan3/bams/$fileBasename.SE.bam \
 #    samtools view --threads $threads -f 4 -bS $PWD/metaphlan3/sams/$forwardReads.sam > $PWD/metaphlan3/bams/$forwardReads.unmapped.bam
 
 fi
