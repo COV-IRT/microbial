@@ -34,7 +34,7 @@ pairedEnd="false"
 verbose="false"
 threads="68"
 
-while getopts ":hvf:r:p:" o; do
+while getopts ":hvf:r:t:" o; do
     case "${o}" in
     f) # forward read
         forwardReads=${OPTARG}
@@ -43,7 +43,7 @@ while getopts ":hvf:r:p:" o; do
         reverseReads=${OPTARG}
         pairedEnd="true"
         ;;
-    f) # number of threads to use
+    t) # number of threads to use
         threads=${OPTARG}
         ;;
     v) # verbose
@@ -66,15 +66,14 @@ type metaphlan > /dev/null 2>&1 || { echo "ERROR: metaphlan not found" >&2 ; exi
 [[ "$pairedEnd" == "false" ]] || [ -f "$reverseReads" ] || { echo "ERROR: Reverse reads file $reverseReads not found" >&2 ; exit 1; }
 # assert that $threads is a number
 [[ "$threads" =~ ^[0-9]+$ ]] || { echo "ERROR: Number of threads specified was not a number ($threads)" >&2 ; exit 1; }
-
 # print module and version information
-if [[ "$verbose" == "true" ]]; then
-    echo -n "LOG: " && module list 2>&1 | tail -n+2
-    echo "LOG: metaphlan3 version information:"
-    echo ""
-    metaphlan3 --version
-    echo ""
-fi
+#if [[ "$verbose" == "true" ]]; then
+#    echo -n "LOG: " && module list 2>&1 | tail -n+2
+#    echo "LOG: metaphlan3 version information:"
+#    echo ""
+#    metaphlan --version
+#    echo ""
+#fi
 
 
 
@@ -101,13 +100,6 @@ if [[ "$pairedEnd" == "true" ]]; then
 
     fileBasename=${fileBasename%_1*}
 
-if [[ "$pairedEnd" == "true" ]]; then
-    echo "LOG: Starting paired-end pipeline at $(date -Iseconds)"
-    if [[ "$verbose" == "true" ]]; then
-        echo "LOG: Forward Reads: $(realpath $forwardReads)"
-        echo "LOG: Reverse Reads: $(realpath $reverseReads)"
-    fi
-
     echo "LOG: running metaphlan3"
     echo ""
 # I removed this option to build the bowtie2db in the tmp dir because it takes a long time,
@@ -117,6 +109,7 @@ if [[ "$pairedEnd" == "true" ]]; then
         $forwardReads,$reverseReads \
         --bowtie2db /scratch/06176/jochum00/COVIRT19/metaphlan3/mpa_v30_CHOCOPhlAn_201901 \
         --input_type fastq \
+        --add_viruses \
         -s $PWD/metaphlan3/sams/$fileBasename.PE.sam \
         --bowtie2out $PWD/metaphlan3/bowtie2/$fileBasename.PE.bowtie2.bz2 \
         -o $PWD/metaphlan3/profiles/$fileBasename.PE.profile.tsv \
@@ -137,10 +130,10 @@ else # pairedEnd == "false"
     echo "LOG: running metaphlan3"
     echo ""
     metaphlan \
-            $forwardReads\_trim30.fq.gz \
+            $forwardReads \
             --bowtie2db /tmp/metaphlan3/mpa_v30_CHOCOPhlAn_201901 \
             --input_type fastq \
-            --add-viruses \
+            --add_viruses \
             -s $PWD/metaphlan3/sams/$fileBasename.SE.sam \
             --bowtie2out $PWD/metaphlan3/bowtie2/$fileBasename.SE.bowtie2.bz2 \
             -o $PWD/metaphlan3/profiles/$fileBasename.SE.profile.tsv \
