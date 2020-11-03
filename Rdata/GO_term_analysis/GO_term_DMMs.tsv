@@ -1,0 +1,1309 @@
+"V1"	"V2"	"V3"	"V4"
+"hydrolase_activity"	45.5350073077619	27.7348372598978	0.455062234884913	43.5487993219106
+"viral_process"	0.25624552038506	23.3313937657239	0.455311749127834	2.4085440725895
+"nucleic_acid_phosphodiester_bond_hydrolysis"	2.44869842288978	21.6046803574222	0.455453958146741	0.83477176079217
+"transcription,_DNA-templated"	0.256058233874428	20.5729612101722	0.455441154775619	0.0758687274862708
+"endonuclease_activity"	2.20563145785939	21.6046803574498	0.455453800430075	0.834771760863822
+"nuclease_activity"	1.96064308666699	21.6046803618069	0.455452279361742	0.0758247054084715
+"nucleotidyltransferase_activity"	11.9588149858296	24.5210392843671	0.455546685898711	1.59341848341429
+"ATP_binding"	20.2239434446478	22.2452861927499	0.455068857836442	43.6464396633201
+"suppression_by_virus_of_host_innate_immune_response"	0.0232721917530635	18.6665556100388	0.455573011143255	0.0758687155767139
+"viral_protein_processing"	0.0232729625648674	17.3405321911109	0.455609409180609	0.0758687527253371
+"omega_peptidase_activity"	0.0232729625648674	17.3405321911109	0.455609409180609	0.0758687527253371
+"induction_by_virus_of_host_autophagy"	0.0232721917530635	18.6665556100388	0.455573011143255	0.0758687155767139
+"exoribonuclease_activity,_producing_5'-phosphomonoesters"	0.0232729625648674	17.3405321911109	0.455609409180609	0.0758687527253371
+"viral_RNA_genome_replication"	0.0232723312804277	19.9169507310213	0.455432114314644	0.0758687159826236
+"viral_genome_replication"	0.0232721084091704	17.9951700446819	0.455434947493371	0.0758687189492569
+"transferase_activity"	26.4943974428061	27.4119595867764	0.455064236158781	28.6562031570994
+"mitigation_of_host_immune_response_by_virus"	0.0232827446295443	18.0304794790704	0.455434035840979	0.834576830871292
+"transcription,_RNA-templated"	0.0232726206136698	20.5729611995751	0.455439384693196	0.0758687225153222
+"RNA-directed_5-3_RNA_polymerase_activity"	0.0232726206136698	20.5729611995751	0.455439384693196	0.0758687225153222
+"helicase_activity"	0.0232732638321215	19.6563259640894	0.455487128564418	0.834771632057373
+"metal_ion_binding"	25.8969588482197	26.0744187638097	0.455066998558564	14.3952596315118
+"exonuclease_activity"	0.0232729630281737	16.7052300084328	0.455606051502113	0.0758687528365813
+"suppression_by_virus_of_host_type_I_interferon-mediated_signaling_pathway"	0.0232729630281737	16.7052300084328	0.455606051502113	0.0758687528365813
+"modulation_by_virus_of_host_protein_ubiquitination"	0.0232729630281737	16.7052300084328	0.455606051502113	0.0758687528365813
+"suppression_by_virus_of_host_ISG15_activity"	0.0232729630281737	16.7052300084328	0.455606051502113	0.0758687528365813
+"induction_by_virus_of_catabolism_of_host_mRNA"	0.0232729630281737	16.7052300084328	0.455606051502113	0.0758687528365813
+"suppression_by_virus_of_host_gene_expression"	0.0232723310539773	19.2773249331649	0.455432111468031	0.0758687159716591
+"RNA_phosphodiester_bond_hydrolysis,_exonucleolytic"	0.0232748042463126	21.9099325771566	0.455509012415743	0.0758249451369361
+"suppression_by_virus_of_host_NF-kappaB_transcription_factor_activity"	0.0232729630281737	16.7052300084328	0.455606051502113	0.0758687528365813
+"methylation"	0.721763307374665	18.9853879283671	0.455426958488275	8.34153769157703
+"methyltransferase_activity"	0.721763307374665	18.9853879283671	0.455426958488275	8.34153769157703
+"cysteine-type_peptidase_activity"	0.0232729916602476	18.6665556190262	0.455512825546361	0.834576663866695
+"thiol-dependent_ubiquitinyl_hydrolase_activity"	0.0232729630281737	16.7052300084328	0.455606051502113	0.0758687528365813
+"cysteine-type_endopeptidase_activity"	0.0232721917530635	18.6665556100388	0.455573011143255	0.0758687155767139
+"peptidase_activity"	0.95407128155306	23.2355857265525	0.455449955191541	11.6596729826759
+"proteolysis"	1.65260223689605	23.8780869105879	0.455706448325983	20.1850882567358
+"viral_transcription"	0.0232723355746453	10.8162299934263	0.455430234065029	0.0758687332139414
+"3-5-exoribonuclease_activity"	0.0232729655284735	10.1874254002366	0.455565075148077	0.075868753469233
+"nucleotide_binding"	16.9966243376693	22.5805892655126	0.455068859538529	22.8404347627126
+"RNA_binding"	2.35104605711264	23.9867556797338	0.455523023175103	4.628443796958
+"zinc_ion_binding"	0.721852022199827	21.9100807370008	0.455551453896104	4.48975514182041
+"nucleic_acid_binding"	1.4200801598579	22.552031082235	0.455830675308722	23.8621530321141
+"identical_protein_binding"	0.0232729623537334	17.3240595805033	0.455619217390082	0.0758687526386788
+"molecular_function"	12.8095412916136	0.361413492525064	0.452858948896475	13.9572352619759
+"biological_process"	11.728375059543	0.361413492697886	0.455363865883188	13.1901419545506
+"isomerase_activity"	9.82146060895793	0.689756737275534	0.455459117340046	0.834576662156145
+"suppression_by_virus_of_host_IRF3_activity"	0.0232731573212613	5.94524602516212	0.455333266961993	0.0758687674641516
+"lyase_activity"	8.91573416257481	0.689756745140261	0.455448784497843	0.0758687746521607
+"ligase_activity"	3.32824092659683	0.0328518843474001	0.455862109478932	0.0758687165272341
+"riboflavin_biosynthetic_process"	8.44481862283171	0.68975674588311	0.455448686134066	0.0758687722248535
+"3,4-dihydroxy-2-butanone-4-phosphate_synthase_activity"	8.44481862283171	0.68975674588311	0.455448686134066	0.0758687722248535
+"structural_constituent_of_ribosome"	19.681860148905	0.0328551220341157	0.455860860752919	2.3524989115681
+"translation"	22.6960321845861	0.36141349273662	0.455868416179195	4.62877623182098
+"pathogenesis"	0.256058114638972	0.689756750690101	0.45552732187124	0.0758689813232267
+"receptor-mediated_virion_attachment_to_host_cell"	0.0232732708035997	0.6897567506969	0.455246472805027	0.075868776791777
+"membrane_fusion"	0.0232732708035997	0.6897567506969	0.455246472805027	0.075868776791777
+"fusion_of_virus_membrane_with_host_endosome_membrane"	0.0232732708035997	0.6897567506969	0.455246472805027	0.075868776791777
+"virion_attachment_to_host_cell"	0.0230940256047905	2.842566119653	0.455328834924259	0.0758686532685799
+"membrane_fusion_involved_in_viral_entry_into_host_cell"	0.0232732708035997	0.6897567506969	0.455246472805027	0.075868776791777
+"host_cell_surface_receptor_binding"	0.0232732708035997	0.6897567506969	0.455246472805027	0.075868776791777
+"metal_ion_transport"	9.90403279872869	0.361413492404268	0.45561711682904	0.834576630174124
+"metal_ion_transmembrane_transporter_activity"	9.69650620687426	0.361413492402278	0.455616979038431	0.834576630162099
+"serine-type_peptidase_activity"	0.256058233912516	0.0328524637503973	0.455439575857518	8.74334037167741
+"regulation_of_cellular_respiration"	1.18681703362177	0.0328519321705499	0.455866439203212	0.0758708500477586
+"ribokinase_activity"	2.64182227625218	0.0328521724574359	0.455478819158089	0.0758687467952175
+"viral_entry_into_host_cell"	0.0231142720748518	6.90642013774401	0.455388824520271	0.834576826404947
+"DNA_repair"	1.71355534346219	0.0328520681896331	0.455445777703532	0.0758687267291893
+"acrosin_binding"	0.0232740011516742	0.032852622768679	0.455440511591328	15.6102081211445
+"negative_regulation_of_hydrolase_activity"	0.0232740011516742	0.032852622768679	0.455440511591328	15.6102081211445
+"carbohydrate_phosphorylation"	2.64182227625218	0.0328521724574359	0.455478819158089	0.0758687467952175
+"retinoic_acid_binding"	0.0232740011516742	0.032852622768679	0.455440511591328	15.6102081211445
+"phosphatidylcholine_binding"	0.0232740011516742	0.032852622768679	0.455440511591328	15.6102081211445
+"regulation_of_transcription,_DNA-templated"	2.35093624614828	0.0329021579992468	0.454413487734258	2.10833858351969
+"DNA_binding"	10.2731218802405	4.56508389581886	0.455559173058401	10.2697759570842
+"glycolytic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transmembrane_transport"	1.80233505759748	0.0328529959608109	0.454550394648965	0.834585499148506
+"starch_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_flower_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"biosynthetic_process"	8.61475123553636	0.0328541118429011	0.455433952064608	0.0758442469450215
+"glucose-6-phosphate_isomerase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"oxidation-reduction_process"	13.9431751085297	0.0329379546578499	0.456527350569903	20.5280598473448
+"serine-type_endopeptidase_inhibitor_activity"	0.0232759133890504	0.0328526585611912	0.455441169397667	16.3866246315351
+"gluconeogenesis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_endopeptidase_activity"	0.0232759133890504	0.0328526585611912	0.455441169397667	16.3866246315351
+"rRNA_binding"	0.954072797995406	0.0328524006154252	0.45560093162188	0.0758687428735012
+"oxidoreductase_activity"	11.8731585948564	0.0328541177137136	0.453803930375269	1.59349454236204
+"NADPH:quinone_reductase_activity"	3.2029833995072	0.0328518820249822	0.455428677414671	0.0758687168324279
+"serine-type_endopeptidase_activity"	0.256058233879884	0.0328524950202378	0.455444181814625	10.0678136159642
+"phosphorelay_signal_transduction_system"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"extracellular_polysaccharide_biosynthetic_process"	7.38329498533963	0.0328538880194009	0.455432834386861	0.0758442469393525
+"glucose-1-phosphate_thymidylyltransferase_activity"	7.38329498533963	0.0328538880194009	0.455432834386861	0.0758442469393525
+"modulation_by_virus_of_host_cell_cycle"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"modulation_by_virus_of_host_G0/G1_transition_checkpoint"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"iron-sulfur_cluster_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"structural_constituent_of_virion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"seed_trichome_elongation"	0.256058187786316	0.0328520683108274	0.45551700410003	0.0758684860329556
+"phosphorelay_sensor_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"aromatase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_amino_acid_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_wall_macromolecule_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"viral_life_cycle"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transferase_activity,_transferring_phosphorus-containing_groups"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chitinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chitin_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"monooxygenase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"anaphase-promoting_complex_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_ubiquitin_protein_ligase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"4_iron,_4_sulfur_cluster_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ubiquitin-protein_transferase_activator_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"suppression_by_virus_of_host_tetherin_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"pore_formation_by_virus_in_membrane_of_host_cell"	0.0232721525940759	1.19721758484946	0.455577196450615	0.0758687166581818
+"signal_transduction_by_protein_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transmembrane_transporter_activity"	0.256058234226172	0.0328524782855064	0.455519645540288	0.834576665189466
+"DNA_replication"	0.0232827327474652	0.0329021669775177	0.45543496078632	1.59345728706556
+"viral_DNA_genome_replication"	0.0232820230092335	0.03290217485015	0.455433406940464	0.834576830472063
+"translational_elongation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"NEDD8-specific_protease_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"translation_elongation_factor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"establishment_or_maintenance_of_cell_polarity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"actin_filament_network_formation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"photosynthesis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transaminase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"NADH_dehydrogenase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_lamellipodium_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"amino_acid_transmembrane_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA-directed_5-3_RNA_polymerase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"pyridoxal_phosphate_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptidyl-histidine_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_histidine_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ion_channel_activity"	0.0232721525940759	1.19721758484946	0.455577196450615	0.0758687166581818
+"N-methyltransferase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"carbohydrate_transmembrane_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptidoglycan_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA_topoisomerase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cation_transmembrane_transport"	2.2056291369435	0.0328530019417878	0.455444645366134	0.0758687373257758
+"DNA_biosynthetic_process"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"glutamine_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"SOS_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"amino_acid_transmembrane_transporter_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"oxidoreductase_activity,_acting_on_paired_donors,_with_incorporation_or_reduction_of_molecular_oxygen,_reduced_pteridine_as_one_donor,_and_incorporation_of_one_atom_of_oxygen"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"catalytic_activity"	10.7123921901386	4.32321338352564	0.456289956930048	15.2525197069462
+"efflux_transmembrane_transporter_activity"	0.256058234453493	0.0328519693610413	0.455591006215481	0.0758687340379924
+"protein_complex_oligomerization"	0.0232721525940759	1.19721758484946	0.455577196450615	0.0758687166581818
+"response_to_salt_stress"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA-templated_transcription,_initiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"nucleotide_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"NADH_dehydrogenase_(ubiquinone)_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"methionine_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA_modification"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA-directed_DNA_polymerase_activity"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"proton-transporting_ATP_synthase_activity,_rotational_mechanism"	2.04129576366909	0.0328529722235625	0.455444532426411	0.0758687360459863
+"3-5_exonuclease_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"de_novo_IMP_biosynthetic_process
+GO:0016747	molecular_function	4	\"transferase_activity,_transferring_acyl_groups_other_than_amino-acyl_groups\"
+GO:0031564	biological_process	11	transcription_antitermination
+GO:0032549	molecular_function	4	ribonucleoside_binding
+GO:0006855	biological_process	5	drug_transmembrane_transport
+GO:0015891	biological_process	10	siderophore_transport
+GO:0008643	biological_process	5	carbohydrate_transport
+GO:0005215	molecular_function	1	transporter_activity
+GO:0000272	biological_process	5	polysaccharide_catabolic_process
+GO:0006269	biological_process	8	\"DNA_replication,_synthesis_of_RNA_primer\"
+GO:0009073	biological_process	8	aromatic_amino_acid_family_biosynthetic_process
+GO:0015347	molecular_function	6	sodium-independent_organic_anion_transmembrane_transporter_activity
+GO:1904265	molecular_function	3	ubiquitinyl_hydrolase_activity
+GO:0015424	molecular_function	8	ATPase-coupled_amino_acid_transmembrane_transporter_activity
+GO:0043252	biological_process	7	sodium-independent_organic_anion_transport
+GO:0009982	molecular_function	4	pseudouridine_synthase_activity
+GO:0001522	biological_process	8	pseudouridine_synthesis
+GO:0030976	molecular_function	4	thiamine_pyrophosphate_binding
+GO:0006221	biological_process	9	pyrimidine_nucleotide_biosynthetic_process
+GO:0061505	molecular_function	9	\"DNA_topoisomerase_type_II_(double_strand_cut,_ATP-hydrolyzing)_activity\"
+GO:0010181	molecular_function	6	FMN_binding
+GO:0009423	biological_process	8	chorismate_biosynthetic_process
+GO:0090379	biological_process	7	secondary_cell_wall_biogenesis_involved_in_seed_trichome_differentiation
+GO:0080009	biological_process	9	mRNA_methylation
+GO:0016539	biological_process	8	intein-mediated_protein_splicing
+GO:0016831	molecular_function	4	carboxy-lyase_activity
+GO:0016857	molecular_function	4	\"racemase_and_epimerase_activity,_acting_on_carbohydrates_and_derivatives\"
+GO:0006535	biological_process	11	cysteine_biosynthetic_process_from_serine
+GO:0090376	biological_process	5	seed_trichome_differentiation
+GO:0005507	molecular_function	6	copper_ion_binding
+GO:0009735	biological_process	5	response_to_cytokinin
+GO:0004124	molecular_function	4	cysteine_synthase_activity
+GO:0004748	molecular_function	6	\"ribonucleoside-diphosphate_reductase_activity,_thioredoxin_disulfide_as_acceptor\"
+GO:0009737	biological_process	5	response_to_abscisic_acid
+GO:0009116	biological_process	6	nucleoside_metabolic_process
+GO:0097502	biological_process	3	mannosylation
+GO:0031177	molecular_function	4	phosphopantetheine_binding
+GO:0008033	biological_process	9	tRNA_processing
+GO:0009082	biological_process	8	branched-chain_amino_acid_biosynthetic_process
+GO:0008324	molecular_function	4	cation_transmembrane_transporter_activity
+GO:0035999	biological_process	8	tetrahydrofolate_interconversion
+GO:0006164	biological_process	9	purine_nucleotide_biosynthetic_process
+GO:0006259	biological_process	6	DNA_metabolic_process
+GO:0009072	biological_process	7	aromatic_amino_acid_family_metabolic_process
+GO:0004511	molecular_function	5	tyrosine_3-monooxygenase_activity
+GO:0090377	biological_process	4	seed_trichome_initiation
+GO:0006400	biological_process	10	tRNA_modification
+GO:0016903	molecular_function	3	\"oxidoreductase_activity,_acting_on_the_aldehyde_or_oxo_group_of_donors\"
+GO:0009097	biological_process	9	isoleucine_biosynthetic_process
+GO:0016114	biological_process	7	terpenoid_biosynthetic_process
+GO:0016888	molecular_function	7	\"endodeoxyribonuclease_activity,_producing_5-phosphomonoesters
+GO:0009253	biological_process	7	peptidoglycan_catabolic_process
+GO:0009739	biological_process	5	response_to_gibberellin
+GO:0050136	molecular_function	5	NADH_dehydrogenase_(quinone)_activity
+GO:0031419	molecular_function	4	cobalamin_binding
+GO:0009089	biological_process	11	lysine_biosynthetic_process_via_diaminopimelate
+GO:0009236	biological_process	6	cobalamin_biosynthetic_process
+GO:0006323	biological_process	7	DNA_packaging
+GO:0015238	molecular_function	3	xenobiotic_transmembrane_transporter_activity
+GO:0009245	biological_process	8	lipid_A_biosynthetic_process
+GO:0004601	molecular_function	4	peroxidase_activity
+GO:0019344	biological_process	10	cysteine_biosynthetic_process
+GO:0019829	molecular_function	7	ATPase-coupled_cation_transmembrane_transporter_activity
+GO:0006415	biological_process	7	translational_termination
+GO:0070180	molecular_function	6	large_ribosomal_subunit_rRNA_binding
+GO:0008299	biological_process	6	isoprenoid_biosynthetic_process
+GO:0043546	molecular_function	3	molybdopterin_cofactor_binding
+GO:0006306	biological_process	9	DNA_methylation
+GO:1901135	biological_process	3	carbohydrate_derivative_metabolic_process
+GO:0043093	biological_process	4	FtsZ-dependent_cytokinesis
+GO:0018142	biological_process	8	protein-DNA_covalent_cross-linking
+GO:0008658	molecular_function	6	penicillin_binding
+GO:0071973	biological_process	6	bacterial-type_flagellum-dependent_cell_motility
+GO:0004654	molecular_function	5	polyribonucleotide_nucleotidyltransferase_activity
+GO:0097367	molecular_function	2	carbohydrate_derivative_binding
+GO:0009399	biological_process	4	nitrogen_fixation
+GO:0009401	biological_process	6	phosphoenolpyruvate-dependent_sugar_phosphotransferase_system
+GO:0051920	molecular_function	4	peroxiredoxin_activity
+GO:0004739	molecular_function	5	pyruvate_dehydrogenase_(acetyl-transferring)_activity
+GO:0003678	molecular_function	9	DNA_helicase_activity
+GO:0048364	biological_process	4	root_development
+GO:0009307	biological_process	8	DNA_restriction-modification_system
+GO:0000105	biological_process	9	histidine_biosynthetic_process
+GO:0008982	molecular_function	5	protein-N(PI)-phosphohistidine-sugar_phosphotransferase_activity
+GO:0006807	biological_process	2	nitrogen_compound_metabolic_process
+GO:0009103	biological_process	7	lipopolysaccharide_biosynthetic_process
+GO:0009381	molecular_function	7	excinuclease_ABC_activity
+GO:1904153	biological_process	12	negative_regulation_of_retrograde_protein_transport,_ER_to_cytosol
+GO:0003917	molecular_function	4	DNA_topoisomerase_type_I_(single_strand_cut,_ATP-independent)_activity
+GO:0006353	biological_process	8	DNA-templated_transcription,_termination
+GO:0043039	biological_process	9	tRNA_aminoacylation
+GO:0032775	biological_process	10	DNA_methylation_on_adenine
+GO:0009007	molecular_function	6	site-specific_DNA-methyltransferase_(adenine-specific)_activity
+GO:0016049	biological_process	2	cell_growth
+GO:0006354	biological_process	8	DNA-templated_transcription,_elongation
+GO:0019288	biological_process	8	isopentenyl_diphosphate_biosynthetic_process,_methylerythritol_4-phosphate_pathway
+GO:0008376	molecular_function	5	acetylgalactosaminyltransferase_activity
+GO:0006402	biological_process	8	mRNA_catabolic_process
+GO:0044205	biological_process	12	de_novo'_UMP_biosynthetic_process
+GO:0044319	biological_process	5	wound_healing,_spreading_of_cells
+GO:0051537	molecular_function	4	2_iron,_2_sulfur_cluster_binding
+GO:0004611	molecular_function	5	phosphoenolpyruvate_carboxykinase_activity
+GO:0004489	molecular_function	5	methylenetetrahydrofolate_reductase_(NAD(P)H)_activity
+GO:0009733	biological_process	5	response_to_auxin
+GO:0009664	biological_process	6	plant-type_cell_wall_organization
+GO:0016616	molecular_function	4	oxidoreductase_activity,_acting_on_the_CH-OH_group_of_donors,_NAD_or_NADP_as_acceptor
+GO:0044237	biological_process	2	cellular_metabolic_process
+GO:0004612	molecular_function	6	phosphoenolpyruvate_carboxykinase_(ATP)_activity
+GO:0007017	biological_process	2	microtubule-based_process
+GO:0016765	molecular_function	3	transferase_activity,_transferring_alkyl_or_aryl_(other_than_methyl)_groups
+GO:0016149	molecular_function	8	translation_release_factor_activity,_codon_specific
+GO:0016746	molecular_function	3	transferase_activity,_transferring_acyl_groups
+GO:0071258	biological_process	5	cellular_response_to_gravity
+GO:0009165	biological_process	8	nucleotide_biosynthetic_process
+GO:0039526	biological_process	10	modulation_by_virus_of_host_apoptotic_process
+GO:0047216	molecular_function	7	inositol_3-alpha-galactosyltransferase_activity
+GO:0004040	molecular_function	5	amidase_activity
+GO:0009088	biological_process	10	threonine_biosynthetic_process
+GO:0050661	molecular_function	5	NADP_binding
+GO:0048366	biological_process	5	leaf_development
+GO:0008616	biological_process	9	queuosine_biosynthetic_process
+GO:0015628	biological_process	10	protein_secretion_by_the_type_II_secretion_system
+GO:0019877	biological_process	8	diaminopimelate_biosynthetic_process
+GO:0090529	biological_process	5	cell_septum_assembly
+GO:0097108	molecular_function	3	hedgehog_family_protein_binding
+GO:0008158	molecular_function	4	hedgehog_receptor_activity
+GO:0009099	biological_process	9	valine_biosynthetic_process
+GO:0090729	molecular_function	1	toxin_activity
+GO:0009228	biological_process	7	thiamine_biosynthetic_process
+GO:0006633	biological_process	8	fatty_acid_biosynthetic_process
+GO:0004832	molecular_function	5	valine-tRNA_ligase_activity
+GO:0008940	molecular_function	4	nitrate_reductase_activity
+GO:0008745	molecular_function	5	N-acetylmuramoyl-L-alanine_amidase_activity
+GO:0098655	biological_process	6	cation_transmembrane_transport
+GO:0006779	biological_process	6	porphyrin-containing_compound_biosynthetic_process
+GO:0071705	biological_process	4	nitrogen_compound_transport
+GO:0000917	biological_process	6	division_septum_assembly
+GO:0009723	biological_process	5	response_to_ethylene
+GO:0009408	biological_process	4	response_to_heat
+GO:0003896	molecular_function	8	DNA_primase_activity
+GO:0006438	biological_process	11	valyl-tRNA_aminoacylation
+GO:0004316	molecular_function	6	3-oxoacyl-[acyl-carrier-protein]_reductase_(NADPH)_activity
+GO:0009002	molecular_function	8	serine-type_D-Ala-D-Ala_carboxypeptidase_activity
+GO:0005119	molecular_function	5	smoothened_binding
+GO:0004315	molecular_function	6	3-oxoacyl-[acyl-carrier-protein]_synthase_activity
+GO:0050242	molecular_function	5	pyruvate,_phosphate_dikinase_activity
+GO:0102131	molecular_function	5	3-oxo-glutaryl-[acp]_methyl_ester_reductase_activity
+GO:0102132	molecular_function	5	3-oxo-pimeloyl-[acp]_methyl_ester_reductase_activity
+GO:0033925	molecular_function	5	mannosyl-glycoprotein_endo-beta-N-acetylglucosaminidase_activity
+GO:0060003	biological_process	10	copper_ion_export
+GO:0004088	molecular_function	5	carbamoyl-phosphate_synthase_(glutamine-hydrolyzing)_activity
+GO:0004008	molecular_function	9	copper_transmembrane_transporter_activity,_phosphorylative_mechanism
+GO:0003747	molecular_function	7	translation_release_factor_activity
+GO:0006266	biological_process	7	DNA_ligation
+GO:0032784	biological_process	10	regulation_of_DNA-templated_transcription,_elongation
+GO:0004784	molecular_function	4	superoxide_dismutase_activity
+GO:0000271	biological_process	5	polysaccharide_biosynthetic_process
+GO:0015969	biological_process	10	guanosine_tetraphosphate_metabolic_process
+GO:2001070	molecular_function	4	starch_binding
+GO:0008861	molecular_function	7	formate_C-acetyltransferase_activity
+GO:0009234	biological_process	6	menaquinone_biosynthetic_process
+GO:0033717	molecular_function	6	gluconate_2-dehydrogenase_(acceptor)_activity
+GO:0000162	biological_process	9	tryptophan_biosynthetic_process
+GO:0004807	molecular_function	5	triose-phosphate_isomerase_activity
+GO:0006555	biological_process	9	methionine_metabolic_process
+GO:0008998	molecular_function	5	ribonucleoside-triphosphate_reductase_activity
+GO:0044780	biological_process	6	bacterial-type_flagellum_assembly
+GO:0009826	biological_process	4	unidimensional_cell_growth
+GO:0008948	molecular_function	5	oxaloacetate_decarboxylase_activity
+GO:0004360	molecular_function	6	glutamine-fructose-6-phosphate_transaminase_(isomerizing)_activity
+GO:0008173	molecular_function	5	RNA_methyltransferase_activity
+GO:0000270	biological_process	6	peptidoglycan_metabolic_process
+GO:0016868	molecular_function	4	intramolecular_transferase_activity,_phosphotransferases
+GO:0004642	molecular_function	5	phosphoribosylformylglycinamidine_synthase_activity
+GO:1900383	biological_process	7	regulation_of_synaptic_plasticity_by_receptor_localization_to_synapse
+GO:0006857	biological_process	7	oligopeptide_transport
+GO:0017076	molecular_function	5	purine_nucleotide_binding
+GO:0006270	biological_process	7	DNA_replication_initiation
+GO:0004619	molecular_function	5	phosphoglycerate_mutase_activity
+GO:0070084	biological_process	7	protein_initiator_methionine_removal
+GO:1901137	biological_process	4	carbohydrate_derivative_biosynthetic_process
+GO:0009396	biological_process	7	folic_acid-containing_compound_biosynthetic_process
+GO:0042777	biological_process	13	plasma_membrane_ATP_synthesis_coupled_proton_transport
+GO:0004016	molecular_function	4	adenylate_cyclase_activity
+GO:0004813	molecular_function	5	alanine-tRNA_ligase_activity
+GO:0099133	biological_process	6	anion_transmembrane_transport
+GO:0009254	biological_process	7	peptidoglycan_turnover
+GO:0003911	molecular_function	5	DNA_ligase_(NAD+)_activity
+GO:0006662	biological_process	4	glycerol_ether_metabolic_process
+GO:0009828	biological_process	8	plant-type_cell_wall_loosening
+GO:0003855	molecular_function	5	3-dehydroquinate_dehydratase_activity
+GO:0006231	biological_process	12	dTMP_biosynthetic_process
+GO:0006419	biological_process	11	alanyl-tRNA_aminoacylation
+GO:0030244	biological_process	9	cellulose_biosynthetic_process
+GO:0015833	biological_process	6	peptide_transport
+GO:0016624	molecular_function	4	oxidoreductase_activity,_acting_on_the_aldehyde_or_oxo_group_of_donors,_disulfide_as_acceptor
+GO:0071709	biological_process	5	membrane_assembly
+GO:0043165	biological_process	6	Gram-negative-bacterium-type_cell_outer_membrane_assembly
+GO:0009085	biological_process	10	lysine_biosynthetic_process
+GO:0031554	biological_process	10	regulation_of_DNA-templated_transcription,_termination
+GO:0009291	biological_process	4	unidirectional_conjugation
+GO:0009229	biological_process	6	thiamine_diphosphate_biosynthetic_process
+GO:0044781	biological_process	5	bacterial-type_flagellum_organization
+GO:0048038	molecular_function	2	quinone_binding
+GO:0043565	molecular_function	5	sequence-specific_DNA_binding
+GO:0000104	molecular_function	4	succinate_dehydrogenase_activity
+GO:0071704	biological_process	2	organic_substance_metabolic_process
+GO:0010143	biological_process	5	cutin_biosynthetic_process
+GO:0006304	biological_process	7	DNA_modification
+GO:0098640	molecular_function	6	integrin_binding_involved_in_cell-matrix_adhesion
+GO:0003989	molecular_function	5	acetyl-CoA_carboxylase_activity
+GO:0030435	biological_process	4	sporulation_resulting_in_formation_of_a_cellular_spore
+GO:2000403	biological_process	9	positive_regulation_of_lymphocyte_migration
+GO:0008800	molecular_function	5	beta-lactamase_activity
+GO:0044210	biological_process	12	de_novo'_CTP_biosynthetic_process
+GO:0004820	molecular_function	5	glycine-tRNA_ligase_activity
+GO:0008859	molecular_function	8	exoribonuclease_II_activity
+GO:0008932	molecular_function	5	lytic_endotransglycosylase_activity
+GO:0044208	biological_process	12	de_novo'_AMP_biosynthetic_process
+GO:0006426	biological_process	11	glycyl-tRNA_aminoacylation
+GO:0030983	molecular_function	6	mismatched_DNA_binding
+GO:0015407	molecular_function	7	ATPase-coupled_monosaccharide_transmembrane_transporter_activity
+GO:0004824	molecular_function	5	lysine-tRNA_ligase_activity
+GO:0030151	molecular_function	6	molybdenum_ion_binding
+GO:0016743	molecular_function	4	carboxyl-_or_carbamoyltransferase_activity
+GO:0009098	biological_process	9	leucine_biosynthetic_process
+GO:0016866	molecular_function	3	intramolecular_transferase_activity
+GO:0019430	biological_process	5	removal_of_superoxide_radicals
+GO:0046940	biological_process	9	nucleoside_monophosphate_phosphorylation
+GO:0046537	molecular_function	6	2,3-bisphosphoglycerate-independent_phosphoglycerate_mutase_activity
+GO:0103111	molecular_function	5	D-glucosamine_PTS_permease_activity
+GO:0008728	molecular_function	5	GTP_diphosphokinase_activity
+GO:0009190	biological_process	9	cyclic_nucleotide_biosynthetic_process
+GO:0006430	biological_process	11	lysyl-tRNA_aminoacylation
+GO:0006520	biological_process	6	cellular_amino_acid_metabolic_process
+GO:0009102	biological_process	8	biotin_biosynthetic_process
+GO:0016977	molecular_function	5	chitosanase_activity
+GO:0102483	molecular_function	5	scopolin_beta-glucosidase_activity
+GO:0009741	biological_process	5	response_to_brassinosteroid
+GO:0033818	molecular_function	5	beta-ketoacyl-acyl-carrier-protein_synthase_III_activity
+GO:0006526	biological_process	10	arginine_biosynthetic_process
+GO:0015749	biological_process	7	monosaccharide_transmembrane_transport
+GO:0004134	molecular_function	5	4-alpha-glucanotransferase_activity
+GO:0090116	biological_process	11	C-5_methylation_of_cytosine
+GO:0003886	molecular_function	6	DNA_(cytosine-5-)-methyltransferase_activity
+GO:0004072	molecular_function	6	aspartate_kinase_activity
+GO:0008422	molecular_function	6	beta-glucosidase_activity
+GO:0003984	molecular_function	4	acetolactate_synthase_activity
+GO:0016742	molecular_function	4	hydroxymethyl-,_formyl-_and_related_transferase_activity
+GO:0004826	molecular_function	5	phenylalanine-tRNA_ligase_activity
+GO:0008551	molecular_function	10	cadmium_transmembrane_transporter_activity,_phosphorylative_mechanism
+GO:0003854	molecular_function	6	3-beta-hydroxy-delta5-steroid_dehydrogenase_activity
+GO:0042126	biological_process	5	nitrate_metabolic_process
+GO:0032440	molecular_function	5	2-alkenal_reductase_[NAD(P)+]_activity
+GO:0031071	molecular_function	5	cysteine_desulfurase_activity
+GO:0015079	molecular_function	7	potassium_ion_transmembrane_transporter_activity
+GO:0071266	biological_process	12	de_novo'_L-methionine_biosynthetic_process
+GO:0015267	molecular_function	4	channel_activity
+GO:0004471	molecular_function	6	malate_dehydrogenase_(decarboxylating)_(NAD+)_activity
+GO:0006241	biological_process	11	CTP_biosynthetic_process
+GO:0052621	molecular_function	5	diguanylate_cyclase_activity
+GO:0008854	molecular_function	8	exodeoxyribonuclease_V_activity
+GO:0003937	molecular_function	6	IMP_cyclohydrolase_activity
+GO:0006432	biological_process	11	phenylalanyl-tRNA_aminoacylation
+GO:0006546	biological_process	10	glycine_catabolic_process
+GO:0045493	biological_process	9	xylan_catabolic_process
+GO:0004365	molecular_function	6	glyceraldehyde-3-phosphate_dehydrogenase_(NAD+)_(phosphorylating)_activity
+GO:0009435	biological_process	11	NAD_biosynthetic_process
+GO:0006188	biological_process	11	IMP_biosynthetic_process
+GO:0050567	molecular_function	5	glutaminyl-tRNA_synthase_(glutamine-hydrolyzing)_activity
+GO:0006012	biological_process	6	galactose_metabolic_process
+GO:0004148	molecular_function	5	dihydrolipoyl_dehydrogenase_activity
+GO:0008460	molecular_function	5	dTDP-glucose_4,6-dehydratase_activity
+GO:0004736	molecular_function	4	pyruvate_carboxylase_activity
+GO:0019825	molecular_function	3	oxygen_binding
+GO:0004473	molecular_function	6	malate_dehydrogenase_(decarboxylating)_(NADP+)_activity
+GO:0019464	biological_process	11	glycine_decarboxylation_via_glycine_cleavage_system
+GO:0033817	molecular_function	5	beta-ketoacyl-acyl-carrier-protein_synthase_II_activity
+GO:0016722	molecular_function	3	oxidoreductase_activity,_oxidizing_metal_ions
+GO:0009037	molecular_function	5	tyrosine-based_site-specific_recombinase_activity
+GO:0004814	molecular_function	5	arginine-tRNA_ligase_activity
+GO:0006420	biological_process	11	arginyl-tRNA_aminoacylation
+GO:0004791	molecular_function	5	thioredoxin-disulfide_reductase_activity
+GO:0044718	biological_process	11	siderophore_transmembrane_transport
+GO:0042128	biological_process	6	nitrate_assimilation
+GO:0000716	biological_process	7	transcription-coupled_nucleotide-excision_repair,_DNA_damage_recognition
+GO:0008784	molecular_function	7	alanine_racemase_activity
+GO:0047334	molecular_function	7	diphosphate-fructose-6-phosphate_1-phosphotransferase_activity
+GO:0002949	biological_process	11	tRNA_threonylcarbamoyladenosine_modification
+GO:0008295	biological_process	9	spermidine_biosynthetic_process
+GO:0008556	molecular_function	8	potassium_transmembrane_transporter_activity,_phosphorylative_mechanism
+GO:0008760	molecular_function	4	UDP-N-acetylglucosamine_1-carboxyvinyltransferase_activity
+GO:0004035	molecular_function	6	alkaline_phosphatase_activity
+GO:0008964	molecular_function	6	phosphoenolpyruvate_carboxylase_activity
+GO:0006817	biological_process	7	phosphate_ion_transport
+GO:0044403	biological_process	2	symbiotic_process
+GO:0009833	biological_process	6	plant-type_primary_cell_wall_biogenesis
+GO:0000156	molecular_function	2	phosphorelay_response_regulator_activity
+GO:0008959	molecular_function	6	phosphate_acetyltransferase_activity
+GO:0006777	biological_process	7	Mo-molybdopterin_cofactor_biosynthetic_process
+GO:0015748	biological_process	5	organophosphate_ester_transport
+GO:0015416	molecular_function	6	ATPase-coupled_organic_phosphonate_transmembrane_transporter_activity
+GO:0032774	biological_process	7	RNA_biosynthetic_process
+GO:0004333	molecular_function	5	fumarate_hydratase_activity
+GO:0051992	molecular_function	5	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine:undecaprenyl-phosphate_transferase_activity
+GO:0015343	molecular_function	3	siderophore_transmembrane_transporter_activity
+GO:0004022	molecular_function	6	alcohol_dehydrogenase_(NAD+)_activity
+GO:0016783	molecular_function	4	sulfurtransferase_activity
+GO:0050797	molecular_function	6	thymidylate_synthase_(FAD)_activity
+GO:0080167	biological_process	3	response_to_karrikin
+GO:0004109	molecular_function	5	coproporphyrinogen_oxidase_activity
+GO:0015419	molecular_function	8	ATPase-coupled_sulfate_transmembrane_transporter_activity
+GO:0016661	molecular_function	3	oxidoreductase_activity,_acting_on_other_nitrogenous_compounds_as_donors
+GO:0015716	biological_process	5	organic_phosphonate_transport
+GO:0008705	molecular_function	6	methionine_synthase_activity
+GO:0004825	molecular_function	5	methionine-tRNA_ligase_activity
+GO:0050418	molecular_function	4	hydroxylamine_reductase_activity
+GO:0016410	molecular_function	5	N-acyltransferase_activity
+GO:0004618	molecular_function	5	phosphoglycerate_kinase_activity
+GO:0044715	molecular_function	7	8-oxo-dGDP_phosphatase_activity
+GO:0019277	biological_process	8	UDP-N-acetylgalactosamine_biosynthetic_process
+GO:0030245	biological_process	9	cellulose_catabolic_process
+GO:0016639	molecular_function	4	oxidoreductase_activity,_acting_on_the_CH-NH2_group_of_donors,_NAD_or_NADP_as_acceptor
+GO:0004342	molecular_function	5	glucosamine-6-phosphate_deaminase_activity
+GO:0009678	molecular_function	8	pyrophosphate_hydrolysis-driven_proton_transmembrane_transporter_activity
+GO:0004318	molecular_function	6	enoyl-[acyl-carrier-protein]_reductase_(NADH)_activity
+GO:0004494	molecular_function	4	methylmalonyl-CoA_mutase_activity
+GO:0008933	molecular_function	4	lytic_transglycosylase_activity
+GO:0009644	biological_process	6	response_to_high_light_intensity
+GO:0008615	biological_process	7	pyridoxine_biosynthetic_process
+GO:0008763	molecular_function	5	UDP-N-acetylmuramate-L-alanine_ligase_activity
+GO:0016774	molecular_function	4	phosphotransferase_activity,_carboxyl_group_as_acceptor
+GO:0006525	biological_process	9	arginine_metabolic_process
+GO:0016849	molecular_function	3	phosphorus-oxygen_lyase_activity
+GO:0006545	biological_process	10	glycine_biosynthetic_process
+GO:0003910	molecular_function	5	DNA_ligase_(ATP)_activity
+GO:0006568	biological_process	8	tryptophan_metabolic_process
+GO:0003883	molecular_function	4	CTP_synthase_activity
+GO:0042558	biological_process	4	pteridine-containing_compound_metabolic_process
+GO:0102500	molecular_function	5	beta-maltose_4-alpha-glucanotransferase_activity
+GO:0031992	molecular_function	2	energy_transducer_activity
+GO:0065002	biological_process	9	intracellular_protein_transmembrane_transport
+GO:0019305	biological_process	8	dTDP-rhamnose_biosynthetic_process
+GO:0019069	biological_process	4	viral_capsid_assembly
+GO:0070567	molecular_function	5	cytidylyltransferase_activity
+GO:0004514	molecular_function	5	nicotinate-nucleotide_diphosphorylase_(carboxylating)_activity
+GO:0004372	molecular_function	5	glycine_hydroxymethyltransferase_activity
+GO:0004719	molecular_function	8	protein-L-isoaspartate_(D-aspartate)_O-methyltransferase_activity
+GO:0008661	molecular_function	4	1-deoxy-D-xylulose-5-phosphate_synthase_activity
+GO:0004781	molecular_function	7	sulfate_adenylyltransferase_(ATP)_activity
+GO:0048767	biological_process	4	root_hair_elongation
+GO:0003871	molecular_function	6	5-methyltetrahydropteroyltriglutamate-homocysteine_S-methyltransferase_activity
+GO:0006424	biological_process	11	glutamyl-tRNA_aminoacylation
+GO:0006235	biological_process	12	dTTP_biosynthetic_process
+GO:0005272	molecular_function	8	sodium_channel_activity
+GO:0004375	molecular_function	5	glycine_dehydrogenase_(decarboxylating)_activity
+GO:0019264	biological_process	11	glycine_biosynthetic_process_from_serine
+GO:0019941	biological_process	7	modification-dependent_protein_catabolic_process
+GO:0050992	biological_process	7	dimethylallyl_diphosphate_biosynthetic_process
+GO:0015671	biological_process	5	oxygen_transport
+GO:0009845	biological_process	2	seed_germination
+GO:0030632	biological_process	12	D-alanine_biosynthetic_process
+GO:0106029	molecular_function	5	tRNA_pseudouridine_synthase_activity
+GO:0051205	biological_process	7	protein_insertion_into_membrane
+GO:0005983	biological_process	8	starch_catabolic_process
+GO:0008776	molecular_function	5	acetate_kinase_activity
+GO:0051745	molecular_function	5	4-hydroxy-3-methylbut-2-en-1-yl_diphosphate_reductase_activity
+GO:0004799	molecular_function	6	thymidylate_synthase_activity
+GO:0033711	molecular_function	5	4-phosphoerythronate_dehydrogenase_activity
+GO:0001123	biological_process	9	transcription_initiation_from_bacterial-type_RNA_polymerase_promoter
+GO:0016760	molecular_function	7	cellulose_synthase_(UDP-forming)_activity
+GO:0005344	molecular_function	2	oxygen_carrier_activity
+GO:0009035	molecular_function	8	type_I_site-specific_deoxyribonuclease_activity
+GO:0006268	biological_process	9	DNA_unwinding_involved_in_DNA_replication
+GO:0071668	biological_process	7	plant-type_cell_wall_assembly
+GO:0004478	molecular_function	4	methionine_adenosyltransferase_activity
+GO:0008785	molecular_function	5	alkyl_hydroperoxide_reductase_activity
+GO:0004492	molecular_function	5	methylmalonyl-CoA_decarboxylase_activity
+GO:0008765	molecular_function	5	UDP-N-acetylmuramoylalanyl-D-glutamate-2,6-diaminopimelate_ligase_activity
+GO:0016879	molecular_function	3	ligase_activity,_forming_carbon-nitrogen_bonds
+GO:1902358	biological_process	8	sulfate_transmembrane_transport
+GO:0004854	molecular_function	5	xanthine_dehydrogenase_activity
+GO:0004069	molecular_function	5	L-aspartate:2-oxoglutarate_aminotransferase_activity
+GO:0052865	biological_process	6	1-deoxy-D-xylulose_5-phosphate_biosynthetic_process
+GO:0010053	biological_process	5	root_epidermal_cell_differentiation
+GO:0009378	molecular_function	10	four-way_junction_helicase_activity
+GO:0006431	biological_process	11	methionyl-tRNA_aminoacylation
+GO:0035442	biological_process	9	dipeptide_transmembrane_transport
+GO:0071916	molecular_function	6	dipeptide_transmembrane_transporter_activity
+GO:0009691	biological_process	7	cytokinin_biosynthetic_process
+GO:0009225	biological_process	6	nucleotide-sugar_metabolic_process
+GO:0098630	biological_process	3	aggregation_of_unicellular_organisms
+GO:0008764	molecular_function	5	UDP-N-acetylmuramoylalanine-D-glutamate_ligase_activity
+GO:0009152	biological_process	10	purine_ribonucleotide_biosynthetic_process
+GO:0015886	biological_process	10	heme_transport
+GO:0004003	molecular_function	9	DNA_helicase_activity
+GO:0008174	molecular_function	6	mRNA_methyltransferase_activity
+GO:2001065	molecular_function	4	mannan_binding
+GO:0016631	molecular_function	5	enoyl-[acyl-carrier-protein]_reductase_activity
+GO:0006522	biological_process	9	alanine_metabolic_process
+GO:0102955	molecular_function	5	S-adenosylmethionine:2-demethylmenaquinol-7_methyltransferase_activity
+GO:0008792	molecular_function	5	arginine_decarboxylase_activity
+GO:0016226	biological_process	6	iron-sulfur_cluster_assembly
+GO:0016041	molecular_function	5	glutamate_synthase_(ferredoxin)_activity
+GO:0003922	molecular_function	5	GMP_synthase_(glutamine-hydrolyzing)_activity
+GO:0015684	biological_process	8	iron_ion_transport
+GO:0015846	biological_process	5	polyamine_transport
+GO:0004067	molecular_function	5	asparaginase_activity
+GO:0016462	molecular_function	5	pyrophosphatase_activity
+GO:0006220	biological_process	8	pyrimidine_nucleotide_metabolic_process
+GO:0004794	molecular_function	5	L-threonine_ammonia-lyase_activity
+GO:0043365	molecular_function	4	[formate-C-acetyltransferase]-activating_enzyme_activity
+GO:0018580	molecular_function	5	nitronate_monooxygenase_activity
+GO:0008966	molecular_function	5	phosphoglucosamine_mutase_activity
+GO:0099002	biological_process	8	viral_genome_ejection_through_host_cell_envelope,_short_tail_mechanism
+GO:0008831	molecular_function	5	dTDP-4-dehydrorhamnose_reductase_activity
+GO:0044209	biological_process	12	AMP_salvage
+GO:0102752	molecular_function	5	1,4-alpha-glucan_branching_enzyme_activity_(using_a_glucosylated_glycogenin_as_primer_for_glycogen_synthesis)
+GO:0019510	biological_process	10	S-adenosylhomocysteine_catabolic_process
+GO:0015689	biological_process	7	molybdate_ion_transport
+GO:0016040	molecular_function	6	glutamate_synthase_(NADH)_activity
+GO:0005315	molecular_function	5	inorganic_phosphate_transmembrane_transporter_activity
+GO:0004829	molecular_function	5	threonine-tRNA_ligase_activity
+GO:0009249	biological_process	9	protein_lipoylation
+GO:0006435	biological_process	11	threonyl-tRNA_aminoacylation
+GO:0004309	molecular_function	6	exopolyphosphatase_activity
+GO:0102025	molecular_function	6	ATPase-coupled_thiosulfate_transmembrane_transporter_activity
+GO:0004412	molecular_function	5	homoserine_dehydrogenase_activity
+GO:0070626	molecular_function	5	(S)-2-(5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido)succinate_AMP-lyase_(fumarate-forming)_activity
+GO:0017038	biological_process	8	protein_import
+GO:0004314	molecular_function	7	[acyl-carrier-protein]_S-malonyltransferase_activity
+GO:0004834	molecular_function	5	tryptophan_synthase_activity
+GO:0045735	molecular_function	1	nutrient_reservoir_activity
+GO:0002759	biological_process	6	regulation_of_antimicrobial_humoral_response
+GO:0018339	biological_process	9	peptidyl-L-beta-methylthioaspartic_acid_biosynthetic_process_from_peptidyl-aspartic_acid
+GO:0003935	molecular_function	7	GTP_cyclohydrolase_II_activity
+GO:0004176	molecular_function	8	ATP-dependent_peptidase_activity
+GO:1905792	biological_process	6	positive_regulation_of_mechanosensory_behavior
+GO:1905789	biological_process	8	positive_regulation_of_detection_of_mechanical_stimulus_involved_in_sensory_perception_of_touch
+GO:0046429	molecular_function	5	4-hydroxy-3-methylbut-2-en-1-yl_diphosphate_synthase_activity
+GO:0031119	biological_process	11	tRNA_pseudouridine_synthesis
+GO:0004073	molecular_function	5	aspartate-semialdehyde_dehydrogenase_activity
+GO:0006527	biological_process	10	arginine_catabolic_process
+GO:0003852	molecular_function	5	2-isopropylmalate_synthase_activity
+GO:0016884	molecular_function	4	carbon-nitrogen_ligase_activity,_with_glutamine_as_amido-N-donor
+GO:0004556	molecular_function	6	alpha-amylase_activity
+GO:0008893	molecular_function	6	guanosine-3,5-bis(diphosphate)_3-diphosphatase_activity\"
+GO:0004160	molecular_function	5	dihydroxy-acid_dehydratase_activity
+GO:0052908	molecular_function	9	16S_rRNA_(adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase_activity
+GO:0016419	molecular_function	6	S-malonyltransferase_activity
+GO:0006298	biological_process	8	mismatch_repair
+GO:0008855	molecular_function	8	exodeoxyribonuclease_VII_activity
+GO:0016655	molecular_function	4	\"oxidoreductase_activity,_acting_on_NAD(P)H,_quinone_or_similar_compound_as_acceptor\"
+GO:0042121	biological_process	7	alginic_acid_biosynthetic_process
+GO:0004373	molecular_function	7	glycogen_(starch)_synthase_activity
+GO:0010090	biological_process	5	trichome_morphogenesis
+GO:0103039	molecular_function	6	protein_methylthiotransferase_activity
+GO:0004371	molecular_function	5	glycerone_kinase_activity
+GO:0015682	biological_process	8	iron_ion_transport
+GO:0010262	biological_process	6	somatic_embryogenesis
+GO:0016260	biological_process	10	selenocysteine_biosynthetic_process
+GO:0046901	biological_process	8	tetrahydrofolylpolyglutamate_biosynthetic_process
+GO:0004326	molecular_function	5	tetrahydrofolylpolyglutamate_synthase_activity
+GO:0050511	molecular_function	6	undecaprenyldiphospho-muramoylpentapeptide_beta-N-acetylglucosaminyltransferase_activity
+GO:0008780	molecular_function	6	acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine_O-acyltransferase_activity
+GO:0044659	biological_process	8	viral_release_from_host_cell_by_cytolysis
+GO:0000179	molecular_function	8	\"rRNA_(adenine-N6,N6-)-dimethyltransferase_activity\"
+GO:0009751	biological_process	5	response_to_salicylic_acid
+GO:0008716	molecular_function	5	D-alanine-D-alanine_ligase_activity
+GO:0050976	biological_process	6	detection_of_mechanical_stimulus_involved_in_sensory_perception_of_touch
+GO:0008839	molecular_function	5	4-hydroxy-tetrahydrodipicolinate_reductase
+GO:0004107	molecular_function	5	chorismate_synthase_activity
+GO:0097588	biological_process	5	archaeal_or_bacterial-type_flagellum-dependent_cell_motility
+GO:0008853	molecular_function	8	exodeoxyribonuclease_III_activity
+GO:0004019	molecular_function	4	adenylosuccinate_synthase_activity
+GO:0000967	biological_process	10	rRNA_5-end_processing"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"GPI_anchor_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chloramphenicol_O-acetyltransferase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"viral_budding_from_plasma_membrane"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"modulation_by_virus_of_host_G1/S_transition_checkpoint"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cap_snatching"	0.0232724840399995	0.548266478950791	0.455427191166215	0.0758687465475565
+"suppression_by_virus_of_host_RNA_polymerase_II_activity"	0.0232724797018837	0.621274795223432	0.455431488307052	0.0758687460479938
+"extracellular_matrix_constituent,_lubricant_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"GMP_reductase_activity"	0.384745272650662	0.0328519912795545	0.455529231006082	0.0758687220677998
+"L-arabinose_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"viral_penetration_into_host_nucleus"	0.0230235554828536	0.3613019652725	0.455866369435116	0.0758686504375667
+"protein_refolding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chlorophyll_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ATP_synthesis_coupled_proton_transport"	2.04129576366909	0.0328529722235625	0.455444532426411	0.0758687360459863
+"transposition,_DNA-mediated"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"netrin-activated_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"potassium_ion_transmembrane_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cation_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ribonuclease_T2_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_transport_by_the_Sec_complex"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"photosynthesis,_light_reaction"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"galactokinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ATPase_activity"	0.311278773196865	0.0328523381272695	0.455515654929519	0.0759844924384454
+"vitamin_A_import"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ribonuclease_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"oxidoreductase_activity,_acting_on_NAD(P)H"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"metalloendopeptidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antiporter_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"carboxylic_acid_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA_topological_change"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"solute:proton_antiporter_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"potassium_ion_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ATP_synthesis_coupled_electron_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_DNA-templated_transcription,_elongation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"damaged_DNA_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"sodium:proton_antiporter_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"metallocarboxypeptidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"steroid_hormone_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"tRNA_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"steroid_hormone_mediated_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chloride_transmembrane_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ribosomal_large_subunit_export_from_nucleus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mannosyl-oligosaccharide_1,2-alpha-mannosidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA_helicase_activity"	0.0232721525940759	1.19721758484946	0.455577196450615	0.0758687166581818
+"sodium_ion_transmembrane_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA_topoisomerase_type_II_(double_strand_cut,_ATP-hydrolyzing)_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"pentose-phosphate_shunt"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chloride_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cyclin-dependent_protein_serine/threonine_kinase_regulator_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"galactose_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_cold"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"NAD_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"hydrolase_activity,_acting_on_ester_bonds"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"DNA_duplex_unwinding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"nuclear_migration"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"sodium_ion_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"manganese_ion_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"adherens_junction_maintenance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"hydrogen_peroxide_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_peptidyl-prolyl_isomerization"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"peptidyl-prolyl_cis-trans_isomerase_activity"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"DNA-dependent_ATPase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"iron_ion_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chromosome_segregation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_targeting"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_component_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"pyrimidine_nucleotide-sugar_transmembrane_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"pyrimidine_nucleotide-sugar_transmembrane_transporter_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_microtubule_cytoskeleton_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_phosphoprotein_phosphatase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"exo-alpha-sialidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"calcium_transmembrane_transporter_activity,_phosphorylative_mechanism"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protease_binding"	0.0232740011516742	0.032852622768679	0.455440511591328	15.6102081211445
+"anterior/posterior_pattern_specification"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_smooth_muscle_cell_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"non-membrane_spanning_protein_tyrosine_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_membrane_potential"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"thiol-dependent_ubiquitin-specific_protease_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_disulfide_oxidoreductase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"glucose_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"nucleobase-containing_compound_metabolic_process"	0.0232721897088203	0.361413488807354	0.455473248699974	0.0758687259843
+"RNA_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"suppression_by_virus_of_host_STAT1_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ATP_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"adrenal_gland_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell-cell_adhesion_mediator_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"phospholipid_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"telomere_maintenance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_cyclin-dependent_protein_serine/threonine_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"growth_factor_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"tricarboxylic_acid_cycle"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"phosphoric_diester_hydrolase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"histone_acetyltransferase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"glutathione_transferase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"endoplasmic_reticulum_unfolded_protein_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"microtubule-based_movement"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"clathrin_coat_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"double-strand_break_repair_via_homologous_recombination"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_ion_transmembrane_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_transforming_growth_factor_beta_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"dendrite_self-avoidance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transmembrane_receptor_protein_tyrosine_phosphatase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"oxidoreductase_activity,_acting_on_paired_donors,_with_incorporation_or_reduction_of_molecular_oxygen"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"histone_acetylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"lipoprotein_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_kinase_C_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"establishment_of_protein_localization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_translation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_macroautophagy"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_GTPase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA_polymerase_II_transcription_regulatory_region_sequence-specific_DNA_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"exocytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_peptidyl-serine_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_cell_death"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"lung_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_protein_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Fc-epsilon_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_low-density_lipoprotein_particle_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_iron_ion_homeostasis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_epidermal_growth_factor_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transforming_growth_factor_beta_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"osteoclast_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_inflammatory_response_to_antigenic_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"homophilic_cell_adhesion_via_plasma_membrane_adhesion_molecules"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_cell_adhesion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"calcium_ion_transmembrane_transport"	0.0232730294190956	0.03285238092503	0.455546766695497	0.834576662575301
+"synaptic_vesicle_endocytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_podosome_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_cholesterol_efflux"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"long-chain_fatty_acid_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_T_cell_cytokine_production"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Rho_protein_signal_transduction"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"apical_protein_localization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"structural_constituent_of_cytoskeleton"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_nucleic_acid-templated_transcription"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"lipoprotein_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ATPase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chromatin_remodeling"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transcription_initiation_from_RNA_polymerase_II_promoter"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"hematopoietic_progenitor_cell_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"electron_transport_coupled_proton_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"retinoid_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chemical_synaptic_transmission"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_neural_precursor_cell_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_testosterone"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mitochondrial_electron_transport,_cytochrome_c_to_oxygen"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_hormone"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_morphogenesis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"motor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"monocyte_chemotaxis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"IRE1-mediated_unfolded_protein_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"histone_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_zinc_ion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"isoleucine-tRNA_ligase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_tyrosine_phosphatase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptidyl-tyrosine_dephosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"isoleucyl-tRNA_aminoacylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"phosphoprotein_phosphatase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_protein_stability"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_exogenous_peptide_antigen_via_MHC_class_I"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"epithelial_to_mesenchymal_transition"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"scaffold_protein_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"animal_organ_regeneration"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell-cell_signaling"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"activation_of_cysteine-type_endopeptidase_activity_involved_in_apoptotic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ionotropic_glutamate_receptor_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_organic_cyclic_compound"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_methylmercury"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"laminin_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_import_into_nucleus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_cysteine-type_endopeptidase_activity_involved_in_apoptotic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_protein_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_cold-induced_thermogenesis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"leukocyte_cell-cell_adhesion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Golgi_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transcytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_endogenous_peptide_antigen_via_MHC_class_I_via_ER_pathway,_TAP-independent"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_mechanical_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"fatty_acid_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transferrin_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cortical_actin_cytoskeleton_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_endogenous_peptide_antigen_via_MHC_class_I"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_protein_modification_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"metallopeptidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antimicrobial_humoral_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"focal_adhesion_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mRNA_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_mechanical_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_actin_filament_polymerization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_toxic_substance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"SMAD_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_tumor_necrosis_factor_production"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mitochondrial_electron_transport,_NADH_to_ubiquinone"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"oxidative_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"iron_ion_homeostasis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"decidualization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_inflammatory_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"actin_filament_polymerization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ADP_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell-substrate_adhesion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_cycle_arrest"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protection_from_natural_killer_cell_mediated_cytotoxicity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_T_cell_activation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_tumor_necrosis_factor"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"actin_filament_bundle_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"neuromuscular_process_controlling_balance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_complement_activation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"interleukin-12-mediated_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_phagocytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"activation_of_protein_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_leukemia_inhibitory_factor"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"rhythmic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"osteoblast_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_nutrient_levels"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"sensory_perception_of_sound"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_progesterone"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ephrin_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"proton_transmembrane_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_neuron_death"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"aminoacyl-tRNA_metabolism_involved_in_translational_fidelity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"aminoacyl-tRNA_editing_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_copper_ion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_polyubiquitination"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mRNA_export_from_nucleus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"leukotriene_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transcription_corepressor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"lysosome_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mitochondrial_respiratory_chain_complex_I_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_adhesion_molecule_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_calcium_ion_homeostasis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_substrate_adhesion-dependent_cell_spreading"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"kinase_activity"	4.65628732005987	0.0328534063604688	0.455073600326321	0.834622430642263
+"mRNA_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"heart_morphogenesis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_mRNA_stability"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_oxidative_stress"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"growth_factor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_cell_growth"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"leukotriene_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_electrical_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"I-kappaB_kinase/NF-kappaB_signaling"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_cytokine"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_endogenous_peptide_antigen_via_MHC_class_Ib"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_dimerization_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_virus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"locomotory_behavior"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"3-5_RNA_helicase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_calcium_ion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"hemostasis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"TAP_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"phosphorylation"	5.40475965739355	0.0328534597216161	0.455073600142515	0.834622464190564
+"positive_regulation_of_protein_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_hydrogen_peroxide"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_homotetramerization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_translation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cerebellum_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cargo_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"defense_response_to_Gram-negative_bacterium"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_interleukin-10_secretion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_interleukin-4"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"neuron_projection_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_peptide_hormone"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"nuclear-transcribed_mRNA_catabolic_process,_nonsense-mediated_decay"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_protein_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"hydrolase_activity,_hydrolyzing_O-glycosyl_compounds"	0.0232721942442657	0.0328518978619674	0.455581274808676	2.35239764702441
+"phagocytosis,_engulfment"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_protein_kinase_B_signaling"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_cell_cycle"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"T-helper_1_type_immune_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_bacterium"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_hypoxia"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_nutrient"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Rab_GTPase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_insulin_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"aerobic_respiration"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transcription_regulatory_region_sequence-specific_DNA_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"GTPase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_endocytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_glucose"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_NF-kappaB_transcription_factor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_vasoconstriction"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_dephosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"inflammatory_response_to_antigenic_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"calcium-dependent_protein_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_N-terminus_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_thyroid_hormone_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_hydrogen_peroxide"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"translational_initiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Rho_GTPase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"phosphatidylinositol_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cerebral_cortex_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_interleukin-4_production"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"skeletal_system_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptidase_inhibitor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_peptidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_endoplasmic_reticulum_stress"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cytokine_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Rac_GTPase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"electron_transport_chain"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_actin_cytoskeleton_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"retina_homeostasis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_catalytic_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_defense_response_to_virus_by_virus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_cell_growth"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_neuron_projection_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Wnt_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_catalytic_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptidyl-serine_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"phosphatase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cilium_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_NIK/NF-kappaB_signaling"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_small_GTPase_mediated_signal_transduction"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptide_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"immunoglobulin_production_involved_in_immunoglobulin_mediated_immune_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"platelet_aggregation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transcription_by_RNA_polymerase_II"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"double-stranded_RNA_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"humoral_immune_response_mediated_by_circulating_immunoglobulin"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mannose_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"axon_guidance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ion_transport"	0.256045428780072	1.1972164668722	0.455526742698899	0.0759767647263134
+"oxidoreductase_activity,_acting_on_CH-OH_group_of_donors"	0.0232720788614914	0.032851965943397	0.4555161377805	3.86993319678794
+"apoptotic_cell_clearance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_interferon-gamma_production"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"beta-galactosidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_tetramerization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_protein_localization_to_plasma_membrane"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_projection_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"heme_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_insulin_secretion_involved_in_cellular_response_to_glucose_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_interferon-gamma_production"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_division"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"liver_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"calmodulin_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_gene_expression"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cytoskeleton_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"defense_response_to_bacterium"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"vascular_endothelial_growth_factor_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"flavin_adenine_dinucleotide_binding"	0.0232720788614914	0.032851965943397	0.4555161377805	3.86993319678794
+"positive_regulation_of_inflammatory_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"lipid_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_angiogenesis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"COPII_vesicle_coating"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"neutrophil_chemotaxis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_cell_migration"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_ethanol"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"extracellular_matrix_disassembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_translation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"dephosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"adenylate_cyclase-inhibiting_G_protein-coupled_glutamate_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"glutamate_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"group_III_metabotropic_glutamate_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"actin_cytoskeleton_reorganization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Fc-gamma_receptor_signaling_pathway_involved_in_phagocytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cholesterol_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_cadmium_ion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_autophosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"rRNA_methylation"	0.0232720517589638	0.0328521777805278	0.45548707343852	8.34157616612634
+"transcription_coactivator_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ganglioside_GT1b_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_synaptic_transmission,_glutamatergic"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ganglioside_GM1_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ganglioside_GM1_transport_to_membrane"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ganglioside_GM2_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ganglioside_GP1c_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ganglioside_GM3_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_BMP_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"autophagy"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"electron_transfer_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"G_protein-coupled_glutamate_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_mercury_ion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_ozone"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"rRNA_methyltransferase_activity"	0.0232720517589638	0.0328521777805278	0.45548707343852	8.34157616612634
+"mercury_ion_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_iron_ion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"MAPK_cascade"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"kinase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"amyloid-beta_clearance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ion_channel_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"SH3_domain_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA_methylation"	0.0232720517589638	0.0328521777805278	0.45548707343852	8.34157616612634
+"positive_regulation_of_protein_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_hydrogen_peroxide-induced_cell_death"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"raffinose_alpha-galactosidase_activity"	0.0232722778639375	0.0328518875557077	0.455585142621732	1.5934577181462
+"alpha-galactosidase_activity"	0.0232722778639375	0.0328518875557077	0.455585142621732	1.5934577181462
+"enzyme-directed_rRNA_2-O-methylation
+GO:0004842	molecular_function	4	ubiquitin-protein_transferase_activity
+GO:0051260	biological_process	7	protein_homooligomerization
+GO:0042127	biological_process	4	regulation_of_cell_population_proliferation
+GO:0043524	biological_process	8	negative_regulation_of_neuron_apoptotic_process
+GO:0008650	molecular_function	8	rRNA_(uridine-2-O-)-methyltransferase_activity"	0.0232720517589638	0.0328521777805278	0.45548707343852	8.34157616612634
+"proteasome-mediated_ubiquitin-dependent_protein_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA_polymerase_II_cis-regulatory_region_sequence-specific_DNA_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"maturation_of_LSU-rRNA_from_tricistronic_rRNA_transcript_(SSU-rRNA,_5.8S_rRNA,_LSU-rRNA)"	0.0232720517589638	0.0328521777805278	0.45548707343852	8.34157616612634
+"protein_localization_to_plasma_membrane"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"rRNA_(guanine)_methyltransferase_activity"	0.0232720517589638	0.0328521777805278	0.45548707343852	8.34157616612634
+"protein_phosphatase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"maturation_of_5.8S_rRNA_from_tricistronic_rRNA_transcript_(SSU-rRNA,_5.8S_rRNA,_LSU-rRNA)"	0.0232720517589638	0.0328521777805278	0.45548707343852	8.34157616612634
+"cell_activation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_wall_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_angiotensin"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA_recombination"	0.721745624831159	2.62624274393316	0.45547825758293	0.0758728082380192
+"membrane_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_organic_substance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"prostate_gland_growth"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"establishment_of_competence_for_transformation"	0.25605823465792	0.0328519247766724	0.455584978052405	0.0758687222842756
+"platelet_activation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"small_GTPase_mediated_signal_transduction"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"MHC_class_II_protein_binding,_via_antigen_binding_groove"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_peptide_secretion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_chemotaxis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"glial_cell_migration"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_endogenous_antigen"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"macrophage_migration_inhibitory_factor_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"detection_of_bacterium"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cognition"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"defense_response_to_Gram-positive_bacterium"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_macrophage_activation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ribosome_biogenesis"	0.0232725420353953	0.0328522283673995	0.455484083189245	9.10656612571874
+"phospholipid_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"in_utero_embryonic_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"T_cell_selection"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"scavenger_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"carbohydrate_metabolic_process"	0.0232721227453265	0.0328519237262888	0.455569839826285	3.11091216490009
+"actin_cytoskeleton_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"prostaglandin_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_stabilization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_T_cell_mediated_cytotoxicity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"epithelial_cell_differentiation_involved_in_prostate_gland_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"macrophage_migration_inhibitory_factor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_exogenous_peptide_antigen_via_MHC_class_I,_TAP-independent"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_type_2_immune_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_macrophage_cytokine_production"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_chemokine_(C-X-C_motif)_ligand_2_production"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_T_cell_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_MAPK_cascade"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"heart_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_folding_chaperone"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_mature_B_cell_apoptotic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_lipopolysaccharide"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"dUTP_diphosphatase_activity"	0.0232736673615848	2.25743600369039	0.455520215588811	0.0758687380056809
+"developmental_growth"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"epithelial_cell_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_oxidative_stress"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_cytokine-mediated_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"dUMP_biosynthetic_process"	0.0232736673615848	2.25743600369039	0.455520215588811	0.0758687380056809
+"cellular_response_to_prostaglandin_E_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"signaling_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"dUTP_catabolic_process"	0.0232736673615848	2.25743600369039	0.455520215588811	0.0758687380056809
+"exoribonuclease_H_activity"	0.0232736673615848	2.25743600369039	0.455520215588811	0.0758687380056809
+"chaperone_cofactor-dependent_protein_refolding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"sphingolipid_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_T_cell_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell-cell_adhesion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"viral_genome_integration_into_host_DNA"	0.0232736673615848	2.25743600369039	0.455520215588811	0.0758687380056809
+"cellular_response_to_transforming_growth_factor_beta_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"microtubule_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"rRNA_processing"	0.0232725420353953	0.0328522283673995	0.455484083189245	9.10656612571874
+"cellular_response_to_DNA_damage_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"UTP_binding"	0.0232736673615848	2.25743600369039	0.455520215588811	0.0758687380056809
+"positive_regulation_of_dendritic_cell_antigen_processing_and_presentation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_intrinsic_apoptotic_signaling_pathway_in_response_to_DNA_damage_by_p53_class_mediator"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_vascular_endothelial_growth_factor_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_T_cell_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_ischemia"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ossification"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"GTPase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_deubiquitination"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"establishment_of_integrated_proviral_latency"	0.0232736673615848	2.25743600369039	0.455520215588811	0.0758687380056809
+"receptor_internalization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_interleukin-1"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_DNA_damage_response,_signal_transduction_by_p53_class_mediator"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_neutrophil_chemotaxis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_autophagy"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ubiquitin-dependent_protein_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"endopeptidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"actin_filament_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_glucose_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_signaling_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_platelet-derived_growth_factor_stimulus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"type_I_interferon_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"MHC_class_II_protein_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"nervous_system_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"pantothenate_biosynthetic_process"	0.25605823465792	0.0328519247766724	0.455584978052405	0.0758687222842756
+"positive_thymic_T_cell_selection"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_organic_cyclic_compound"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_trimerization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_T_cell_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"nitric-oxide_synthase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_hypoxia"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"3-methyl-2-oxobutanoate_hydroxymethyltransferase_activity"	0.25605823465792	0.0328519247766724	0.455584978052405	0.0758687222842756
+"immunoglobulin_mediated_immune_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"collagen_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"brain_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_adhesion_mediated_by_integrin"	0.0232726002102245	0.032852287272997	0.455462334577994	13.4188873534683
+"response_to_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"blood_coagulation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_thymic_T_cell_selection"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_substrate-dependent_cell_migration,_cell_attachment_to_substrate"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_exogenous_peptide_antigen_via_MHC_class_I,_TAP-dependent"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cytokine_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_transforming_growth_factor-beta_secretion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cytokine_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transferase_activity,_transferring_glycosyl_groups"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"neural_crest_cell_migration_involved_in_autonomic_nervous_system_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"structural_molecule_activity"	0.0230940254496831	3.16332428182444	0.455328806764472	0.0758686643413569
+"interaction_with_symbiont"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ribosome_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"calcium-independent_cell-matrix_adhesion"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"chromatin_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA-binding_transcription_factor_activity,_RNA_polymerase_II-specific"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"defense_response_to_virus"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"polysaccharide_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_amyloid-beta"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_glucocorticoid"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_organic_substance"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transmembrane_receptor_protein_tyrosine_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transcription_factor_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptidase_activator_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"GTP_binding"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"chromatin_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"integrin_activation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_gene_expression"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"phosphotransferase_activity,_for_other_substituted_phosphate_groups"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"phospho-N-acetylmuramoyl-pentapeptide-transferase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"enzyme_activator_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"phagocytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"spermatogenesis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"proteolysis_involved_in_cellular_protein_catabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell-substrate_junction_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_cell_population_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_lipid_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_wall_macromolecule_biosynthetic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptide_antigen_assembly_with_MHC_class_II_protein_complex"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"endodermal_cell_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_peptidase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_ERK1_and_ERK2_cascade"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"adenylate_cyclase-inhibiting_G_protein-coupled_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_peptide_antigen_via_MHC_class_I"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"GTPase_activator_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"extracellular_matrix_structural_constituent"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_B_cell_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"hydrolase_activity,_acting_on_glycosyl_bonds"	0.0232720462845701	0.361413489524147	0.45546549408454	3.11091217269302
+"substrate_adhesion-dependent_cell_spreading"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"ubiquitin_protein_ligase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA-directed_DNA_polymerase_activity"	0.0232743907094083	2.25752217649691	0.455462651085995	0.834405531989212
+"regulation_of_apoptotic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"glycosphingolipid_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_monocyte_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA-dependent_DNA_biosynthetic_process"	0.0232743907094083	2.25752217649691	0.455462651085995	0.834405531989212
+"lipid_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transmembrane_receptor_protein_tyrosine_kinase_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_neuron_projection_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptide_cross-linking"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_axon_extension"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"CD4_receptor_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"endoplasmic_reticulum_to_Golgi_vesicle-mediated_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"disordered_domain_specific_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_transcription,_DNA-templated"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"G_protein-coupled_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"defense_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_estradiol"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"activation_of_MAPK_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA_phosphodiester_bond_hydrolysis,_endonucleolytic"	0.0232743907094083	2.25752217649691	0.455462651085995	0.834405531989212
+"carbohydrate_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA_splicing"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"RNA-DNA_hybrid_ribonuclease_activity"	0.0232743907094083	2.25752217649691	0.455462651085995	0.834405531989212
+"regulation_of_protein_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"Rho_guanyl-nucleotide_exchange_factor_activity"	0.488678967852454	0.0328521693932819	0.455521647349133	0.0758687155512115
+"positive_regulation_of_viral_entry_into_host_cell"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_ubiquitination"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"transmembrane_signaling_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"vesicle-mediated_transport"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"positive_regulation_of_catalytic_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_heterodimerization_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"acute-phase_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"virus_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_wounding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_Rho_protein_signal_transduction"	0.488678967852454	0.0328521693932819	0.455521647349133	0.0758687155512115
+"cell_cycle"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mRNA_splicing,_via_spliceosome"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein-containing_complex_assembly"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_serine/threonine_kinase_activity"	0.0232721835114424	0.0328523189676124	0.455527910608436	0.834576666112644
+"protein_heterotetramerization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_peptidyl-tyrosine_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"G_protein-coupled_receptor_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_immune_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"amyloid-beta_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"proteoglycan_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"multicellular_organism_development"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_surface_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"actin_filament_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"mRNA_processing"	0.0232720447986828	0.839874013528612	0.455426900756207	0.0758687190496176
+"cell_migration"	0.0232726002102245	0.032852287272997	0.455462334577994	13.4188873534683
+"calcium-dependent_phospholipid_binding"	0.95435256772052	0.0329021577997853	0.455482961961485	20.9799830738819
+"chaperone_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_cell_migration"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"wound_healing"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"MHC_class_II_receptor_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"heparin_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"collagen_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptidyl-tyrosine_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_GTPase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_apoptotic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"lipid_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_tyrosine_kinase_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_domain_specific_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_interferon-gamma"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_transcription_by_RNA_polymerase_II"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"adaptive_immune_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"DNA_integration"	0.488787010179727	2.25766305751488	0.455731286212594	6.37769141178319
+"extracellular_matrix_organization"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_differentiation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_response_to_lipopolysaccharide"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"regulation_of_cell_shape"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_transcription_by_RNA_polymerase_II"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"aspartic-type_endopeptidase_activity"	0.0232736673615848	2.25743600369039	0.455520215588811	0.0758687380056809
+"actin_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"aging"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein-containing_complex_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_I-kappaB_kinase/NF-kappaB_signaling"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_fibroblast_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_peptide_or_polysaccharide_antigen_via_MHC_class_II"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"endocytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"receptor-mediated_endocytosis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cadherin_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"inflammatory_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_C-terminus_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"guanyl-nucleotide_exchange_factor_activity"	0.488678967852454	0.0328521693932819	0.455521647349133	0.0758687155512115
+"T_cell_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"MHC_class_II_protein_complex_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_MAPK_cascade"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_kinase_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell-matrix_adhesion"	0.0232726002102245	0.032852287272997	0.455462334577994	13.4188873534683
+"positive_regulation_of_protein_phosphorylation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"intracellular_protein_transport"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_transcription_by_RNA_polymerase_II"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"post-translational_protein_modification"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_ERK1_and_ERK2_cascade"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"angiogenesis"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cytokine-mediated_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"peptide_antigen_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"integrin-mediated_signaling_pathway"	2.00221390781568	0.95627900991457	0.455596688270608	54.4145819922104
+"metabolic_process"	0.721747355017582	3.61899932222715	0.455426777212336	3.87014479644444
+"apoptotic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_gene_expression"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"lipid_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_transcription,_DNA-templated"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"positive_regulation_of_cell_population_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"leukocyte_migration"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_population_proliferation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"intracellular_signal_transduction"	0.488678967852454	0.0328521693932819	0.455521647349133	0.0758687155512115
+"signaling_receptor_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"response_to_drug"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cellular_protein_metabolic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_kinase_activity"	0.0232723300660912	0.0328523831949702	0.455472435016363	2.35239764637693
+"integrin_binding"	0.0232726002102245	0.032852287272997	0.455462334577994	13.4188873534683
+"innate_immune_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"enzyme_binding"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"carbon_fixation"	6.86076007171008	0.465723155214674	0.455473709792687	0.0758678720802624
+"ribulose-bisphosphate_carboxylase_activity"	6.86076007171008	0.465723155214674	0.455473709792687	0.0758678720802624
+"platelet_degranulation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"interferon-gamma-mediated_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"cell_adhesion"	0.0232722778639375	0.0328518875557077	0.455585142621732	1.5934577181462
+"G_protein-coupled_receptor_signaling_pathway"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"calcium_ion_binding"	1.41999930714372	0.0329021582009163	0.455492459733206	33.7471765999766
+"protein_phosphorylation"	0.0232723300660912	0.0328523831949702	0.455472435016363	2.35239764637693
+"magnesium_ion_binding"	9.25204611724735	2.89654311974648	0.455480589434274	1.59346386894047
+"antigen_processing_and_presentation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"antigen_processing_and_presentation_of_exogenous_peptide_antigen_via_MHC_class_II"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_homodimerization_activity"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"negative_regulation_of_apoptotic_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"immune_response"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"signal_transduction"	0.0232720805911612	0.0328518872955191	0.455554134529345	4.62923238029122
+"immune_system_process"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"neutrophil_degranulation"	0.0232733294232528	0.0328526520318056	0.455439379927949	0.0758687818352196
+"protein_binding"	2.44990515365216	0.361313912940008	450.503073468386	1.59422241748657

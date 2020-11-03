@@ -1,0 +1,72 @@
+CRR125937		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125937/CRR125937_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125937/CRR125937_r2.fq.gz
+CRR125938		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125938/CRR125938_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125938/CRR125938_r2.fq.gz
+CRR125939		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125939/CRR125939_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125939/CRR125939_r2.fq.gz
+CRR125940		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125940/CRR125940_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125940/CRR125940_r2.fq.gz
+CRR125941		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125941/CRR125941_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125941/CRR125941_r2.fq.gz
+CRR125942		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125942/CRR125942_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125942/CRR125942_r2.fq.gz
+CRR125943		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125943/CRR125943_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125943/CRR125943_r2.fq.gz
+CRR125944		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125944/CRR125944_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125944/CRR125944_r2.fq.gz
+CRR125945		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125945/CRR125945_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125945/CRR125945_r2.fq.gz
+CRR125946		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125946/CRR125946_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125946/CRR125946_r2.fq.gz
+CRR125947		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125947/CRR125947_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125947/CRR125947_r2.fq.gz
+CRR125948		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125948/CRR125948_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125948/CRR125948_r2.fq.gz
+CRR125949		ftp://download.big.ac.cn/gsa3/	CRA002475/	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125949/CRR125949_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125949/CRR125949_r2.fq.gz
+CRR119890		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119890/CRR119890_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119890/CRR119890_r2.fq.gz
+CRR119891		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119891/CRR119891_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119891/CRR119891_r2.fq.gz
+CRR119892		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119892/CRR119892_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119892/CRR119892_r2.fq.gz
+CRR119893		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119893/CRR119893_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119893/CRR119893_r2.fq.gz
+CRR119894		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119894/CRR119894_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119894/CRR119894_r2.fq.gz
+CRR119895		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119895/CRR119895_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119895/CRR119895_r2.fq.gz
+CRR119896		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119896/CRR119896_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119896/CRR119896_r2.fq.gz
+CRR119897		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119897/CRR119897_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119897/CRR119897_r2.fq.gz
+CRR125445		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR125445/CRR125445_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR125445/CRR125445_r2.fq.gz
+CRR125446		ftp://download.big.ac.cn/gsa3/	CRA002390/	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR125446/CRR125446_f1.fq.gz	wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR125446/CRR125446_r2.fq.gz
+					
+					
+					
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125937/CRR125937_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125938/CRR125938_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125939/CRR125939_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125940/CRR125940_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125941/CRR125941_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125942/CRR125942_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125943/CRR125943_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125944/CRR125944_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125945/CRR125945_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125946/CRR125946_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125947/CRR125947_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125948/CRR125948_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125949/CRR125949_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119890/CRR119890_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119891/CRR119891_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119892/CRR119892_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119893/CRR119893_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119894/CRR119894_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119895/CRR119895_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119896/CRR119896_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119897/CRR119897_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR125445/CRR125445_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR125446/CRR125446_f1.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125937/CRR125937_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125938/CRR125938_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125939/CRR125939_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125940/CRR125940_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125941/CRR125941_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125942/CRR125942_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125943/CRR125943_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125944/CRR125944_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125945/CRR125945_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125946/CRR125946_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125947/CRR125947_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125948/CRR125948_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002475/CRR125949/CRR125949_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119890/CRR119890_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119891/CRR119891_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119892/CRR119892_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119893/CRR119893_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119894/CRR119894_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119895/CRR119895_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119896/CRR119896_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR119897/CRR119897_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR125445/CRR125445_r2.fq.gz	
+				wget ftp://download.big.ac.cn/gsa3/CRA002390/CRR125446/CRR125446_r2.fq.gz	

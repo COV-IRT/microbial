@@ -3,15 +3,15 @@
 ls *_1_reads_trim30_1.fq.gz>PE_manifest;
 ls *_trim30.fq.gz>SE_manifest;
 #use a bit of regex to cut out the prefixes
-sed -i "s/_1_reads_trim30_1.fq.gz//g" manifest;
+sed -i "s/_1_reads_trim30_1.fq.gz//g" PE_manifest;
+sed -i "s/_trim30.fq.gz//g" SE_manifest;
 
 #make a manifest of the PE fastqs
 for file in $(cat PE_manifest); do
     # build up a list of commands
-    echo "./metaphlan3_workflow.sh -v -f $file\_1_reads_trim30_1.fq.gz -r $file\_1_reads_trim30_2.fq.gz -t 48 > /scratch/06176/jochum00/COVIRT19/stdout/${file}.log 2>&1" >> commands.txt
+    echo "./metaphlan3_workflow.sh -v -f "$file"_1_reads_trim30_1.fq.gz -r "$file"_1_reads_trim30_2.fq.gz -t 48 > /scratch/06176/jochum00/COVIRT19/stdout/${file}.log 2>&1" >> commands.txt
 done
 #make a manifest of the SE fastqs
 for file in $(cat SE_manifest); do
     # build up a list of commands
-    echo "./metaphlan3_workflow.sh -v -f $file\_trim30.fq.gz -t 48 > /scratch/06176/jochum00/COVIRT19/stdout/${file}.log 2>&1" >> commands.txt
-done
+    echo "./metaphlan3_workflow.sh -v -f "$file"_trim30.fq.gz -t 48 > /scratch/06176/jochum00/COVIRT19/stdout/${file}.log 2>&1" >> commands.txt
