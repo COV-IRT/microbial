@@ -1,14 +1,13 @@
 library(phyloseq)
 library(microbiome)
-library(ggplot2)
-library(microbiomeutilities)
+#library(microbiomeutilities)
 library(DirichletMultinomial)
 library(reshape2)
 library(magrittr)
 library(dplyr)
 library(tidyr)
+library(pheatmap)
 library(ggpubr)
-library("pheatmap")
 library(ggsci)
 # getwd()
 # count_tab<-read.table("Combined_BALF_GO_Terms_counts.txt", header = T, sep = "\t", row.names = 1)
@@ -18,8 +17,12 @@ library(ggsci)
 # tax<-tax_table(as.matrix(tax_tab),errorIfNULL = T)
 # sam<-sample_data(sam_tab)
 pseq<-bio_bac_physeq
+test<-as.data.frame(tax_table(pseq))
+head(test$name, n=1000L)
+pseq
 pseq<-subset_samples(pseq, sample_type!="neg_control")
 pseq<-subset_samples(pseq, sample_type!="Unknown")
+pseq
 
 summarize_phyloseq(pseq)
 meta(pseq)$case
@@ -29,116 +32,119 @@ mypal <- pal_aaas("default", alpha = 1)(7)
 mypal2
 mypal3<-rbind(mypal, mypal2)
 mypal3
-#########################################
-
-# Taxa with positive sum across samples
-pseq_prune <- prune_taxa(taxa_sums(pseq) > 1, pseq)
-pseq_prune
-min(sample_sums(pseq))
-pseq_prune
 
 mypal3<-c("#3B4992FF", "#BB0021FF", "#5F559BFF", "#CC0C00FF", "#EE0000FF","#008B45FF",  "#631879FF", "#008280FF", "#5C88DAFF", "#84BD00FF", "#FFCD00FF", "#7C878EFF", "#00B5E2FF", "#00AF66FF")
-library(ggsci)
-library(RColorBrewer)
 p <- plot_frequencies(sample_data(pseq), "publication","sample_type")+scale_fill_manual(values = mypal3)
-print(p)
+
 q <- plot_frequencies(sample_data(pseq), "publication","case")+scale_fill_manual(values =c( "#008B45FF","#3B4992FF" ,"#EE0000FF"))#green-blue-red 
-print(q)
-pseq_prune <- prune_taxa(taxa_sums(pseq) > 10000, pseq)
+
+#########################################
+# Pre-processing
+#########################################
+#maybe I want to subset for the depth....not sure yet
+#pseq_prune<-subset_taxa(physeq = pseq_prune,depth >10)
+pseq_prune <- prune_taxa(taxa_sums(pseq) > 10, pseq)
 pseq_prune <- prune_samples(sample_sums(pseq_prune) > 10, pseq_prune)
 pseq_prune
-
+test<-as.data.frame(tax_table(pseq_prune))
+head(test$name, n=1000L)
+#rownames clean still
 pseq_prune<-tax_glom(physeq = pseq_prune, taxrank = "name")
-taxa_names(pseq_prune)<-get_taxa_unique(pseq_prune,taxonomic.rank = "name" )
-pseq_prune
-dat <- abundances(pseq_prune)
-count <- as.matrix(t(dat))
-fit <- mclapply(1:6, dmn, count = count, verbose=TRUE)
-fit
-#Check the model fit with different number of mixture componenets using standard information criteria
-lplc <- sapply(fit, laplace) # AIC / BIC / Laplace
-aic  <- sapply(fit, AIC) # AIC / BIC / Laplace
-bic  <- sapply(fit, BIC) # AIC / BIC / Laplace
-plot(lplc, type="b", xlab="Number of Dirichlet Components", ylab="Model Fit")
-plot(aic)
-plot(bic)
-#lines(aic, type="b", lty = 2)
-#lines(bic, type="b", lty = 3)
-best <- fit[[which.min(lplc)]]
-best
-#best <-fit[[4]]
-heatmapdmn(count, fit[[1]], best,ntaxa = 30,
-           transform = sqrt, lblwidth = 0.2 * nrow(count))
-mixturewt(best)
-ass <- apply(mixture(best), 1, which.max)
-ass
-write.table(ass,"GO_TERMS_DMM.tsv",sep="")
-write.table(fitted(best),"GO_term_DMMs.tsv", sep="\t")
-physeq<-pseq_prune
-meta<-data.frame(sample_data(physeq))
-meta$dmm<-ass
-for (k in seq(ncol(fitted(best)))) 
-{
-  d <- melt(fitted(best))
-  colnames(d) <- c("GO", "cluster", "value")
-  d <- subset(d, cluster == k) %>%
-    # Arrange GOs by assignment strength
-    arrange(value) %>%
-    mutate(GO = factor(GO, levels = unique(GO))) %>%
-    # Only show the most important drivers
-    filter(abs(value) > quantile(abs(value), 0.8))     
-  
-  p <- ggplot(d, aes(x = GO, y = value)) +
-    geom_bar(stat = "identity") +
-    coord_flip() +
-    labs(title = paste("Top drivers in  : GO  Terms cluster type ", k, sep = ""))
-  #paste(p,k, sep = "")<-p
-  #print(k)
-  print(p)
-  #print(paste(p,k, sep=""))
-}
 
-rownames(ass)
-colnames(ass)
+####################Do NOT EXECUTE THIS CODE#################################################
+#write.table(x = rownames(data.frame(otu_table(pseq_prune))), file = "test.tsv",sep = "\t")
+#this was causing major issues with the rownames
+#taxa_names(pseq_prune)<-get_taxa_unique(pseq_prune,taxonomic.rank = "name" )
+############################################################################################
+
+#########################################
+# DMM modeling
+# #########################################
+# dat <- abundances(pseq_prune)
+# count <- as.matrix(t(dat))
+# 
+# fit <- mclapply(1:10, dmn, count = count, verbose=TRUE)
+# fit
+# #Check the model fit with different number of mixture componenets using standard information criteria
+# lplc <- sapply(fit, laplace) # AIC / BIC / Laplace
+# aic  <- sapply(fit, AIC) # AIC / BIC / Laplace
+# bic  <- sapply(fit, BIC) # AIC / BIC / Laplace
+# plot(lplc, type="b", xlab="Number of Dirichlet Components", ylab="Model Fit")
+# plot(aic)
+# plot(bic)
+# #lines(aic, type="b", lty = 2)
+# #lines(bic, type="b", lty = 3)
+# best <- fit[[which.min(lplc)]]
+# best
+# #best <-fit[[4]]
+# heatmapdmn(count, fit[[1]], best,ntaxa = 30,
+#            transform = sqrt, lblwidth = 0.2 * nrow(count))
+# mixturewt(best)
+# ass <- apply(mixture(best), 1, which.max)
+# ass
+# write.table(ass,"3_greoup_GO_term_sample_DMM_groups.tsv",sep="")
+# write.table(fitted(best),"3_group_GO_term_DMM2_contributions.tsv", sep="\t")
+# 
+# physeq<-pseq_prune
+# meta<-data.frame(sample_data(physeq))
+# meta$dmm<-ass
+# for (k in seq(ncol(fitted(best)))) 
+# {
+#   d <- melt(fitted(best))
+#   colnames(d) <- c("GO", "cluster", "value")
+#   d <- subset(d, cluster == k) %>%
+#     # Arrange GOs by assignment strength
+#     arrange(value) %>%
+#     mutate(GO = factor(GO, levels = unique(GO))) %>%
+#     # Only show the most important drivers
+#     filter(abs(value) > quantile(abs(value), 0.8))     
+#   
+#   p <- ggplot(d, aes(x = GO, y = value)) +
+#     geom_bar(stat = "identity") +
+#     coord_flip() +
+#     labs(title = paste("Top drivers in  : GO  Terms cluster type ", k, sep = ""))
+#   #paste(p,k, sep = "")<-p
+#   #print(k)
+#   print(p)
+#   #print(paste(p,k, sep=""))
+# }
+
+
 sample_data(pseq_prune)$dmn<-ass
-
-
 tmp<-psmelt(pseq_prune)
-#tmp$OTU
-
-
-
 tmp<-as_tibble(tmp)
-tmp
 
+tmp
 d2<-tmp %>%
   select(case,name,Abundance, dmn)%>%
   group_by(name,case, dmn) %>%
-  summarise(avg = mean(Abundance)) %>%
-  arrange(desc(avg))
+  summarise(avg = mean(Abundance),std = sd(Abundance)) %>%
+  group_by(name, case,dmn, std)%>%
+  arrange(desc(std))
+d2
+#d3<-tidyr::spread(d2,dmn, avg)
+d3<-tidyr::spread(d2,case,avg)
+d3
+d3[4:6]
+library(mosaic)
+#d3$tot<-sd(d3[3:5])
+#d3$tot<-rowSums(d3[3:5], na.rm = T)
+d3<-d3%>%arrange(desc(std))
+rank<-as.character(d3$name)
 
-d2
+d4<-d3[1:500,]
 
-d2
-d2<-d2%>%group_by(name, case,dmn)
-d2
-d3<-tidyr::spread(d2,dmn, avg)
-d3
-d3[3:8]
-d3$tot<-rowSums(d3[3:8])
-d3
-d3<-d3%>%arrange(desc(tot))
-d3$tot<-NULL
-d3<-d3[1:25,]
-d3
-d3<-d3%>%gather(data = d3,avg,3:8)
-d3
-colnames(d3)<-c("name","case", "dmn","avg")
-d3
-d4<-data.frame(d3)
+d4<-d4%>%
+  gather(data = d4,avg,4:6)
+
+colnames(d4)<-c("name","dmn","std", "group","avg")
+
+#d4<-d3%>%group_by(name,group)
+d4<-d4%>%filter(!is.na(avg))
+
 d4
+ggballoonplot(data = d4, y ="name",x = "group", size = "avg", facet.by = "dmn",fill = "avg")+scale_fill_viridis_c()
 
-ggballoonplot(d4, y ="name",x = "dmn", size = "avg", fill = "avg")+scale_fill_viridis_c()
 library(mosaic)
 
 meta(pseq_prune)
@@ -156,25 +162,10 @@ a<-as_tibble(my_tbl)
 a
 ggballoonplot(data = a, y ="case",x = "dmn", facet.by = "publication",size = "n", fill = "n")+scale_fill_viridis_c(option = "C")
 my_tbl<-tally(publication ~ dmn,data =meta(pseq_prune),format = 'count')
+my_tbl
 a<-as_tibble(my_tbl)
 ggballoonplot(data = a, y ="publication",x = "dmn", size = "n", fill = "n")+scale_fill_viridis_b(option = "B")
 
-library(ggforce)
-# Do the plotting
-a<-as_tibble(my_tbl)%>% group_by(case, dmn) %>%
-  summarise(avg = mean(n))
-a$dmn<-as_vector(a$dmn)
-a$case<-as_vector(a$case)
-sam<-meta(pseq_prune)
-sam$accesion<-rownames(sam)
-
-sam2<-as_tibble(sam)%>%select(accesion,dmn,case,publication,sample_type )
-vec<-as_vector(c("case","sample_type","publication" ))
-
-ggplot(sam2,mapping = aes(x =vec,y = dmn,id=accesion))+
-  geom_parallel_sets(aes(fill = dmn), alpha = 0.3, axis.width = 0.1) 
-#  geom_parallel_sets_axes(axis.width = 0.1) +
-#  geom_parallel_sets_labels(colour = 'white')
 ###########################################
 ###Dont forget to save you shit HERE#######
 ###########################################
