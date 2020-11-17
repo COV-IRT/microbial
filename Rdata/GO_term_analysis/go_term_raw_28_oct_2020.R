@@ -1,9 +1,9 @@
 library("tidyverse")
 list.files()
 #OSF derived combined output from seqscreen
-raw<-read.table("Combined_BALF_GO_Terms.tsv", sep = "\t", row.names = NULL, header = T)
+raw<-as_tibble(read.table("Combined_BALF_GO_Terms.tsv", sep = "\t", row.names = NULL, header = T, quote = "", comment.char = ""))
 raw<-as_tibble(raw)
-
+dim(raw)
 #HEADS UP, some of the GO term names were screewing up when converting to tibble
 #so I just rewrite them after the conversion and it fixed the issue
 names_fixed<-read.table("names.tsv", sep="\t",row.names = NULL, header = T)
@@ -83,35 +83,42 @@ head (df$name, n=1000L)
 
 bio<-filter(df, namespace=="biological_process")
 mol<-filter(df, namespace=="molecular_function")
-bio
-
+dim(bio)
+dim(mol)
 bio_bac<-bio%>%filter(type=="bac")%>%select(-type)
 bio_term<-bio%>%filter(type=="term")%>%select(-type)
 mol_bac<-mol%>%filter(type=="bac")%>%select(-type)
 mol_term<-mol%>%filter(type=="term")%>%select(-type)
 
-
+dim(bio_bac)
+dim(mol_bac)
 bio_bac_counts<-bio_bac%>%select(-c(namespace,depth,name))
 bio_bac_tax<-bio_bac%>%select(GO_term,namespace,depth,name)
-head (bio_bac_tax$name, n=1000L)
+mol_bac_counts<-mol_bac%>%select(-c(namespace,depth,name))
+mol_bac_tax<-mol_bac%>%select(GO_term,namespace,depth,name)
 
+
+head (mol_bac_tax$name, n=100L)
+mol_bac_tax$GO_term
 bio_bac_counts<-data.frame(bio_bac_counts, row.names=1)
 bio_bac_tax<-data.frame(bio_bac_tax, row.names=1)
-head(bio_bac_tax$name, n=1000L)
-test<-as.data.frame(tax_table(bio_bac_tax))
-head(test$name, n=1000L)
 
-bio_bac_counts
+mol_bac_counts<-data.frame(mol_bac_counts, row.names=1)
+mol_bac_tax<-data.frame(mol_bac_tax, row.names=1)
+
+
+
 library(phyloseq)
 bio_bac_counts<-otu_table(bio_bac_counts, taxa_are_rows = T)
 bio_bac_tax<-tax_table(as.matrix(bio_bac_tax), errorIfNULL = T)
-test<-as.data.frame(tax_table(bio_bac_tax))
-head(test$name, n=1000L)
+mol_bac_counts<-otu_table(mol_bac_counts, taxa_are_rows = T)
+mol_bac_tax<-tax_table(as.matrix(mol_bac_tax), errorIfNULL = T)
+
+
 bio_bac_sam<-as.data.frame(read.table("Combined_BALF_GO_Terms_metadata.txt",header = T, sep = "\t",row.names = 1))
 #a little regex to fix the stupid filename
 rownames(bio_bac_sam)<-rownames(bio_bac_sam)%>%str_replace_all("NC1_SRR7796663", "NC1.SRR7796663")
 bio_bac_sam<-sample_data(bio_bac_sam)
 bio_bac_physeq<-phyloseq(bio_bac_counts,bio_bac_tax,bio_bac_sam)
-bio_bac_physeq
-test<-as.data.frame(tax_table(bio_bac_physeq))
-head(test$name, n=1000L)
+mol_bac_physeq<-phyloseq(mol_bac_counts,mol_bac_tax,bio_bac_sam)
+

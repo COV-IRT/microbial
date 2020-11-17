@@ -6,3 +6,5 @@
 *.RData
 Rdata/GO_term_analysis/combined_seqscreen_GO_summary_v2.tsv
 Rdata/GO_term_analysis/Combined_BALF_GO_Terms.tsv
+Rdata/GO_term_analysis/Combined_BALF_GO_Terms_parent_propagated.tsv
+Rdata/GO_term_analysis/combined_seqscreen_GO_summary_v2_parent_propagated.tsv
