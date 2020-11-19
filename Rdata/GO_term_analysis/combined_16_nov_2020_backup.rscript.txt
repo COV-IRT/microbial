@@ -440,9 +440,8 @@ ggballoonplot(data = a, y ="publication",facet.by = "case",x = "dmn", size = "n"
 ###########################################
 #save.image(file = "bac_go_terms_dmm.rdata")
 #
-library(microbiome)
+
 library(dplyr)
-library(tidyverse)
 count<-abundances(bac_pseq_prune)
 select <- order(rowMeans(count),decreasing=TRUE)
 select3<-order(rowSdDiffs(count),decreasing=T)
@@ -453,7 +452,7 @@ tmp<-rownames(select2)
 dim(select2)
 
 #select2$mol<-tmp
-select_tibb<-as_tibble(select2)
+select_tibb<-as.tibble(select2)
 rownames(select_tibb)<-rownames(select2)
 write.table(select2,file = "GO_Terms_results")
 #library(matrixTests)
@@ -536,44 +535,24 @@ xx <- pheatmap(mat = select2,
 ####################################################
 # Correlation between dmm groups and cases
 #################################################
-
-
-
-
+#########################################
 library(matrixTests)
 p<-psmelt(bac_pseq_prune)
 dmn_sum<-p%>%
   select(Sample,OTU,dmn,Abundance)%>%
   group_by(OTU,dmn)%>%
   pivot_wider(id_cols = c(Sample,dmn), names_from = OTU,values_from = Abundance)
-write.table(dmn_sum, "dmn_sum.tsv",sep="\t")
+
 # an example with offsets from Venables & Ripley (2002, p.189)
-dmn_case<-pairwise.wilcox.test(p$Abundance, p$case,p.adjust.method = "BH")
-dmn_wilcox<-pairwise.wilcox.test(p$Abundance, p$dmn,p.adjust.method = "BH")
+case_dmn_glm <- glm(Abundance ~ case * dmn ,
+                family = gaussian, data = p)
+msummary(case_dmn_glm)
+mplot(case_dmn_glm)
 
+summary(glm(log(Abundance ~ OTU*case, data = p, family = Gamma))
+summary(glm(log(Abundance ~ OTU*dmn, data = p, family = Gamma))
 
-p$lg<-log1p(p$Abundance)
-p$dmn<-as_factor(p$dmn)
-p$case<-factor(x = p$case, levels = c("Control_Healthy","Control_Sick","COVID19"))
-
-
-library(lmerTest)
-library(lmer)
-case_dmn_glm <- lmer(lg ~ dmn +(dmn|case),data = p)
-f<-ls_means(case_dmn_glm)
-
-# b<-glm( lg ~ dmn+case, data = p, family = gaussian)
-library(mosaic)
-msummary(b)
-b$coefficients
-c<-anova(b)
-d<-aov(b)
-e<-TukeyHSD(d)
-library(lmerTest)
-f<-ls_means(case_dmn_glm)
-
-msummary(e$case)
-e$case
+        
 mat<-dmn_sum[,3:length(dmn_sum)]
 krus_dmn<-col_kruskalwallis(x =mat,g = dmn_sum$dmn)
 welch_dmn<-col_oneway_welch(x=mat, g=dmn_sum$dmn)

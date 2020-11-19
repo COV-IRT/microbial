@@ -16,10 +16,15 @@ c(sapply(bestgrp, laplace),
 
 xtabs(~pheno + predict(bestgrp, count, assign=TRUE))
 
-xval <- cvdmngroup(nrow(count), count, c(Control_Healthy=1, COVID19=3), pheno,
-                   + verbose=TRUE, mc.preschedule=FALSE)
+xval<-cvdmngroup(nrow(count), 
+                 count, 
+                 c(Control_Healthy=1, Control_Sick=2, COVID19=3), 
+                 pheno,
+                 verbose=TRUE, 
+                 mc.preschedule=FALSE)
+
 save(xval, file=file.path(tempdir(), "xval.rda"))
+xval
 #fit <- mclapply(1:8, dmn, count = count, verbose=TRUE)
-fit<-dmngroup(dmn,count, k=1:5, simplify = TRUE,
-              .lapply = parallel::mclapply)
+fit<-dmngroup(dmn,count, k=1:5, simplify = TRUE,.lapply = parallel::mclapply)
 #fit <- mclapply(1:8, dmn, count = count, verbose=TRUE)
