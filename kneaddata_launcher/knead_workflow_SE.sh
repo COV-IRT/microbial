@@ -14,8 +14,7 @@ to paired end fastq files that go through a kneaddata pipeline
 
 required arguments:
 
-  -f    forward raw fastq.bz2 file
-  -r    reverse raw fastq.bz2 file
+  -f    single end raw fastq.bz2 file
 optional arguments:
   -t    number of threads to use (default: 68)
   -m    the max-memory to be used (default:4g)
@@ -32,13 +31,10 @@ function usage() {
 threads="68"
 mem="4g"
 
-while getopts ":hfr:t:m:" o; do
+while getopts ":hf:t:m:" o; do
     case "${o}" in
-    f) # forward fastq
-        $forwardReads=${OPTARG}
-        ;;
-     f) # reverse fastq
-        $reverseReads=${OPTARG}
+    f) # single end fastq
+        singleReads=${OPTARG}
         ;;
     t) # number of threads to use
         threads=${OPTARG}
@@ -55,32 +51,44 @@ shift $((OPTIND - 1))
 
 # assert that $threads is a number
 [[ "$threads" =~ ^[0-9]+$ ]] || { echo "ERROR: Number of threads specified was not a number ($threads)" >&2 ; exit 1; }
-fileBasename=$(basename $forwardReads _1.fastq.bz2)
+fileBasename=$(basename $singleReads .fastq.bz2)
+TMP="/tmp"
 # start pipeline
-mkdir /scratch/06176/jochum00/COVIRT19/knead_out/$fileBasename;
+mkdir /scratch/06176/jochum00/COVIRT19/knead_out/$fileBasename\_SE;
+mkdir /tmp/$fileBasename;
 #decompress to tmpdir for speed
-lbzip2 -dkcv /scratch/06176/jochum00/COVIRT19/michael_files/raw/$forwardReads>$TMP/$fileBasename\_1.fastq;
-lbzip2 -dkcv /scratch/06176/jochum00/COVIRT19/michael_files/raw/$reverseReads>$TMP/$fileBasename\_2.fastq;
+echo "LOG: decompressing $fileBasename to tmpdir"
+
+    fileBasename=${singleReads%.fastq*}
+
+lbzip2 -dkcv $singleReads >"/tmp/"$fileBasename/$fileBasename"_1.fastq";
+lbzip2 -dkcv $reverseReads > "/tmp/"$fileBasename/$fileBasename"_2.fastq";
+echo "LOG: appending $fileBasename headers"
+reformat.sh t=68 overwrite=T in="/tmp/"$fileBasename/$fileBasename"_1.fastq" in2="/tmp/"$fileBasename/$fileBasename"_2.fastq" out="/tmp/"$fileBasename"/reformat."$fileBasename"_1.fastq" out2="/tmp/"$fileBasename"/reformat."$fileBasename"_2.fastq" trd addslash;
+
+echo "LOG: running kneadddata on $fileBasename "
 kneaddata \
---input $TMP/$fileBasename\_1.fastq \
---input $TMP/$fileBasename\_2.fastq \
+--input "/tmp/"$fileBasename"/reformat."$fileBasename"_1.fastq" \
+--input "/tmp/"$fileBasename"/reformat."$fileBasename"_2.fastq" \
 --run-fastqc-end \
 --output-prefix $fileBasename \
---output /scratch/06176/jochum00/COVIRT19/knead_out/$fileBasename/ \
+--output /tmp/$fileBasename/ \
 --threads $threads \
 --processes $threads \
 --trimmomatic /scratch/06176/jochum00/COVIRT19/reference_datasets/Trimmomatic-0.39 \
 --reference-db /scratch/06176/jochum00/COVIRT19/reference_datasets/kneaddata/hg37 \
---log /scratch/06176/jochum00/COVIRT19/knead_out/$fileBasename/$fileBasename.knead.log \
+--log /tmp/$fileBasename/$fileBasename.knead.log \
 -v \
 --max-memory $mem
 
 echo "LOG: kneaddata complete, cleaning tmpdir"
 echo ""
 #cleanup your tmpdir
-rm -v  $TMP/$fileBasename\_1.fastq;
-rm -v  $TMP/$fileBasename\_2.fastq;
+rm -v "/tmp/"$fileBasename/$fileBasename"_1.fastq";
+lbzip2 -v /tmp/$fileBasename/*fastq;
+rsync --progress --recursive /tmp/$fileBasename/* /scratch/06176/jochum00/COVIRT19/knead_out/$fileBasename\_SE/
 #echo "rsync complete, exiting now"
+rm -rf /tmp/$fileBasename/ ;
 echo "LOG: job completed"
 
 exit 00
