@@ -1,0 +1,5 @@
+install.packages("BiocManager", repos="https://cran.rstudio.com")
+
+BiocManager::install(yupdate=TRUE, ask=FALSE)
+
+BiocManager::install('devtools')
