@@ -245,7 +245,6 @@ df_row<-as.data.frame(fitted(best))
 colnames(df_row)L-c()
 library(RColorBrewer)
 library(viridis)
-library(pheatmap)
 xx <- pheatmap(mat = select2,
                color = viridis(256),
                annotation_col=df, 

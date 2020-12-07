@@ -101,14 +101,13 @@ library(DESeq2)
 sample_info_tab<-sample_data(bac_pseq_prune)
 sample_info_tab_phy <- sample_data(sample_info_tab)
 deseq_counts<-phyloseq_to_deseq2(physeq = bac_pseq_prune,design = ~ 1) 
-#deseq_counts_vst <- estimateSizeFactors(deseq_counts, type = "poscounts")
-
-trans_count_tab <- assay(deseq_counts)
+deseq_counts_vst <- estimateSizeFactors(deseq_counts, type = "poscounts")
+vst_trans_count_tab <- assay(deseq_counts_vst)
 
 #YAAAAAAAAAAAAAAAASSSSSSSSSSSSS
-vst_trans_count_tab2 <- limma::removeBatchEffect(trans_count_tab, sample_info_tab$publication)
+vst_trans_count_tab2 <- limma::removeBatchEffect(vst_trans_count_tab, sample_info_tab$publication)
 #IT FIXED THE BATCH EFFECT WORRRRRRRRRRRRRRRRRRRKED##############
-as.tibble(vst_trans_count_tab2)
+
 ####lets see if there are still batch effect stuff going on
 euc_dist <- dist(t(vst_trans_count_tab))
 euc_clust <- hclust(euc_dist, method="ward.D2")
@@ -175,38 +174,38 @@ bac_pseq_prune <- prune_taxa(taxa = sig_names, bac_pseq_no_neg_unique)
 bac_pseq_prune # [ 2089 taxa and 126 samples ]:
 
 
-# filter out the suppper high stuff like molecular function and biological process
-#  [1] "GO:0045212-obsolete neurotransmitter receptor biosynthetic process"                                                     
-#  [2] "GO:0001319-obsolete inheritance of oxidatively modified proteins involved in replicative cell aging"                    
-#  [3] "GO:1900008-obsolete negative regulation of extrachromosomal rDNA circle accumulation involved in replicative cell aging"
-#  [4] "GO:0008150-biological_process"                                                                                          
-#  [5] "GO:0001302-obsolete replicative cell aging"                                                                             
-#  [6] "GO:0003674-molecular_function"
-# 
-# #NAILLLLED IT
-# GOTERM DEPTH LEVEL1
-# [1] "GO:0051704-multi-organism process"                     "GO:0008152-metabolic process"
-# [3] "GO:0051703-intraspecies interaction between organisms" "GO:0110148-biomineralization"
-# [5] "GO:0043473-pigmentation"                               "GO:0002376-immune system process"
-# [7] "GO:0044419-interspecies interaction between organisms" "GO:0048511-rhythmic process"
-# [9] "GO:0023052-signaling"                                  "GO:0007610-behavior"
-# [11] "GO:0015976-carbon utilization"                         "GO:0051179-localization"
-# [13] "GO:0040011-locomotion"                                 "GO:0032502-developmental process"
-# [15] "GO:0032501-multicellular organismal process"           "GO:0040007-growth"
-# [17] "GO:0009758-carbohydrate utilization"                   "GO:0022610-biological adhesion"
-# [19] "GO:0022414-reproductive process"                       "GO:0050896-response to stimulus"
-# [21] "GO:0006791-sulfur utilization"                         "GO:0098754-detoxification"
-# [23] "GO:0000003-reproduction"                               "GO:0065007-biological regulation"
-# [25] "GO:0009987-cellular process"                           "GO:0019740-nitrogen utilization"
-# [27] "GO:0032947-molecular adaptor activity"                 "GO:0060090-translation regulator activity"
-# [29] "GO:0045182-protein folding chaperone"                  "GO:0044183-structural molecule activity"
-# [31] "GO:0005198-molecular carrier activity"                 "GO:0140104-catalytic activity"
-# [33] "GO:0003824-toxin activity"                             "GO:0090729-molecular transducer activity"
-# [35] "GO:0060089-cargo receptor activity"                    "GO:0038024-molecular function regulator"
-# [37] "GO:0098772-transporter activity"                       "GO:0005215-small molecule sensor activity"
-# [39] "GO:0140299-protein tag"                                "GO:0031386-antioxidant activity"
-# [41] "GO:0016209-binding"                                    "GO:0005488-nutrient reservoir activity"
-# [43] "GO:0045735-multi-organism process"
+#filter out the suppper high stuff like molecular function and biological process
+# [1] "GO:0045212-obsolete neurotransmitter receptor biosynthetic process"                                                     
+# [2] "GO:0001319-obsolete inheritance of oxidatively modified proteins involved in replicative cell aging"                    
+# [3] "GO:1900008-obsolete negative regulation of extrachromosomal rDNA circle accumulation involved in replicative cell aging"
+# [4] "GO:0008150-biological_process"                                                                                          
+# [5] "GO:0001302-obsolete replicative cell aging"                                                                             
+# [6] "GO:0003674-molecular_function"
+#NAILLLLED IT
+
+#GOTERM DEPTH LEVEL1
+# [1] "GO:0051704-multi-organism process"                     "GO:0008152-metabolic process"                         
+# [3] "GO:0051703-intraspecies interaction between organisms" "GO:0110148-biomineralization"                         
+# [5] "GO:0043473-pigmentation"                               "GO:0002376-immune system process"                     
+# [7] "GO:0044419-interspecies interaction between organisms" "GO:0048511-rhythmic process"                          
+# [9] "GO:0023052-signaling"                                  "GO:0007610-behavior"                                  
+# [11] "GO:0015976-carbon utilization"                         "GO:0051179-localization"                              
+# [13] "GO:0040011-locomotion"                                 "GO:0032502-developmental process"                     
+# [15] "GO:0032501-multicellular organismal process"           "GO:0040007-growth"                                    
+# [17] "GO:0009758-carbohydrate utilization"                   "GO:0022610-biological adhesion"                       
+# [19] "GO:0022414-reproductive process"                       "GO:0050896-response to stimulus"                      
+# [21] "GO:0006791-sulfur utilization"                         "GO:0098754-detoxification"                            
+# [23] "GO:0000003-reproduction"                               "GO:0065007-biological regulation"                     
+# [25] "GO:0009987-cellular process"                           "GO:0019740-nitrogen utilization"                      
+# [27] "GO:0032947-molecular adaptor activity"                 "GO:0060090-translation regulator activity"            
+# [29] "GO:0045182-protein folding chaperone"                  "GO:0044183-structural molecule activity"              
+# [31] "GO:0005198-molecular carrier activity"                 "GO:0140104-catalytic activity"                        
+# [33] "GO:0003824-toxin activity"                             "GO:0090729-molecular transducer activity"             
+# [35] "GO:0060089-cargo receptor activity"                    "GO:0038024-molecular function regulator"              
+# [37] "GO:0098772-transporter activity"                       "GO:0005215-small molecule sensor activity"            
+# [39] "GO:0140299-protein tag"                                "GO:0031386-antioxidant activity"                      
+# [41] "GO:0016209-binding"                                    "GO:0005488-nutrient reservoir activity"               
+# [43] "GO:0045735-multi-organism process
 
 
 bac_pseq_prune<- subset_taxa(as.numeric(data.frame(tax_table(bac_pseq_prune))$depth)>1, physeq = bac_pseq_prune) 
@@ -252,17 +251,22 @@ plot(lplc, type="b", xlab="Number of Dirichlet Components", ylab="Model Fit")
 
 #lines(aic, type="b", lty = 2)
 #lines(bic, type="b", lty = 3)
-# 
-# ## best fit for groups 'Lean' and 'Obese'; full example in vignette.
-# bestgrp <- dmngroup(count, pheno, k=1:8, verbose=TRUE, 
-# mc.preschedule=FALSE)
+
+## best fit for groups 'Lean' and 'Obese'; full example in vignette.
+bestgrp <- dmngroup(count, pheno, k=1:8, verbose=TRUE, 
+mc.preschedule=FALSE)
 
 
+data(fit)
+## End(Not run)
+data(bestgrp)
+bestgrp
+bestgrp[["Obese"]]
 
 #identify the number of clusters that best fits the model
 best <- fit[[which.min(lplc)]]
 best
-#best <-fit[[3]]
+best <-fit[[3]]
 #save.image(file = "bac_go_terms_dmm.rdata")
 
 #make a heatmap visualization of the cluster
@@ -277,7 +281,7 @@ mixturewt(best)
 write.table(fitted(best),"combined_bac_GO_TERMS_DMM_contributions.tsv", sep="\t")
 #save a datasheet that identifies which sample belongs to which dmm group
 ass <- apply(mixture(best), 1, which.max)
-write.table(ass,"combined_bac_GO_TERMS_DMM_groups.tsv",sep="\t")
+write.table(ass,"combined_bac_GO_TERMS_DMM_groups.tsv",sep="")
 
 #make a copy of the phyloseq object so you dont jack it up
 physeq<-bac_pseq_prune
@@ -302,7 +306,7 @@ for (k in seq(ncol(fitted(best))))
     geom_bar(stat = "identity") +
     coord_flip() +
     labs(title = paste("Top drivers in  : GO  Terms cluster type ", k, sep = ""))+
-           ggsave(filename = paste("contribution_bar_plot_",k,".png",sep = ""),device = "png")
+           ggsave(filename = paste("contribution_bar_plot_",k,sep = ""),device = "png")
   #paste(p,k, sep = "")<-p
   #print(k)
   print(p)
@@ -440,22 +444,17 @@ ggballoonplot(data = a, y ="publication",facet.by = "case",x = "dmn", size = "n"
 ###########################################
 #save.image(file = "bac_go_terms_dmm.rdata")
 #
-library(microbiome)
+
 library(dplyr)
-library(tidyverse)
 count<-abundances(bac_pseq_prune)
 select <- order(rowMeans(count),decreasing=TRUE)
-select3<-order(rowSdDiffs(count),decreasing=T)
-
-select2<-log1p((count)[select3,])
-select2
+select2<-log1p((count)[select,])
 tmp<-rownames(select2)
 dim(select2)
 
 #select2$mol<-tmp
-select_tibb<-as_tibble(select2)
-rownames(select_tibb)<-rownames(select2)
-write.table(select2,file = "GO_Terms_results")
+select3<-as.table(select2)
+
 #library(matrixTests)
 #library(genefilter)
 #select3<-as_tibble(select2)%>%summarise(std=rowFtests(select2))%>% arrange(desc(std))
@@ -511,9 +510,7 @@ ann_colors = list(
   Case=c("COVID19"="firebrick", "Control_Healthy"="forestgreen","Control_Sick"="dodgerblue4"))
 rowMeans(select2)
 
-select3<-select2%>%filter(rowMeans(select2)>5)
-dim(select2)
-dim(select3)
+select3<-select2%>%filter(rowMeans(select2)>0.1)
 xx <- pheatmap(mat = select3,
                color = colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(1000),
                annotation_col=df,
@@ -521,8 +518,6 @@ xx <- pheatmap(mat = select3,
                clustering_distance_rows = "euclidean",
                clustering_distance_cols = "euclidean",
               annotation_row = df_row)
-
-
 xx <- pheatmap(mat = select2,
                color = colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(10),
                annotation_col=df,
@@ -532,65 +527,3 @@ xx <- pheatmap(mat = select2,
                annotation_row = df_row,
                cluster_row = F,
                cluster_col=T)
-
-####################################################
-# Correlation between dmm groups and cases
-#################################################
-
-
-
-
-library(matrixTests)
-p<-psmelt(bac_pseq_prune)
-dmn_sum<-p%>%
-  select(Sample,OTU,dmn,Abundance)%>%
-  group_by(OTU,dmn)%>%
-  pivot_wider(id_cols = c(Sample,dmn), names_from = OTU,values_from = Abundance)
-write.table(dmn_sum, "dmn_sum.tsv",sep="\t")
-# an example with offsets from Venables & Ripley (2002, p.189)
-dmn_case<-pairwise.wilcox.test(p$Abundance, p$case,p.adjust.method = "BH")
-dmn_wilcox<-pairwise.wilcox.test(p$Abundance, p$dmn,p.adjust.method = "BH")
-
-
-p$lg<-log1p(p$Abundance)
-p$dmn<-as_factor(p$dmn)
-p$case<-factor(x = p$case, levels = c("Control_Healthy","Control_Sick","COVID19"))
-
-
-library(lmerTest)
-library(lmer)
-case_dmn_glm <- lmer(lg ~ dmn +(dmn|case),data = p)
-f<-ls_means(case_dmn_glm)
-
-# b<-glm( lg ~ dmn+case, data = p, family = gaussian)
-library(mosaic)
-msummary(b)
-b$coefficients
-c<-anova(b)
-d<-aov(b)
-e<-TukeyHSD(d)
-library(lmerTest)
-f<-ls_means(case_dmn_glm)
-
-msummary(e$case)
-e$case
-mat<-dmn_sum[,3:length(dmn_sum)]
-krus_dmn<-col_kruskalwallis(x =mat,g = dmn_sum$dmn)
-welch_dmn<-col_oneway_welch(x=mat, g=dmn_sum$dmn)
-
-krus_dmn_sig<-krus_dmn%>%filter(pvalue<0.01)%>%arrange(pvalue)
-welch_dmn_sig<-welch_dmn%>%filter(pvalue<0.01)%>%arrange(pvalue)
-
-TukeyHSD(welch_dmn_sig)
-library(mosaic)
-msummary(welch_dmn_sig)
-dim(krus_dmn_sig)
-dim(welch_dmn_sig)
-krus_sig
-write.table(krus,"krus_dmn.tsv",sep = "\t")
-
-colnames(krus_sig)
-colnames(krus_sig)
-krus_sig_names<-intersect(rownames(krus_case_sig), rownames(krus_dmn_sig))
-welch_sig_names<-intersect(rownames(welch_case_sig), rownames(welch_dmn_sig))
-sig_names<-intersect(krus_sig_names,welch_sig_names)
