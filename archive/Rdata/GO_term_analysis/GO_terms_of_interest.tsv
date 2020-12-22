@@ -1,0 +1,121 @@
+GO:0016787	hydrolase activity
+GO:0000287	magnesium ion binding
+GO:0005509	calcium ion binding
+GO:0016779	nucleotidyltransferase activity
+GO:0004518	nuclease activity
+GO:0004519	endonuclease activity
+GO:0005524	ATP binding
+GO:0016032	viral process
+GO:0016740	transferase activity
+GO:0046872	metal ion binding
+GO:0090305	nucleic acid phosphodiester bond hydrolysis
+GO:0000166	nucleotide binding
+GO:0002376	immune system process
+GO:0003723	RNA binding
+GO:0005178	integrin binding
+GO:0005515	protein binding
+GO:0006351	transcription, DNA-templated
+GO:0006468	protein phosphorylation
+GO:0006955	immune response
+GO:0007165	signal transduction
+GO:0008233	peptidase activity
+GO:0008242	omega peptidase activity
+GO:0015977	carbon fixation
+GO:0016896	exoribonuclease activity, producing 5'-phosphomonoesters
+GO:0016984	ribulose-bisphosphate carboxylase activity
+GO:0019882	antigen processing and presentation
+GO:0019886	antigen processing and presentation of exogenous peptide antigen via MHC class II
+GO:0042803	protein homodimerization activity
+GO:0043066	negative regulation of apoptotic process
+GO:0043312	neutrophil degranulation
+GO:0055114	oxidation-reduction process
+GO:0002576	platelet degranulation
+GO:0003676	nucleic acid binding
+GO:0003677	DNA binding
+GO:0003735	structural constituent of ribosome
+GO:0003824	catalytic activity
+GO:0004527	exonuclease activity
+GO:0004672	protein kinase activity
+GO:0005102	signaling receptor binding
+GO:0005544	calcium-dependent phospholipid binding
+GO:0005544	Ca dep phospholipid binding
+GO:0006412	translation
+GO:0006508	proteolysis
+GO:0006629	lipid metabolic process
+GO:0006915	apoptotic process
+GO:0007155	cell adhesion
+GO:0007160	cell-matrix adhesion
+GO:0007160	cell matrix adhesion
+GO:0007186	G protein-coupled receptor signaling pathway
+GO:0007229	integrin-mediated signaling pathway
+GO:0007229	integrin mediated signaling pathway
+GO:0008168	methyltransferase activity
+GO:0008270	zinc ion binding
+GO:0008283	cell population proliferation
+GO:0008284	positive regulation of cell population proliferation
+GO:0010628	positive regulation of gene expression
+GO:0016477	cell migration
+GO:0019079	viral genome replication
+GO:0019082	viral protein processing
+GO:0019899	enzyme binding
+GO:0030001	metal ion transport
+GO:0032259	methylation
+GO:0033627	cell adhesion mediated by integrin
+GO:0033627	adhesion mediated by integrin
+GO:0035556	intracellular signal transduction
+GO:0039503	suppression by virus of host innate immune response
+GO:0039520	induction by virus of host autophagy
+GO:0039694	viral RNA genome replication
+GO:0042493	response to drug
+GO:0042802	identical protein binding
+GO:0044267	cellular protein metabolic process
+GO:0045087	innate immune response
+GO:0045893	positive regulation of transcription, DNA-templated
+GO:0050900	leukocyte migration
+GO:0060333	interferon-gamma-mediated signaling pathway
+GO:0090503	RNA phosphodiester bond hydrolysis, exonucleolytic
+GO:0002576	platelet degranulation
+GO:0003676	nucleic acid binding
+GO:0003677	AN
+GO:0003735	structural constituent of ribosome
+GO:0003824	catalytic activity
+GO:0004527	exonuclease activity
+GO:0004672	protein kinase activity
+GO:0005102	signaling receptor binding
+GO:0005544	calcium-dependent phospholipid binding
+GO:0005544	Ca dep phospholipid binding
+GO:0006412	translation
+GO:0006508	proteolysis
+GO:0006629	lipid metabolic process
+GO:0006915	apoptotic process
+GO:0007155	cell adhesion
+GO:0007160	cell-matrix adhesion
+GO:0007160	cell matrix adhesion
+GO:0007186	G protein-coupled receptor signaling pathway
+GO:0007229	integrin-mediated signaling pathway
+GO:0007229	integrin mediated signaling pathway
+GO:0008168	methyltransferase activity
+GO:0008270	zinc ion binding
+GO:0008283	cell population proliferation
+GO:0008284	positive regulation of cell population proliferation
+GO:0010628	positive regulation of gene expression
+GO:0016477	cell migration
+GO:0019079	viral genome replication
+GO:0019082	viral protein processing
+GO:0019899	enzyme binding
+GO:0030001	metal ion transport
+GO:0032259	methylation
+GO:0033627	cell adhesion mediated by integrin
+GO:0033627	adhesion mediated by integrin
+GO:0035556	intracellular signal transduction
+GO:0039503	suppression by virus of host innate immune response
+GO:0039520	induction by virus of host autophagy
+GO:0039694	viral RNA genome replication
+GO:0042493	response to drug
+GO:0042802	identical protein binding
+GO:0044267	cellular protein metabolic process
+GO:0045087	innate immune response
+GO:0045893	positive regulation of transcription, DNA-templated
+GO:0050900	leukocyte migration
+GO:0060333	interferon-gamma-mediated signaling pathway
+GO:0090503	RNA phosphodiester bond hydrolysis, exonucleolytic

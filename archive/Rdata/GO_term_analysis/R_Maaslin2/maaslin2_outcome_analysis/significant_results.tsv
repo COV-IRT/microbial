@@ -1,0 +1,2 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+GO.0005102.signaling.receptor.binding	case	Control_Healthy	0.000243316157235356	3.62609182093097e-05	141	120	3.78124881222404e-08	2.99853030809366e-05

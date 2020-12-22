@@ -1,0 +1,74 @@
+  3.27	2373	2373	U	0	unclassified
+ 96.73	70223	5	R	1	root
+ 93.33	67756	0	D	10239	  Viruses
+ 93.33	67756	0	D1	2559587	    Riboviria
+ 93.33	67756	0	K	2732396	      Orthornavirae
+ 93.33	67756	0	P	2732408	        Pisuviricota
+ 93.33	67756	0	C	2732506	          Pisoniviricetes
+ 93.33	67756	0	O	76804	            Nidovirales
+ 93.33	67756	0	O1	2499399	              Cornidovirineae
+ 93.33	67756	0	F	11118	                Coronaviridae
+ 93.33	67756	0	F1	2501931	                  Orthocoronavirinae
+ 93.33	67756	0	G	694002	                    Betacoronavirus
+ 93.33	67756	3	G1	2509511	                      Sarbecovirus
+ 93.33	67753	79	S	694009	                        Severe acute respiratory syndrome-related coronavirus
+ 93.22	67672	67672	S1	2697049	                          Severe acute respiratory syndrome coronavirus 2
+  0.00	2	2	S1	227984	                          SARS coronavirus Tor2
+  3.39	2462	1	R1	131567	  cellular organisms
+  3.27	2372	0	D	2759	    Eukaryota
+  3.27	2372	0	D1	33154	      Opisthokonta
+  3.27	2372	0	K	33208	        Metazoa
+  3.27	2372	0	K1	6072	          Eumetazoa
+  3.27	2372	0	K2	33213	            Bilateria
+  3.27	2372	0	K3	33511	              Deuterostomia
+  3.27	2372	0	P	7711	                Chordata
+  3.27	2372	0	P1	89593	                  Craniata
+  3.27	2372	0	P2	7742	                    Vertebrata
+  3.27	2372	0	P3	7776	                      Gnathostomata
+  3.27	2372	0	P4	117570	                        Teleostomi
+  3.27	2372	0	P5	117571	                          Euteleostomi
+  3.27	2372	0	P6	8287	                            Sarcopterygii
+  3.27	2372	0	P7	1338369	                              Dipnotetrapodomorpha
+  3.27	2372	0	P8	32523	                                Tetrapoda
+  3.27	2372	0	P9	32524	                                  Amniota
+  3.27	2372	0	C	40674	                                    Mammalia
+  3.27	2372	0	C1	32525	                                      Theria
+  3.27	2372	0	C2	9347	                                        Eutheria
+  3.27	2372	0	C3	1437010	                                          Boreoeutheria
+  3.27	2372	0	C4	314146	                                            Euarchontoglires
+  3.27	2372	0	O	9443	                                              Primates
+  3.27	2372	0	O1	376913	                                                Haplorrhini
+  3.27	2372	0	O2	314293	                                                  Simiiformes
+  3.27	2372	0	O3	9526	                                                    Catarrhini
+  3.27	2372	0	O4	314295	                                                      Hominoidea
+  3.27	2372	0	F	9604	                                                        Hominidae
+  3.27	2372	0	F1	207598	                                                          Homininae
+  3.27	2372	0	G	9605	                                                            Homo
+  3.27	2372	2372	S	9606	                                                              Homo sapiens
+  0.12	89	6	D	2	    Bacteria
+  0.11	83	5	D1	1783272	      Terrabacteria group
+  0.10	75	1	P	1239	        Firmicutes
+  0.10	74	9	C	91061	          Bacilli
+  0.08	59	8	O	186826	            Lactobacillales
+  0.07	51	0	F	186827	              Aerococcaceae
+  0.07	51	0	G	46123	                Abiotrophia
+  0.07	51	51	S	46125	                  Abiotrophia defectiva
+  0.01	6	1	O	1385	            Bacillales
+  0.01	4	1	F	186817	              Bacillaceae
+  0.00	3	0	G	1386	                Bacillus
+  0.00	3	0	G1	86661	                  Bacillus cereus group
+  0.00	2	2	S	1392	                    Bacillus anthracis
+  0.00	1	1	S	1428	                    Bacillus thuringiensis
+  0.00	1	0	F	186818	              Planococcaceae
+  0.00	1	0	G	651660	                Paenisporosarcina
+  0.00	1	1	S	417367	                  Paenisporosarcina antarctica
+  0.00	3	0	P	201174	        Actinobacteria
+  0.00	3	0	C	1760	          Actinobacteria
+  0.00	2	0	O	85006	            Micrococcales
+  0.00	2	0	F	1268	              Micrococcaceae
+  0.00	2	0	G	32207	                Rothia
+  0.00	2	2	S	43675	                  Rothia mucilaginosa
+  0.00	1	0	O	85011	            Streptomycetales
+  0.00	1	0	F	2062	              Streptomycetaceae
+  0.00	1	0	G	1883	                Streptomyces
+  0.00	1	1	S	1901	                  Streptomyces clavuligerus
