@@ -237,7 +237,7 @@ taxid	domain	phylum	class	order	family	genus	species
 1310	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sobrinus
 1311	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus agalactiae
 1318	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus parasanguinis
-1319	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. group B
+1319	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sp. 'group B'
 1326	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus acidominimus
 1328	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus anginosus
 1334	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus dysgalactiae
@@ -1364,7 +1364,7 @@ taxid	domain	phylum	class	order	family	genus	species
 242605	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	Luteibacter	NA
 243160	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	Burkholderia	Burkholderia mallei
 243233	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methylococcus	Methylococcus capsulatus
-243899	Bacteria	Firmicutes	NA	NA	NA	NA	endosymbiont TC1 of Trimyema compressum
+243899	Bacteria	Firmicutes	NA	NA	NA	NA	endosymbiont 'TC1' of Trimyema compressum
 244366	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Klebsiella	Klebsiella variicola
 244592	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	Labrenzia alexandrii
 245188	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Yoonia	Yoonia vestfoldensis
@@ -1561,6 +1561,10 @@ taxid	domain	phylum	class	order	family	genus	species
 320787	Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cyclobacteriaceae	Cyclobacterium	Cyclobacterium amurskyense
 321314	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Salmonella	Salmonella enterica
 321327	Bacteria	Cyanobacteria	NA	Synechococcales	Synechococcaceae	Synechococcus	Synechococcus sp. JA-3-3Ab
+321332	Bacteria	Cyanobacteria	NA	Synechococcales	Synechococcaceae	Synechococcus	Synechococcus sp. JA-2-3B'a(2-13)
+321846	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas simiae
+321956	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus delbrueckii
+321983	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Massilia	Massilia albidiflava
 322159	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus thermophilus
 323098	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Nitrobacter	Nitrobacter winogradskyi
 323261	Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae	Nitrosococcus	Nitrosococcus oceani
@@ -3973,7 +3977,7 @@ taxid	domain	phylum	class	order	family	genus	species
 2099786	Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Salicibibacter	Salicibibacter kimchii
 2100422	Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Idiomarinaceae	Idiomarina	Idiomarina sp. OT37-5b
 2100764	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Erwiniaceae	Mixta	NA
-2103230	Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Microbacteriaceae	Microbacterium	Microbacterium sp. str. China
+2103230	Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Microbacteriaceae	Microbacterium	Microbacterium sp. str. 'China'
 2107713	Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Nocardioidaceae	Aeromicrobium	Aeromicrobium sp. A1-2
 2107999	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus paragasseri
 2108362	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus sp. D1501
@@ -4026,7 +4030,7 @@ taxid	domain	phylum	class	order	family	genus	species
 2202142	Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Chromobacteriaceae	Chromobacterium	Chromobacterium sp. IIBBL 274-1
 2202148	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum thermophilum
 2202149	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Thermomonas	Thermomonas sp. SY21
-2202249	Bacteria	Actinobacteria	Actinobacteria	Streptosporangiales	Streptosporangiaceae	Streptosporangium	Streptosporangium sp. caverna
+2202249	Bacteria	Actinobacteria	Actinobacteria	Streptosporangiales	Streptosporangiaceae	Streptosporangium	Streptosporangium sp. 'caverna'
 2202254	Bacteria	Deinococcus-Thermus	Deinococci	Deinococcales	Deinococcaceae	Deinococcus	Deinococcus irradiatisoli
 2202826	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 17Sr1-1
 2202827	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium terrae
