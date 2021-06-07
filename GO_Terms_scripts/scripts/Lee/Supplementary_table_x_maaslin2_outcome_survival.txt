@@ -1,0 +1,69 @@
+feature	name	coef	stderr	pval	qval	N	N.not.zero	namespace	ontology	depth
+pyrimidine-containing compound metabolic process GO:0072527	pyrimidine-containing compound metabolic process	-4.815	0.867	0.000	0.000	25	12	GO:0072527	biological_process	4
+nucleobase-containing compound biosynthetic process GO:0034654	nucleobase-containing compound biosynthetic process	-0.630	0.117	0.000	0.000	25	25	GO:0034654	biological_process	5
+transition metal ion binding GO:0046914	transition metal ion binding	-0.545	0.106	0.000	0.000	25	25	GO:0046914	molecular_function	5
+aromatic compound biosynthetic process GO:0019438	aromatic compound biosynthetic process	-0.478	0.116	0.000	0.004	25	25	GO:0019438	biological_process	4
+heterocycle biosynthetic process GO:0018130	heterocycle biosynthetic process	-0.393	0.100	0.000	0.007	25	25	GO:0018130	biological_process	4
+macromolecule biosynthetic process GO:0009059	macromolecule biosynthetic process	0.382	0.103	0.000	0.015	25	25	GO:0009059	biological_process	4
+RNA metabolic process GO:0016070	RNA metabolic process	-0.310	0.086	0.000	0.018	25	25	GO:0016070	biological_process	6
+RNA phosphodiester bond hydrolysis GO:0090501	RNA phosphodiester bond hydrolysis	-1.412	0.402	0.000	0.024	25	17	GO:0090501	biological_process	7
+magnesium ion binding GO:0000287	magnesium ion binding	-2.336	0.709	0.001	0.036	25	11	GO:0000287	molecular_function	5
+RNA binding GO:0003723	RNA binding	0.989	0.303	0.001	0.036	25	23	GO:0003723	molecular_function	4
+zinc ion binding GO:0008270	zinc ion binding	-0.880	0.266	0.001	0.036	25	24	GO:0008270	molecular_function	6
+phosphorylation GO:0016310	phosphorylation	2.897	0.888	0.001	0.036	25	13	GO:0016310	biological_process	5
+organonitrogen compound catabolic process GO:1901565	organonitrogen compound catabolic process	-2.388	0.721	0.001	0.036	25	12	GO:1901565	biological_process	4
+endopeptidase activity GO:0004175	endopeptidase activity	-0.995	0.309	0.001	0.037	25	21	GO:0004175	molecular_function	4
+pyrimidine-containing compound biosynthetic process GO:0072528	pyrimidine-containing compound biosynthetic process	-5.505	1.711	0.001	0.037	25	7	GO:0072528	biological_process	5
+DNA recombination GO:0006310	DNA recombination	-2.130	0.667	0.001	0.037	25	12	GO:0006310	biological_process	7
+oxidoreductase activity GO:0016491	oxidoreductase activity	2.541	0.801	0.002	0.037	25	13	GO:0016491	molecular_function	2
+carbohydrate metabolic process GO:0005975	carbohydrate metabolic process	2.245	0.717	0.002	0.039	25	15	GO:0005975	biological_process	3
+"catalytic activity, acting on RNA GO:0140098"	"catalytic activity, acting on RNA"	-0.546	0.174	0.002	0.039	25	25	GO:0140098	molecular_function	2
+pyrophosphatase activity GO:0016462	pyrophosphatase activity	-0.326	0.107	0.002	0.048	25	25	GO:0016462	molecular_function	5
+organic cyclic compound binding GO:0097159	organic cyclic compound binding	0.443	0.145	0.002	0.048	25	25	GO:0097159	molecular_function	2
+"hydrolase activity, acting on acid anhydrides GO:0016817"	"hydrolase activity, acting on acid anhydrides"	-0.323	0.107	0.003	0.052	25	25	GO:0016817	molecular_function	3
+macromolecule modification GO:0043412	macromolecule modification	3.405	1.159	0.003	0.061	25	13	GO:0043412	biological_process	4
+purine ribonucleotide binding GO:0032555	purine ribonucleotide binding	0.761	0.265	0.004	0.067	25	23	GO:0032555	molecular_function	6
+oxidation-reduction process GO:0055114	oxidation-reduction process	2.823	0.981	0.004	0.067	25	13	GO:0055114	biological_process	2
+cellular component organization or biogenesis GO:0071840	cellular component organization or biogenesis	1.283	0.447	0.004	0.067	25	21	GO:0071840	biological_process	2
+nitrogen compound transport GO:0071705	nitrogen compound transport	6.015	2.170	0.006	0.087	25	11	GO:0071705	biological_process	4
+transport GO:0006810	transport	2.244	0.823	0.006	0.089	25	15	GO:0006810	biological_process	3
+small molecule binding GO:0036094	small molecule binding	0.400	0.146	0.006	0.089	25	25	GO:0036094	molecular_function	2
+localization GO:0051179	localization	2.235	0.821	0.006	0.089	25	15	GO:0051179	biological_process	1
+establishment of localization GO:0051234	establishment of localization	2.241	0.822	0.006	0.089	25	15	GO:0051234	biological_process	2
+nucleotide binding GO:0000166	nucleotide binding	0.372	0.138	0.007	0.092	25	25	GO:0000166	molecular_function	4
+nucleotide metabolic process GO:0009117	nucleotide metabolic process	-1.195	0.446	0.007	0.092	25	19	GO:0009117	biological_process	7
+nucleoside phosphate binding GO:1901265	nucleoside phosphate binding	0.372	0.138	0.007	0.092	25	25	GO:1901265	molecular_function	3
+nucleoside phosphate metabolic process GO:0006753	nucleoside phosphate metabolic process	-1.161	0.438	0.008	0.097	25	19	GO:0006753	biological_process	6
+purine nucleotide binding GO:0017076	purine nucleotide binding	1.078	0.412	0.009	0.104	25	23	GO:0017076	molecular_function	5
+polysaccharide metabolic process GO:0005976	polysaccharide metabolic process	2.580	0.994	0.009	0.106	25	11	GO:0005976	biological_process	4
+nucleoside-triphosphatase activity GO:0017111	nucleoside-triphosphatase activity	0.535	0.206	0.009	0.106	25	23	GO:0017111	molecular_function	6
+"phosphotransferase activity, alcohol group as acceptor GO:0016773"	"phosphotransferase activity, alcohol group as acceptor"	4.000	1.553	0.010	0.108	25	11	GO:0016773	molecular_function	4
+purine ribonucleoside triphosphate binding GO:0035639	purine ribonucleoside triphosphate binding	0.784	0.305	0.010	0.108	25	23	GO:0035639	molecular_function	4
+cellular carbohydrate metabolic process GO:0044262	cellular carbohydrate metabolic process	2.240	0.875	0.010	0.109	25	12	GO:0044262	biological_process	4
+nucleic acid binding GO:0003676	nucleic acid binding	0.467	0.183	0.011	0.110	25	25	GO:0003676	molecular_function	3
+transmembrane transport GO:0055085	transmembrane transport	2.763	1.092	0.011	0.112	25	13	GO:0055085	biological_process	4
+cellular polysaccharide metabolic process GO:0044264	cellular polysaccharide metabolic process	2.605	1.053	0.013	0.129	25	8	GO:0044264	biological_process	5
+ATP binding GO:0005524	ATP binding	0.627	0.256	0.014	0.136	25	23	GO:0005524	molecular_function	8
+ribonuclease activity GO:0004540	ribonuclease activity	-0.964	0.402	0.017	0.153	25	19	GO:0004540	molecular_function	5
+carbohydrate biosynthetic process GO:0016051	carbohydrate biosynthetic process	2.549	1.087	0.019	0.168	25	9	GO:0016051	biological_process	4
+"RNA phosphodiester bond hydrolysis, exonucleolytic GO:0090503"	"RNA phosphodiester bond hydrolysis, exonucleolytic"	-0.968	0.412	0.019	0.168	25	17	GO:0090503	biological_process	8
+transporter activity GO:0005215	transporter activity	2.510	1.086	0.021	0.173	25	13	GO:0005215	molecular_function	1
+cellular component organization GO:0016043	cellular component organization	0.924	0.401	0.021	0.173	25	21	GO:0016043	biological_process	3
+isomerase activity GO:0016853	isomerase activity	1.431	0.617	0.020	0.173	25	15	GO:0016853	molecular_function	2
+transmembrane transporter activity GO:0022857	transmembrane transporter activity	2.487	1.075	0.021	0.173	25	13	GO:0022857	molecular_function	2
+polysaccharide biosynthetic process GO:0000271	polysaccharide biosynthetic process	2.569	1.126	0.023	0.181	25	8	GO:0000271	biological_process	5
+cellular carbohydrate biosynthetic process GO:0034637	cellular carbohydrate biosynthetic process	2.559	1.143	0.025	0.198	25	7	GO:0034637	biological_process	5
+glucose-1-phosphate thymidylyltransferase activity GO:0008879	glucose-1-phosphate thymidylyltransferase activity	2.742	1.237	0.027	0.205	25	5	GO:0008879	molecular_function	5
+extracellular polysaccharide biosynthetic process GO:0045226	extracellular polysaccharide biosynthetic process	2.712	1.231	0.028	0.205	25	5	GO:0045226	biological_process	7
+extracellular polysaccharide metabolic process GO:0046379	extracellular polysaccharide metabolic process	2.712	1.231	0.028	0.205	25	5	GO:0046379	biological_process	6
+cellular amino acid metabolic process GO:0006520	cellular amino acid metabolic process	1.890	0.863	0.028	0.208	25	13	GO:0006520	biological_process	6
+adenyl nucleotide binding GO:0030554	adenyl nucleotide binding	0.702	0.322	0.029	0.208	25	23	GO:0030554	molecular_function	6
+cellular polysaccharide biosynthetic process GO:0033692	cellular polysaccharide biosynthetic process	2.547	1.170	0.029	0.208	25	7	GO:0033692	biological_process	6
+organic substance transport GO:0071702	organic substance transport	2.633	1.216	0.030	0.211	25	12	GO:0071702	biological_process	4
+ion transport GO:0006811	ion transport	2.357	1.110	0.034	0.231	25	13	GO:0006811	biological_process	4
+DNA binding GO:0003677	DNA binding	1.029	0.488	0.035	0.232	25	19	GO:0003677	molecular_function	4
+carbohydrate kinase activity GO:0019200	carbohydrate kinase activity	3.788	1.800	0.035	0.232	25	3	GO:0019200	molecular_function	5
+carbohydrate phosphorylation GO:0046835	carbohydrate phosphorylation	3.776	1.797	0.036	0.232	25	3	GO:0046835	biological_process	6
+ribokinase activity GO:0004747	ribokinase activity	3.746	1.790	0.036	0.234	25	3	GO:0004747	molecular_function	6
+protein metabolic process GO:0019538	protein metabolic process	0.409	0.198	0.039	0.246	25	25	GO:0019538	biological_process	4
+organic acid biosynthetic process GO:0016053	organic acid biosynthetic process	2.216	1.110	0.046	0.287	25	13	GO:0016053	biological_process	4

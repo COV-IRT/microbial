@@ -1,0 +1,2233 @@
+domain	phylum	class	order	family	genus	species	treatment_1	treatment_2	log2_median_ratio	median_diff	mean_diff	wilcox_p_value
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acetobacter	Acetobacter persici	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	NA	alpha proteobacterium HIMB5	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum lipoferum	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum thiophilum	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Blastomonas	Blastomonas fulva	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Bombella	Bombella sp. KACC 21507	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	Brevundimonas diminuta	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. FZCC0015	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter sp. FWC26	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter vibrioides	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Celeribacter	Celeribacter manganoxidans	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Erythrobacter	Erythrobacter flavus	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Hypericibacter	Hypericibacter terrae	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	Komagataeibacter xylinus	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	Labrenzia sp. VG12	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Leisingera	Leisingera aquaemixtae	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Wolbachia	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	NA	NA	NA	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	NA	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	NA	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	NA	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	NA	NA	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	NA	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Niveispirillum	Niveispirillum cyanobacteriorum	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium pentaromativorans	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium resinovorum	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium sp. PP1Y	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Oceanicola	Oceanicola sp. D3	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Orientia	Orientia tsutsugamushi	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus aminovorans	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus kondratievae	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus liaowanqingii	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus sp. Arc7-R13	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter gallaeciensis	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter inhibens	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	Porphyrobacter sp. YT40	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudorhodobacter	Pseudorhodobacter sp. S12M18	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter	Rhodobacter sphaeroides	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Rhodospirillum	Rhodospirillum rubrum	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia	Rickettsia amblyommatis	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Ruegeria	Ruegeria pomeroyi	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium baderi	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium cloacae	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. EP60837	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. PAMC28499	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. YG1	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas ginsengisoli An et al. 2013	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas hengshuiensis	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas insulae	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. AAP5	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C33	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C8-2	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. Cra20	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. FARSPH	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. HKS19	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LK11	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LM7	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LMO-1	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. MM-1	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. PAMC26645	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. YZ-8	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. 113P3	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. EG6	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. FD7	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinicella	Sphingosinicella sp. BN140058	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinithalassobacter	Sphingosinithalassobacter sp. zrk23	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Tardibacter	Tardibacter chloracetimidivorans	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Thalassospira	Thalassospira marina	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Yangia	Yangia sp. CCB-MM3	Healthy	Community_acquired_pneumonia	2.32900139	0.385907316	0.243422545	0.001095408
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Agrobacterium	Agrobacterium tumefaciens	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Ancylobacter	Ancylobacter sp. TS-1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	Bartonella australis	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	NA	Beijerinckiaceae bacterium RH AL1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Blastochloris	Blastochloris viridis	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	NA	Bradyrhizobiaceae bacterium SG-6C	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium amphicarpaeae	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium betae	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium canariense	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium cosmicum	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium cosmicum	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium erythrophlei	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium guangxiense	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium guangzhouense	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium icense	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium japonicum	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium lablabi	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium oligotrophicum	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium paxllaeri	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. 6(2017)	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. BTAi1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. CCBAU 051011	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. LCT2	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 278	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 285	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 3257	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. SK17	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. WSM471	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium zhanjiangense	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella	Brucella melitensis	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	Candidatus Hodgkinia	Candidatus Hodgkinia cicadicola	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Liberibacter	Candidatus Liberibacter africanus	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Liberibacter	Candidatus Liberibacter solanacearum	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Hyphomicrobium	Hyphomicrobium nitrativorans	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Labrys	Labrys neptuniae	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Lentilitoribacter	Lentilitoribacter sp. Alg239-R112	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Lichenihabitantaceae	Lichenihabitans	Lichenihabitans psoromatis	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Aurantimonadaceae	Martelella	Martelella sp. AD-3	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium amorphae	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium loti	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium soli	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M4B.F.Ca.ET.058.02.1.1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M9A.F.Ca.ET.002.03.1.2	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium brachiatum	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium currus	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium durans	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium nodulans	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium phyllosphaerae	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 17Sr1-1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 17Sr1-43	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 4-46	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. AMS5	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. DM1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. WL1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum extorquens	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum extorquens	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum populi	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Microvirga	Microvirga sp. HR1	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	NA	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Nitrobacter	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	NA	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	NA	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	NA	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	NA	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	NA	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	NA	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Tardiphaga	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	NA	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Neorhizobium	Neorhizobium galegae	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Nitrobacter	Nitrobacter hamburgensis	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	Nordella	Nordella sp. HKS 07	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	Ochrobactrum anthropi	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	Ochrobactrum anthropi	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Oligotropha	Oligotropha carboxidovorans	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Phyllobacterium	Phyllobacterium zundukense	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Pseudolabrys	Pseudolabrys taiwanensis	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	Rhizobium sp. NXC24	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	Rhizobium tropici	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodomicrobium	Rhodomicrobium vannielii	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes	Rhodoplanes sp. Z2-YC6860	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	Sinorhizobium medicae	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	Sinorhizobium sp. RAC02	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Starkeya	Starkeya novella	Healthy	Community_acquired_pneumonia	4.139684164	0.404305609	0.218581153	0.001427108
+Bacteria	Proteobacteria	Zetaproteobacteria	Mariprofundales	Mariprofundaceae	Mariprofundus	Mariprofundus aestuarium	COVID_19	Community_acquired_pneumonia	Inf	6.79E-06	4.37E-05	8.99E-05
+NA	NA	NA	NA	NA	NA	NA	COVID_19	Community_acquired_pneumonia	Inf	6.79E-06	4.37E-05	8.99E-05
+Bacteria	Actinobacteria	Actinobacteria	Nakamurellales	Nakamurellaceae	Nakamurella	NA	COVID_19	Community_acquired_pneumonia	Inf	6.11E-06	2.76E-05	0.014324986
+Bacteria	Actinobacteria	Actinobacteria	Nakamurellales	Nakamurellaceae	Nakamurella	Nakamurella panacisegetis	COVID_19	Community_acquired_pneumonia	Inf	6.11E-06	2.76E-05	0.014324986
+Bacteria	Proteobacteria	Deltaproteobacteria	Desulfurellales	Desulfurellaceae	Desulfurella	Desulfurella acetivorans	Healthy	Community_acquired_pneumonia	Inf	5.35E-06	2.59E-05	0.000374451
+Bacteria	Proteobacteria	Zetaproteobacteria	Mariprofundales	Mariprofundaceae	Mariprofundus	Mariprofundus aestuarium	Healthy	Community_acquired_pneumonia	Inf	9.92E-07	2.51E-05	0.000435194
+NA	NA	NA	NA	NA	NA	NA	Healthy	Community_acquired_pneumonia	Inf	9.92E-07	2.51E-05	0.000435194
+Bacteria	Cyanobacteria	NA	Chroococcidiopsidales	Chroococcidiopsidaceae	Chroococcidiopsis	Chroococcidiopsis thermalis	COVID_19	Community_acquired_pneumonia	Inf	7.60E-06	2.17E-05	0.000273006
+Bacteria	Cyanobacteria	NA	Chroococcidiopsidales	Chroococcidiopsidaceae	Chroococcidiopsis	Chroococcidiopsis thermalis	Healthy	Community_acquired_pneumonia	Inf	4.22E-07	1.54E-05	0.041103797
+Bacteria	Proteobacteria	Gammaproteobacteria	Cellvibrionales	Cellvibrionaceae	Agarilytica	Agarilytica rhodophyticola	Healthy	Community_acquired_pneumonia	Inf	1.22E-06	1.49E-05	0.027267037
+Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	Eggerthellaceae	Adlercreutzia	Adlercreutzia equolifaciens	COVID_19	Community_acquired_pneumonia	0	0	2.64E-06	0.007320503
+Bacteria	Proteobacteria	Deltaproteobacteria	Desulfurellales	Desulfurellaceae	Desulfurella	Desulfurella acetivorans	COVID_19	Community_acquired_pneumonia	Inf	6.94E-07	-2.02E-07	0.039230254
+Bacteria	Planctomycetes	Phycisphaerae	Sedimentisphaerales	Sedimentisphaeraceae	Limihaloglobus	Limihaloglobus sulfuriphilus	COVID_19	Community_acquired_pneumonia	0	0	-4.04E-06	0.012887827
+Bacteria	Planctomycetes	Phycisphaerae	NA	NA	NA	Phycisphaerae bacterium RAS2	COVID_19	Community_acquired_pneumonia	0	0	-4.04E-06	0.012887827
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	Aeromonas hydrophila	Healthy	Community_acquired_pneumonia	-1.60234785	-4.68E-05	-0.000370016	0.025075532
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	Aeromonas veronii	Healthy	Community_acquired_pneumonia	-1.60234785	-4.68E-05	-0.000370016	0.025075532
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	NA	Healthy	Community_acquired_pneumonia	-1.60234785	-4.68E-05	-0.000370016	0.025075532
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Tolumonas	Tolumonas auensis	Healthy	Community_acquired_pneumonia	-1.60234785	-4.68E-05	-0.000370016	0.025075532
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acetobacter	Acetobacter persici	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	NA	alpha proteobacterium HIMB5	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum lipoferum	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum thiophilum	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Blastomonas	Blastomonas fulva	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Bombella	Bombella sp. KACC 21507	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	Brevundimonas diminuta	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. FZCC0015	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter sp. FWC26	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter vibrioides	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Celeribacter	Celeribacter manganoxidans	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Erythrobacter	Erythrobacter flavus	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Hypericibacter	Hypericibacter terrae	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	Komagataeibacter xylinus	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	Labrenzia sp. VG12	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Leisingera	Leisingera aquaemixtae	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Wolbachia	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	NA	NA	NA	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	NA	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	NA	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	NA	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	NA	NA	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	NA	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Niveispirillum	Niveispirillum cyanobacteriorum	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium pentaromativorans	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium resinovorum	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium sp. PP1Y	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Oceanicola	Oceanicola sp. D3	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Orientia	Orientia tsutsugamushi	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus aminovorans	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus kondratievae	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus liaowanqingii	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus sp. Arc7-R13	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter gallaeciensis	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter inhibens	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	Porphyrobacter sp. YT40	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudorhodobacter	Pseudorhodobacter sp. S12M18	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter	Rhodobacter sphaeroides	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Rhodospirillum	Rhodospirillum rubrum	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia	Rickettsia amblyommatis	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Ruegeria	Ruegeria pomeroyi	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium baderi	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium cloacae	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. EP60837	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. PAMC28499	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. YG1	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas ginsengisoli An et al. 2013	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas hengshuiensis	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas insulae	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. AAP5	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C33	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C8-2	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. Cra20	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. FARSPH	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. HKS19	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LK11	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LM7	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LMO-1	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. MM-1	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. PAMC26645	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. YZ-8	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. 113P3	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. EG6	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. FD7	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinicella	Sphingosinicella sp. BN140058	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinithalassobacter	Sphingosinithalassobacter sp. zrk23	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Tardibacter	Tardibacter chloracetimidivorans	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Thalassospira	Thalassospira marina	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Yangia	Yangia sp. CCB-MM3	Healthy	Community_acquired_pneumonia	2.196751489	2.03E-05	-0.00041715	0.028705564
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium adolescentis	Healthy	Community_acquired_pneumonia	-3.584296701	-0.000124542	-0.00050279	0.025756307
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium scardovii	Healthy	Community_acquired_pneumonia	-3.584296701	-0.000124542	-0.00050279	0.025756307
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Gardnerella	Gardnerella vaginalis	Healthy	Community_acquired_pneumonia	-3.584296701	-0.000124542	-0.00050279	0.025756307
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	NA	Healthy	Community_acquired_pneumonia	-3.584296701	-0.000124542	-0.00050279	0.025756307
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	NA	NA	Healthy	Community_acquired_pneumonia	-3.584296701	-0.000124542	-0.00050279	0.025756307
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces naeslundii	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces pacaensis	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces slackii	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 171	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 414	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 848	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 897	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces viscosus	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	NA	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	NA	NA	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Schaalia	NA	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	NA	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Schaalia	Schaalia meyeri	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Schaalia	Schaalia odontolytica	Healthy	Community_acquired_pneumonia	-3.522517685	-0.000756318	-0.019610814	0.003184712
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Dialister	Dialister pneumosintes	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera elsdenii	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera stantonii	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	NA	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	NA	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	NA	NA	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Dialister	NA	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella atypica	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella dispar	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella parvula	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella parvula	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella rodentium	Healthy	Community_acquired_pneumonia	-3.832453118	-0.003775851	-0.024830857	0.035797171
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Agrobacterium	Agrobacterium tumefaciens	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Ancylobacter	Ancylobacter sp. TS-1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	Bartonella australis	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	NA	Beijerinckiaceae bacterium RH AL1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Blastochloris	Blastochloris viridis	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	NA	Bradyrhizobiaceae bacterium SG-6C	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium amphicarpaeae	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium betae	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium canariense	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium cosmicum	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium cosmicum	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium erythrophlei	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium guangxiense	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium guangzhouense	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium icense	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium japonicum	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium lablabi	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium oligotrophicum	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium paxllaeri	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. 6(2017)	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. BTAi1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. CCBAU 051011	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. LCT2	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 278	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 285	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 3257	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. SK17	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. WSM471	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium zhanjiangense	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella	Brucella melitensis	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	Candidatus Hodgkinia	Candidatus Hodgkinia cicadicola	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Liberibacter	Candidatus Liberibacter africanus	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Liberibacter	Candidatus Liberibacter solanacearum	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Hyphomicrobium	Hyphomicrobium nitrativorans	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Labrys	Labrys neptuniae	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Lentilitoribacter	Lentilitoribacter sp. Alg239-R112	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Lichenihabitantaceae	Lichenihabitans	Lichenihabitans psoromatis	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Aurantimonadaceae	Martelella	Martelella sp. AD-3	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium amorphae	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium loti	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium soli	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M4B.F.Ca.ET.058.02.1.1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M9A.F.Ca.ET.002.03.1.2	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium brachiatum	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium currus	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium durans	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium nodulans	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium phyllosphaerae	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 17Sr1-1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 17Sr1-43	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 4-46	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. AMS5	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. DM1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. WL1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum extorquens	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum extorquens	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum populi	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Microvirga	Microvirga sp. HR1	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	NA	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Nitrobacter	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	NA	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	NA	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	NA	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	NA	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	NA	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	NA	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Tardiphaga	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	NA	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Neorhizobium	Neorhizobium galegae	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Nitrobacter	Nitrobacter hamburgensis	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	Nordella	Nordella sp. HKS 07	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	Ochrobactrum anthropi	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	Ochrobactrum anthropi	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Oligotropha	Oligotropha carboxidovorans	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Phyllobacterium	Phyllobacterium zundukense	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Pseudolabrys	Pseudolabrys taiwanensis	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	Rhizobium sp. NXC24	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	Rhizobium tropici	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodomicrobium	Rhodomicrobium vannielii	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes	Rhodoplanes sp. Z2-YC6860	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	Sinorhizobium medicae	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	Sinorhizobium sp. RAC02	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Starkeya	Starkeya novella	COVID_19	Community_acquired_pneumonia	-0.989721676	-0.01207145	-0.117007573	0.007444185
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acetobacter	Acetobacter persici	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	NA	alpha proteobacterium HIMB5	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum lipoferum	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum thiophilum	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Blastomonas	Blastomonas fulva	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Bombella	Bombella sp. KACC 21507	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	Brevundimonas diminuta	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. FZCC0015	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter sp. FWC26	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter vibrioides	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Celeribacter	Celeribacter manganoxidans	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Erythrobacter	Erythrobacter flavus	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Hypericibacter	Hypericibacter terrae	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	Komagataeibacter xylinus	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	Labrenzia sp. VG12	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Leisingera	Leisingera aquaemixtae	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Wolbachia	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	NA	NA	NA	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	NA	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	NA	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	NA	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	NA	NA	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	NA	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Niveispirillum	Niveispirillum cyanobacteriorum	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium pentaromativorans	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium resinovorum	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium sp. PP1Y	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Oceanicola	Oceanicola sp. D3	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Orientia	Orientia tsutsugamushi	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus aminovorans	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus kondratievae	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus liaowanqingii	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus sp. Arc7-R13	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter gallaeciensis	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter inhibens	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	Porphyrobacter sp. YT40	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudorhodobacter	Pseudorhodobacter sp. S12M18	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter	Rhodobacter sphaeroides	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Rhodospirillum	Rhodospirillum rubrum	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia	Rickettsia amblyommatis	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Ruegeria	Ruegeria pomeroyi	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium baderi	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium cloacae	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. EP60837	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. PAMC28499	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. YG1	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas ginsengisoli An et al. 2013	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas hengshuiensis	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas insulae	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. AAP5	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C33	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C8-2	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. Cra20	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. FARSPH	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. HKS19	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LK11	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LM7	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LMO-1	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. MM-1	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. PAMC26645	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. YZ-8	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. 113P3	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. EG6	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. FD7	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinicella	Sphingosinicella sp. BN140058	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinithalassobacter	Sphingosinithalassobacter sp. zrk23	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Tardibacter	Tardibacter chloracetimidivorans	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Thalassospira	Thalassospira marina	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Yangia	Yangia sp. CCB-MM3	COVID_19	Community_acquired_pneumonia	-2.053878784	-0.072794544	-0.133228083	0.006723639
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Dialister	Dialister pneumosintes	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera elsdenii	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	Megasphaera stantonii	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Megasphaera	NA	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	NA	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	NA	NA	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Dialister	NA	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella atypica	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella dispar	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella parvula	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella parvula	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Firmicutes	Negativicutes	Veillonellales	Veillonellaceae	Veillonella	Veillonella rodentium	COVID_19	Healthy	3.639369584	0.003267157	0.040631146	0.002999146
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces naeslundii	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces pacaensis	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces slackii	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 171	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 414	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 848	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces sp. oral taxon 897	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces viscosus	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	NA	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	NA	NA	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Schaalia	NA	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	NA	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Schaalia	Schaalia meyeri	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Schaalia	Schaalia odontolytica	COVID_19	Healthy	5.183768992	0.002548082	0.012674954	7.82E-06
+Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	NA	Coriobacteriaceae bacterium 68-1-3	COVID_19	Healthy	4.621883641	3.40E-05	0.000593639	0.007259867
+Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	Lancefieldella	Lancefieldella parvula	COVID_19	Healthy	4.621883641	3.40E-05	0.000593639	0.007259867
+Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	NA	NA	COVID_19	Healthy	4.621883641	3.40E-05	0.000593639	0.007259867
+Bacteria	Actinobacteria	Coriobacteriia	Eggerthellales	Eggerthellaceae	Adlercreutzia	Adlercreutzia equolifaciens	COVID_19	Healthy	3.054926309	3.38E-05	0.000589545	0.019333923
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Aromatoleum	Aromatoleum aromaticum	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Zoogloeaceae	Azoarcus	Azoarcus communis	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Zoogloeaceae	Azoarcus	Azoarcus sp. KH32C	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Zoogloeaceae	Azoarcus	Azoarcus sp. SY39	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Azonexaceae	Dechloromonas	Dechloromonas aromatica	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Azonexaceae	Dechloromonas	Dechloromonas sp. HYN0024	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Zoogloeaceae	Azoarcus	NA	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Zoogloeaceae	Thauera	NA	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	NA	NA	NA	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Zoogloeaceae	Thauera	Thauera sp. K11	COVID_19	Healthy	3.507662226	0.000130325	0.000348821	0.000930141
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	Aeromonas hydrophila	COVID_19	Healthy	2.795442226	0.000136481	0.000181253	0.002709644
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	Aeromonas veronii	COVID_19	Healthy	2.795442226	0.000136481	0.000181253	0.002709644
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Aeromonas	NA	COVID_19	Healthy	2.795442226	0.000136481	0.000181253	0.002709644
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae	Tolumonas	Tolumonas auensis	COVID_19	Healthy	2.795442226	0.000136481	0.000181253	0.002709644
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium adolescentis	COVID_19	Healthy	2.19011583	4.04E-05	0.000106882	0.005361627
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium scardovii	COVID_19	Healthy	2.19011583	4.04E-05	0.000106882	0.005361627
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Gardnerella	Gardnerella vaginalis	COVID_19	Healthy	2.19011583	4.04E-05	0.000106882	0.005361627
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	NA	COVID_19	Healthy	2.19011583	4.04E-05	0.000106882	0.005361627
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	NA	NA	COVID_19	Healthy	2.19011583	4.04E-05	0.000106882	0.005361627
+Bacteria	Actinobacteria	Actinobacteria	Streptosporangiales	Thermomonosporaceae	Actinomadura	Actinomadura sp. WMMA1423	COVID_19	Healthy	1.764939362	1.06E-05	3.86E-05	0.024348267
+Bacteria	Actinobacteria	Actinobacteria	Streptosporangiales	Thermomonosporaceae	Actinomadura	Actinomadura sp. WMMB 499	COVID_19	Healthy	1.764939362	1.06E-05	3.86E-05	0.024348267
+Bacteria	Actinobacteria	Actinobacteria	Streptosporangiales	Nocardiopsaceae	Thermobifida	Thermobifida fusca	COVID_19	Healthy	1.764939362	1.06E-05	3.86E-05	0.024348267
+Bacteria	Cyanobacteria	NA	Chroococcidiopsidales	Chroococcidiopsidaceae	Chroococcidiopsis	Chroococcidiopsis thermalis	COVID_19	Healthy	4.170797305	7.18E-06	6.34E-06	0.033779727
+Bacteria	Proteobacteria	Deltaproteobacteria	Desulfurellales	Desulfurellaceae	Desulfurella	Desulfurella acetivorans	COVID_19	Healthy	-2.947042345	-4.66E-06	-2.61E-05	0.00840564
+Bacteria	Spirochaetes	Spirochaetia	Brachyspirales	Brachyspiraceae	Brachyspira	Brachyspira hampsonii	COVID_19	Healthy	-3.18545036	-2.10E-05	-0.000122991	0.043900334
+Bacteria	Spirochaetes	Spirochaetia	Brachyspirales	Brachyspiraceae	Brachyspira	Brachyspira intermedia	COVID_19	Healthy	-3.18545036	-2.10E-05	-0.000122991	0.043900334
+Bacteria	Spirochaetes	Spirochaetia	Brachyspirales	Brachyspiraceae	Brachyspira	Brachyspira pilosicoli	COVID_19	Healthy	-3.18545036	-2.10E-05	-0.000122991	0.043900334
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acetobacter	Acetobacter persici	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	NA	alpha proteobacterium HIMB5	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum lipoferum	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum thiophilum	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Blastomonas	Blastomonas fulva	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Bombella	Bombella sp. KACC 21507	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	Brevundimonas diminuta	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. FZCC0015	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter sp. FWC26	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter vibrioides	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Celeribacter	Celeribacter manganoxidans	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Erythrobacter	Erythrobacter flavus	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Hypericibacter	Hypericibacter terrae	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	Komagataeibacter xylinus	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	Labrenzia sp. VG12	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Leisingera	Leisingera aquaemixtae	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Wolbachia	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	NA	NA	NA	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	NA	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	NA	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	NA	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	NA	NA	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	NA	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Niveispirillum	Niveispirillum cyanobacteriorum	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium pentaromativorans	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium resinovorum	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium sp. PP1Y	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Oceanicola	Oceanicola sp. D3	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Orientia	Orientia tsutsugamushi	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus aminovorans	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus kondratievae	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus liaowanqingii	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus sp. Arc7-R13	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter gallaeciensis	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter inhibens	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	Porphyrobacter sp. YT40	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudorhodobacter	Pseudorhodobacter sp. S12M18	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter	Rhodobacter sphaeroides	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Rhodospirillum	Rhodospirillum rubrum	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia	Rickettsia amblyommatis	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Ruegeria	Ruegeria pomeroyi	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium baderi	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium cloacae	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. EP60837	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. PAMC28499	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. YG1	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas ginsengisoli An et al. 2013	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas hengshuiensis	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas insulae	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. AAP5	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C33	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C8-2	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. Cra20	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. FARSPH	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. HKS19	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LK11	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LM7	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LMO-1	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. MM-1	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. PAMC26645	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. YZ-8	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. 113P3	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. EG6	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. FD7	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinicella	Sphingosinicella sp. BN140058	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinithalassobacter	Sphingosinithalassobacter sp. zrk23	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Tardibacter	Tardibacter chloracetimidivorans	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Thalassospira	Thalassospira marina	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Yangia	Yangia sp. CCB-MM3	COVID_19	Healthy	-1.214104314	-0.009181107	-0.032340368	0.000134444
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Agrobacterium	Agrobacterium tumefaciens	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Ancylobacter	Ancylobacter sp. TS-1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	Bartonella australis	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	NA	Beijerinckiaceae bacterium RH AL1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Blastochloris	Blastochloris viridis	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	NA	Bradyrhizobiaceae bacterium SG-6C	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium amphicarpaeae	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium betae	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium canariense	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium cosmicum	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium cosmicum	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium erythrophlei	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium guangxiense	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium guangzhouense	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium icense	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium japonicum	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium lablabi	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium oligotrophicum	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium paxllaeri	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. 6(2017)	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. BTAi1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. CCBAU 051011	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. LCT2	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 278	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 285	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. ORS 3257	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. SK17	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium sp. WSM471	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	Bradyrhizobium zhanjiangense	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella	Brucella melitensis	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	Candidatus Hodgkinia	Candidatus Hodgkinia cicadicola	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Liberibacter	Candidatus Liberibacter africanus	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Liberibacter	Candidatus Liberibacter solanacearum	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Hyphomicrobium	Hyphomicrobium nitrativorans	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Labrys	Labrys neptuniae	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Lentilitoribacter	Lentilitoribacter sp. Alg239-R112	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Lichenihabitantaceae	Lichenihabitans	Lichenihabitans psoromatis	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Aurantimonadaceae	Martelella	Martelella sp. AD-3	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium amorphae	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium loti	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium soli	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M4B.F.Ca.ET.058.02.1.1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	Mesorhizobium sp. M9A.F.Ca.ET.002.03.1.2	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium brachiatum	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium currus	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium durans	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium nodulans	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium phyllosphaerae	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 17Sr1-1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 17Sr1-43	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. 4-46	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. AMS5	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. DM1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	Methylobacterium sp. WL1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum extorquens	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum extorquens	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	Methylorubrum populi	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Microvirga	Microvirga sp. HR1	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Brucella	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	NA	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Nitrobacter	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	NA	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	NA	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	NA	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	NA	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	NA	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	NA	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylorubrum	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Tardiphaga	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bartonellaceae	Bartonella	NA	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Neorhizobium	Neorhizobium galegae	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Nitrobacter	Nitrobacter hamburgensis	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	NA	Nordella	Nordella sp. HKS 07	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	Ochrobactrum anthropi	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Brucellaceae	Ochrobactrum	Ochrobactrum anthropi	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Oligotropha	Oligotropha carboxidovorans	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Phyllobacterium	Phyllobacterium zundukense	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Pseudolabrys	Pseudolabrys taiwanensis	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	Rhizobium sp. NXC24	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Rhizobium	Rhizobium tropici	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodomicrobium	Rhodomicrobium vannielii	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes	Rhodoplanes sp. Z2-YC6860	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Rhodopseudomonas	Rhodopseudomonas palustris	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	Sinorhizobium medicae	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Sinorhizobium	Sinorhizobium sp. RAC02	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Starkeya	Starkeya novella	COVID_19	Healthy	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acetobacter	Acetobacter persici	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	NA	alpha proteobacterium HIMB5	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum lipoferum	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	Azospirillum thiophilum	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Blastomonas	Blastomonas fulva	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Bombella	Bombella sp. KACC 21507	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	Brevundimonas diminuta	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Pelagibacterales	Pelagibacteraceae	Candidatus Pelagibacter	Candidatus Pelagibacter sp. FZCC0015	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter sp. FWC26	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	Caulobacter vibrioides	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Celeribacter	Celeribacter manganoxidans	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Erythrobacter	Erythrobacter flavus	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Hypericibacter	Hypericibacter terrae	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	Komagataeibacter xylinus	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	Labrenzia sp. VG12	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Leisingera	Leisingera aquaemixtae	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Azospirillum	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Anaplasmataceae	Wolbachia	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	NA	NA	NA	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	NA	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	NA	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	NA	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseomonas	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	NA	NA	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Komagataeibacter	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Labrenzia	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	NA	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Niveispirillum	Niveispirillum cyanobacteriorum	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium pentaromativorans	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium resinovorum	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	Novosphingobium sp. PP1Y	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Oceanicola	Oceanicola sp. D3	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Orientia	Orientia tsutsugamushi	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus aminovorans	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus kondratievae	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus liaowanqingii	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	Paracoccus sp. Arc7-R13	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter gallaeciensis	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	Phaeobacter inhibens	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Erythrobacteraceae	Porphyrobacter	Porphyrobacter sp. YT40	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudorhodobacter	Pseudorhodobacter sp. S12M18	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter	Rhodobacter sphaeroides	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Rhodospirillum	Rhodospirillum rubrum	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia	Rickettsia amblyommatis	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Ruegeria	Ruegeria pomeroyi	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium baderi	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium cloacae	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. EP60837	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. PAMC28499	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	Sphingobium sp. YG1	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas ginsengisoli An et al. 2013	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas hengshuiensis	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas insulae	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. AAP5	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C33	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. C8-2	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. Cra20	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. FARSPH	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. HKS19	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LK11	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LM7	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. LMO-1	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. MM-1	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. PAMC26645	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Sphingomonas sp. YZ-8	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. 113P3	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. EG6	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	Sphingopyxis sp. FD7	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinicella	Sphingosinicella sp. BN140058	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingosinithalassobacter	Sphingosinithalassobacter sp. zrk23	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Tardibacter	Tardibacter chloracetimidivorans	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	Thalassospira	Thalassospira marina	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Yangia	Yangia sp. CCB-MM3	COVID_19	Healthy	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												

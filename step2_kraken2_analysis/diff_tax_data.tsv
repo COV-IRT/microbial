@@ -1,0 +1,249 @@
+"taxon_id"	"otu_id"	"domain"	"phylum"	"class"	"order"	"family"	"genus"	"species"
+"1"	"abf"	"75"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Caulobacterales"	"Caulobacteraceae"	"Caulobacter"	NA
+"2"	"abf"	"191"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Rhodospirillaceae"	"Azospirillum"	NA
+"3"	"adr"	"234"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Brucellaceae"	"Brucella"	NA
+"4"	"abf"	"265"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Paracoccus"	NA
+"5"	"abf"	"293"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Caulobacterales"	"Caulobacteraceae"	"Brevundimonas"	"Brevundimonas diminuta"
+"6"	"adr"	"356"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	NA	NA	NA
+"7"	"adr"	"358"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Agrobacterium"	"Agrobacterium tumefaciens"
+"8"	"adr"	"374"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	NA
+"9"	"adr"	"379"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Rhizobium"	NA
+"10"	"adr"	"381"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Mesorhizobium"	"Mesorhizobium loti"
+"11"	"adr"	"407"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	NA
+"12"	"adr"	"528"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Brucellaceae"	"Ochrobactrum"	NA
+"13"	"adr"	"529"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Brucellaceae"	"Ochrobactrum"	"Ochrobactrum anthropi"
+"14"	"adz"	"642"	"Bacteria"	"Proteobacteria"	"Gammaproteobacteria"	"Aeromonadales"	"Aeromonadaceae"	"Aeromonas"	NA
+"15"	"adz"	"644"	"Bacteria"	"Proteobacteria"	"Gammaproteobacteria"	"Aeromonadales"	"Aeromonadaceae"	"Aeromonas"	"Aeromonas hydrophila"
+"16"	"adz"	"654"	"Bacteria"	"Proteobacteria"	"Gammaproteobacteria"	"Aeromonadales"	"Aeromonadaceae"	"Aeromonas"	"Aeromonas veronii"
+"17"	"adr"	"773"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bartonellaceae"	"Bartonella"	NA
+"18"	"abf"	"784"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rickettsiales"	"Rickettsiaceae"	"Orientia"	"Orientia tsutsugamushi"
+"19"	"aeh"	"906"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Megasphaera"	NA
+"20"	"aeh"	"907"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Megasphaera"	"Megasphaera elsdenii"
+"21"	"adr"	"911"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Nitrobacter"	NA
+"22"	"abf"	"953"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rickettsiales"	"Anaplasmataceae"	"Wolbachia"	NA
+"23"	"abf"	"1063"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Rhodobacter"	"Rhodobacter sphaeroides"
+"24"	"adr"	"1076"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Rhodopseudomonas"	"Rhodopseudomonas palustris"
+"25"	"adr"	"1079"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Hyphomicrobiaceae"	"Blastochloris"	"Blastochloris viridis"
+"26"	"abf"	"1085"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Rhodospirillaceae"	"Rhodospirillum"	"Rhodospirillum rubrum"
+"27"	"afb"	"1654"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	NA
+"28"	"afb"	"1655"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	"Actinomyces naeslundii"
+"29"	"afb"	"1656"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	"Actinomyces viscosus"
+"30"	"afb"	"1660"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Schaalia"	"Schaalia odontolytica"
+"31"	"afc"	"1678"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Bifidobacteriales"	"Bifidobacteriaceae"	"Bifidobacterium"	NA
+"32"	"afc"	"1680"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Bifidobacteriales"	"Bifidobacteriaceae"	"Bifidobacterium"	"Bifidobacterium adolescentis"
+"33"	"afb"	"2049"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	NA	NA
+"34"	"afc"	"2702"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Bifidobacteriales"	"Bifidobacteriaceae"	"Gardnerella"	"Gardnerella vaginalis"
+"35"	"afn"	"12960"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Zoogloeaceae"	"Azoarcus"	NA
+"36"	"abf"	"13687"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	NA
+"37"	"adr"	"28105"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Sinorhizobium"	NA
+"38"	"abf"	"28211"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	NA	NA	NA	NA
+"39"	"abf"	"28448"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Acetobacteraceae"	"Komagataeibacter"	"Komagataeibacter xylinus"
+"40"	"aeh"	"29465"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Veillonella"	NA
+"41"	"aeh"	"29466"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Veillonella"	"Veillonella parvula"
+"42"	"afc"	"31953"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Bifidobacteriales"	"Bifidobacteriaceae"	NA	NA
+"43"	"aeh"	"31977"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	NA	NA
+"44"	"abf"	"31989"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	NA	NA
+"45"	"afn"	"33057"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Zoogloeaceae"	"Thauera"	NA
+"46"	"abf"	"33989"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rickettsiales"	"Rickettsiaceae"	"Rickettsia"	"Rickettsia amblyommatis"
+"47"	"abf"	"34004"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Paracoccus"	"Paracoccus aminovorans"
+"48"	"aeh"	"39777"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Veillonella"	"Veillonella atypica"
+"49"	"aeh"	"39778"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Veillonella"	"Veillonella dispar"
+"50"	"aeh"	"39948"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Dialister"	NA
+"51"	"aeh"	"39950"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Dialister"	"Dialister pneumosintes"
+"52"	"adr"	"40137"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Oligotropha"	"Oligotropha carboxidovorans"
+"53"	"abf"	"41275"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Caulobacterales"	"Caulobacteraceae"	"Brevundimonas"	NA
+"54"	"adr"	"41294"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	NA	NA
+"55"	"abf"	"41297"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	NA	NA
+"56"	"afn"	"41977"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Zoogloeaceae"	"Azoarcus"	"Azoarcus communis"
+"57"	"afu"	"52584"	"Bacteria"	"Spirochaetes"	"Spirochaetia"	"Brachyspirales"	"Brachyspiraceae"	"Brachyspira"	"Brachyspira pilosicoli"
+"58"	"afb"	"52773"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Schaalia"	"Schaalia meyeri"
+"59"	"afb"	"52774"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	"Actinomyces slackii"
+"60"	"afv"	"53460"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Nakamurellales"	"Nakamurellaceae"	"Nakamurella"	NA
+"61"	"abf"	"60890"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Phaeobacter"	"Phaeobacter gallaeciensis"
+"62"	"adr"	"68287"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Mesorhizobium"	NA
+"63"	"adr"	"69277"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	NA	NA
+"64"	"abf"	"69665"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Caulobacterales"	"Caulobacteraceae"	"Caulobacter"	"Caulobacter sp. FWC26"
+"65"	"afn"	"76114"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Rhodocyclaceae"	"Aromatoleum"	"Aromatoleum aromaticum"
+"66"	"abf"	"76892"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Caulobacterales"	"Caulobacteraceae"	NA	NA
+"67"	"adr"	"82115"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	NA	NA
+"68"	"aga"	"85030"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Geodermatophilales"	"Geodermatophilaceae"	NA	NA
+"69"	"adr"	"114615"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. ORS 278"
+"70"	"adr"	"115808"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. ORS 285"
+"71"	"adr"	"118882"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Brucellaceae"	NA	NA
+"72"	"adr"	"119045"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	NA	NA
+"73"	"abf"	"120107"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingobium"	"Sphingobium cloacae"
+"74"	"abf"	"125216"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Acetobacteraceae"	"Roseomonas"	NA
+"75"	"abf"	"135740"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Paracoccus"	"Paracoccus kondratievae"
+"76"	"abf"	"155892"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Caulobacterales"	"Caulobacteraceae"	"Caulobacter"	"Caulobacter vibrioides"
+"77"	"abf"	"158500"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Novosphingobium"	"Novosphingobium resinovorum"
+"78"	"afn"	"159087"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Azonexaceae"	"Dechloromonas"	"Dechloromonas aromatica"
+"79"	"abf"	"165695"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingobium"	NA
+"80"	"abf"	"165697"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingopyxis"	NA
+"81"	"adr"	"167468"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. ORS 3257"
+"82"	"adr"	"190148"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium paxllaeri"
+"83"	"abf"	"192812"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Erythrobacteraceae"	"Erythrobacter"	"Erythrobacter flavus"
+"84"	"abf"	"196159"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	NA
+"85"	"abf"	"204457"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	NA	NA	NA
+"86"	"afn"	"206389"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	NA	NA	NA
+"87"	"abf"	"221822"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Phaeobacter"	"Phaeobacter inhibens"
+"88"	"adr"	"223967"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylorubrum"	"Methylorubrum populi"
+"89"	"adr"	"227290"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	NA	NA
+"90"	"adr"	"244734"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium betae"
+"91"	"abf"	"246200"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Ruegeria"	"Ruegeria pomeroyi"
+"92"	"abf"	"246570"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Paracoccus"	NA
+"93"	"aeh"	"248315"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Veillonella"	"Veillonella rodentium"
+"94"	"ago"	"251229"	"Bacteria"	"Cyanobacteria"	NA	"Chroococcidiopsidales"	"Chroococcidiopsidaceae"	"Chroococcidiopsis"	"Chroococcidiopsis thermalis"
+"95"	"adr"	"255045"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium canariense"
+"96"	"adr"	"258594"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Rhodopseudomonas"	"Rhodopseudomonas palustris"
+"97"	"adr"	"269660"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium brachiatum"
+"98"	"agr"	"269800"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Streptosporangiales"	"Nocardiopsaceae"	"Thermobifida"	"Thermobifida fusca"
+"99"	"adr"	"272630"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylorubrum"	"Methylorubrum extorquens"
+"100"	"adr"	"288000"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. BTAi1"
+"101"	"abf"	"292913"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingopyxis"	"Sphingopyxis sp. 113P3"
+"102"	"adr"	"316055"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Rhodopseudomonas"	"Rhodopseudomonas palustris"
+"103"	"adr"	"319017"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. WSM471"
+"104"	"adr"	"323097"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Nitrobacter"	"Nitrobacter hamburgensis"
+"105"	"adr"	"331696"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Xanthobacteraceae"	"Pseudolabrys"	"Pseudolabrys taiwanensis"
+"106"	"adr"	"335659"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium cosmicum"
+"107"	"abf"	"363835"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas ginsengisoli An et al. 2013"
+"108"	"adr"	"366394"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Sinorhizobium"	"Sinorhizobium medicae"
+"109"	"adr"	"376174"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Xanthobacteraceae"	"Labrys"	"Labrys neptuniae"
+"110"	"agv"	"406548"	"Bacteria"	"Planctomycetes"	"Planctomycetia"	"Isosphaerales"	"Isosphaeraceae"	"Aquisphaera"	"Aquisphaera giovannonii"
+"111"	"adr"	"418223"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium phyllosphaerae"
+"112"	"abf"	"424800"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas insulae"
+"113"	"adr"	"426117"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium sp. 4-46"
+"114"	"adr"	"439375"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Brucellaceae"	"Ochrobactrum"	"Ochrobactrum anthropi"
+"115"	"adr"	"440085"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylorubrum"	"Methylorubrum extorquens"
+"116"	"adr"	"460265"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium nodulans"
+"117"	"adr"	"476282"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium japonicum"
+"118"	"adr"	"520465"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Brucellaceae"	"Brucella"	"Brucella melitensis"
+"119"	"agz"	"521095"	"Bacteria"	"Actinobacteria"	"Coriobacteriia"	"Coriobacteriales"	"Atopobiaceae"	"Lancefieldella"	"Lancefieldella parvula"
+"120"	"aga"	"526225"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Geodermatophilales"	"Geodermatophilaceae"	"Geodermatophilus"	"Geodermatophilus obscurus"
+"121"	"abf"	"528244"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Rhodospirillaceae"	"Azospirillum"	"Azospirillum thiophilum"
+"122"	"adr"	"573658"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	NA	"Candidatus Hodgkinia"	"Candidatus Hodgkinia cicadicola"
+"123"	"agv"	"575540"	"Bacteria"	"Planctomycetes"	"Planctomycetia"	"Isosphaerales"	"Isosphaeraceae"	"Isosphaera"	"Isosphaera pallida"
+"124"	"adz"	"595494"	"Bacteria"	"Proteobacteria"	"Gammaproteobacteria"	"Aeromonadales"	"Aeromonadaceae"	"Tolumonas"	"Tolumonas auensis"
+"125"	"adr"	"639283"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Xanthobacteraceae"	"Starkeya"	"Starkeya novella"
+"126"	"adr"	"648757"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Hyphomicrobiaceae"	"Rhodomicrobium"	"Rhodomicrobium vannielii"
+"127"	"afb"	"649743"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	"Actinomyces sp. oral taxon 848"
+"128"	"adr"	"658172"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Liberibacter"	"Candidatus Liberibacter solanacearum"
+"129"	"adr"	"674703"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Hyphomicrobiaceae"	"Rhodoplanes"	"Rhodoplanes sp. Z2-YC6860"
+"130"	"adr"	"686597"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Aurantimonadaceae"	"Martelella"	"Martelella sp. AD-3"
+"131"	"ahc"	"694431"	"Bacteria"	"Proteobacteria"	"Deltaproteobacteria"	"Desulfurellales"	"Desulfurellaceae"	"Desulfurella"	"Desulfurella acetivorans"
+"132"	"adr"	"698761"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Rhizobium"	"Rhizobium tropici"
+"133"	"abf"	"702113"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Novosphingobium"	"Novosphingobium sp. PP1Y"
+"134"	"afb"	"706439"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	"Actinomyces sp. oral taxon 171"
+"135"	"adr"	"709797"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	NA	"Bradyrhizobiaceae bacterium SG-6C"
+"136"	"afb"	"712122"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	"Actinomyces sp. oral taxon 414"
+"137"	"adr"	"722472"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium lablabi"
+"138"	"abf"	"745310"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. MM-1"
+"139"	"afn"	"748247"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Zoogloeaceae"	"Azoarcus"	"Azoarcus sp. KH32C"
+"140"	"adr"	"858422"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. CCBAU 051011"
+"141"	"abf"	"859653"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Pelagibacterales"	"Pelagibacteraceae"	NA	"alpha proteobacterium HIMB5"
+"142"	"abf"	"862719"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Rhodospirillaceae"	"Azospirillum"	"Azospirillum lipoferum"
+"143"	"adr"	"925818"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium sp. AMS5"
+"144"	"adr"	"1028801"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Neorhizobium"	"Neorhizobium galegae"
+"145"	"adr"	"1029756"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Hyphomicrobiaceae"	"Hyphomicrobium"	"Hyphomicrobium nitrativorans"
+"146"	"afu"	"1045858"	"Bacteria"	"Spirochaetes"	"Spirochaetia"	"Brachyspirales"	"Brachyspiraceae"	"Brachyspira"	"Brachyspira intermedia"
+"147"	"abf"	"1076596"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Acetobacteraceae"	"Acetobacter"	"Acetobacter persici"
+"148"	"adr"	"1082933"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Mesorhizobium"	"Mesorhizobium amorphae"
+"149"	"abf"	"1088721"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Novosphingobium"	"Novosphingobium pentaromativorans"
+"150"	"afv"	"1090615"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Nakamurellales"	"Nakamurellaceae"	"Nakamurella"	"Nakamurella panacisegetis"
+"151"	"adr"	"1094489"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bartonellaceae"	"Bartonella"	"Bartonella australis"
+"152"	"afc"	"1150461"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Bifidobacteriales"	"Bifidobacteriaceae"	"Bifidobacterium"	"Bifidobacterium scardovii"
+"153"	"adr"	"1197460"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. 6(2017)"
+"154"	"adr"	"1245469"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium oligotrophicum"
+"155"	"adr"	"1274631"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium icense"
+"156"	"adr"	"1277257"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Liberibacter"	"Candidatus Liberibacter africanus"
+"157"	"afu"	"1287055"	"Bacteria"	"Spirochaetes"	"Spirochaetia"	"Brachyspirales"	"Brachyspiraceae"	"Brachyspira"	"Brachyspira hampsonii"
+"158"	"adr"	"1295366"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Mesorhizobium"	"Mesorhizobium soli"
+"159"	"aeh"	"1316254"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Veillonella"	"Veillonella parvula"
+"160"	"adr"	"1325095"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium guangzhouense"
+"161"	"adr"	"1325107"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium zhanjiangense"
+"162"	"adr"	"1325115"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium guangxiense"
+"163"	"abf"	"1327635"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. Cra20"
+"164"	"abf"	"1332080"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingobium"	"Sphingobium baderi"
+"165"	"acq"	"1384484"	"Bacteria"	"Actinobacteria"	"Coriobacteriia"	"Eggerthellales"	"Eggerthellaceae"	"Adlercreutzia"	"Adlercreutzia equolifaciens"
+"166"	"agv"	"1387353"	"Bacteria"	"Planctomycetes"	"Planctomycetia"	"Isosphaerales"	"Isosphaeraceae"	"Paludisphaera"	"Paludisphaera borealis"
+"167"	"abf"	"1390395"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. LK11"
+"168"	"abf"	"1396826"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Leisingera"	"Leisingera aquaemixtae"
+"169"	"adr"	"1404768"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium amphicarpaeae"
+"170"	"adr"	"1404864"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium cosmicum"
+"171"	"abf"	"1411902"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Celeribacter"	"Celeribacter manganoxidans"
+"172"	"abf"	"1434011"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Acetobacteraceae"	"Komagataeibacter"	NA
+"173"	"adr"	"1437360"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium erythrophlei"
+"174"	"abf"	"1523415"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. AAP5"
+"175"	"agz"	"1531429"	"Bacteria"	"Actinobacteria"	"Coriobacteriia"	"Coriobacteriales"	"Coriobacteriaceae"	NA	"Coriobacteriaceae bacterium 68-1-3"
+"176"	"abf"	"1550728"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Blastomonas"	"Blastomonas fulva"
+"177"	"abf"	"1609977"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas hengshuiensis"
+"178"	"abf"	"1612173"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Rhodospirillaceae"	"Niveispirillum"	"Niveispirillum cyanobacteriorum"
+"179"	"agz"	"1643824"	"Bacteria"	"Actinobacteria"	"Coriobacteriia"	"Coriobacteriales"	"Atopobiaceae"	NA	NA
+"180"	"ahu"	"1737490"	"Bacteria"	"Proteobacteria"	"Gammaproteobacteria"	"Cellvibrionales"	"Cellvibrionaceae"	"Agarilytica"	"Agarilytica rhodophyticola"
+"181"	"abf"	"1792508"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Yangia"	"Yangia sp. CCB-MM3"
+"182"	"abf"	"1813879"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. HKS19"
+"183"	"adr"	"1842534"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Sinorhizobium"	"Sinorhizobium sp. RAC02"
+"184"	"adr"	"1850374"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Xanthobacteraceae"	"Ancylobacter"	"Ancylobacter sp. TS-1"
+"185"	"adb"	"1851148"	"Bacteria"	"Planctomycetes"	"Phycisphaerae"	"Sedimentisphaerales"	"Sedimentisphaeraceae"	"Limihaloglobus"	"Limihaloglobus sulfuriphilus"
+"186"	"afb"	"1852377"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	"Actinomyces pacaensis"
+"187"	"abf"	"1855519"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingobium"	"Sphingobium sp. EP60837"
+"188"	"adr"	"1867719"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Phyllobacterium"	"Phyllobacterium zundukense"
+"189"	"abf"	"1874061"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingopyxis"	"Sphingopyxis sp. EG6"
+"190"	"abf"	"1892855"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingosinicella"	"Sphingosinicella sp. BN140058"
+"191"	"abf"	"1914525"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingopyxis"	"Sphingopyxis sp. FD7"
+"192"	"ahy"	"1921086"	"Bacteria"	"Proteobacteria"	"Zetaproteobacteria"	"Mariprofundales"	"Mariprofundaceae"	"Mariprofundus"	"Mariprofundus aestuarium"
+"193"	"abf"	"1921510"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Tardibacter"	"Tardibacter chloracetimidivorans"
+"194"	"abf"	"1938607"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. LM7"
+"195"	"afn"	"2005884"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Zoogloeaceae"	"Thauera"	"Thauera sp. K11"
+"196"	"abf"	"2021862"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Labrenzia"	"Labrenzia sp. VG12"
+"197"	"abf"	"2048283"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Rhodospirillaceae"	"Thalassospira"	"Thalassospira marina"
+"198"	"adr"	"2048897"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Rhizobiaceae"	"Rhizobium"	"Rhizobium sp. NXC24"
+"199"	"adr"	"2051553"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium currus"
+"200"	"adr"	"2057741"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. SK17"
+"201"	"adr"	"2067957"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium sp. DM1"
+"202"	"afn"	"2067960"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Zoogloeaceae"	"Azoarcus"	"Azoarcus sp. SY39"
+"203"	"afb"	"2081702"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	"Actinomyces sp. oral taxon 897"
+"204"	"abf"	"2082188"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingobium"	"Sphingobium sp. YG1"
+"205"	"aeh"	"2144175"	"Bacteria"	"Firmicutes"	"Negativicutes"	"Veillonellales"	"Veillonellaceae"	"Megasphaera"	"Megasphaera stantonii"
+"206"	"adr"	"2202825"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium durans"
+"207"	"adr"	"2202826"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium sp. 17Sr1-1"
+"208"	"adr"	"2202828"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium sp. 17Sr1-43"
+"209"	"abf"	"2219696"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. FARSPH"
+"210"	"afn"	"2231055"	"Bacteria"	"Proteobacteria"	"Betaproteobacteria"	"Rhodocyclales"	"Azonexaceae"	"Dechloromonas"	"Dechloromonas sp. HYN0024"
+"211"	"abf"	"2268451"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Pelagibacterales"	"Pelagibacteraceae"	"Candidatus Pelagibacter"	"Candidatus Pelagibacter sp. FZCC0015"
+"212"	"adr"	"2282523"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylorubrum"	NA
+"213"	"adr"	"2305987"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Lentilitoribacter"	"Lentilitoribacter sp. Alg239-R112"
+"214"	"abf"	"2319844"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. YZ-8"
+"215"	"abf"	"2492837"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. C8-2"
+"216"	"adr"	"2493093"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	"Bradyrhizobium sp. LCT2"
+"217"	"adr"	"2493668"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Mesorhizobium"	"Mesorhizobium sp. M9A.F.Ca.ET.002.03.1.2"
+"218"	"adr"	"2493673"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Mesorhizobium"	"Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1"
+"219"	"adr"	"2493675"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Mesorhizobium"	"Mesorhizobium sp. M4B.F.Ca.ET.058.02.1.1"
+"220"	"adr"	"2493678"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Phyllobacteriaceae"	"Mesorhizobium"	"Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1"
+"221"	"abf"	"2500532"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Paracoccus"	"Paracoccus sp. Arc7-R13"
+"222"	"abf"	"2500533"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Pseudorhodobacter"	"Pseudorhodobacter sp. S12M18"
+"223"	"adb"	"2528035"	"Bacteria"	"Planctomycetes"	"Phycisphaerae"	NA	NA	NA	"Phycisphaerae bacterium RAS2"
+"224"	"adr"	"2528642"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Lichenihabitantaceae"	"Lichenihabitans"	"Lichenihabitans psoromatis"
+"225"	"afb"	"2529408"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Schaalia"	NA
+"226"	"abf"	"2547601"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Erythrobacteraceae"	"Porphyrobacter"	"Porphyrobacter sp. YT40"
+"227"	"abf"	"2560053"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Paracoccus"	"Paracoccus liaowanqingii"
+"228"	"abf"	"2565554"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingobium"	"Sphingobium sp. PAMC28499"
+"229"	"abf"	"2565555"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. PAMC26645"
+"230"	"adr"	"2572036"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Beijerinckiaceae"	NA	"Beijerinckiaceae bacterium RH AL1"
+"231"	"abf"	"2587163"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Oceanicola"	"Oceanicola sp. D3"
+"232"	"agr"	"2591108"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Streptosporangiales"	"Thermomonosporaceae"	"Actinomadura"	"Actinomadura sp. WMMA1423"
+"233"	"abf"	"2602015"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Rhodospirillaceae"	"Hypericibacter"	"Hypericibacter terrae"
+"234"	"adr"	"2603276"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Methylobacterium"	"Methylobacterium sp. WL1"
+"235"	"afb"	"2609248"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Actinomycetales"	"Actinomycetaceae"	"Actinomyces"	NA
+"236"	"abf"	"2622653"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Caulobacterales"	"Caulobacteraceae"	"Brevundimonas"	NA
+"237"	"adr"	"2631404"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Tardiphaga"	NA
+"238"	"adr"	"2631580"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bradyrhizobiaceae"	"Bradyrhizobium"	NA
+"239"	"adr"	"2645622"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Bartonellaceae"	"Bartonella"	NA
+"240"	"abf"	"2648686"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodobacterales"	"Rhodobacteraceae"	"Labrenzia"	NA
+"241"	"agr"	"2650775"	"Bacteria"	"Actinobacteria"	"Actinobacteria"	"Streptosporangiales"	"Thermomonosporaceae"	"Actinomadura"	"Actinomadura sp. WMMB 499"
+"242"	"adr"	"2651334"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	"Methylobacteriaceae"	"Microvirga"	"Microvirga sp. HR1"
+"243"	"abf"	"2681549"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. LMO-1"
+"244"	"abf"	"2683265"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Erythrobacteraceae"	"Porphyrobacter"	NA
+"245"	"abf"	"2697033"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhodospirillales"	"Acetobacteraceae"	"Bombella"	"Bombella sp. KACC 21507"
+"246"	"abf"	"2698679"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingomonas"	"Sphingomonas sp. C33"
+"247"	"abf"	"2711215"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Sphingomonadales"	"Sphingomonadaceae"	"Sphingosinithalassobacter"	"Sphingosinithalassobacter sp. zrk23"
+"248"	"adr"	"2712222"	"Bacteria"	"Proteobacteria"	"Alphaproteobacteria"	"Rhizobiales"	NA	"Nordella"	"Nordella sp. HKS 07"

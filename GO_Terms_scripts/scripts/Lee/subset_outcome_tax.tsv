@@ -1,0 +1,69 @@
+namespace	depth	name
+GO:0000166	molecular_function	4	nucleotide binding
+GO:0000271	biological_process	5	polysaccharide biosynthetic process
+GO:0000287	molecular_function	5	magnesium ion binding
+GO:0003676	molecular_function	3	nucleic acid binding
+GO:0003677	molecular_function	4	DNA binding
+GO:0003723	molecular_function	4	RNA binding
+GO:0004175	molecular_function	4	endopeptidase activity
+GO:0004540	molecular_function	5	ribonuclease activity
+GO:0004747	molecular_function	6	ribokinase activity
+GO:0005215	molecular_function	1	transporter activity
+GO:0005524	molecular_function	8	ATP binding
+GO:0005975	biological_process	3	carbohydrate metabolic process
+GO:0005976	biological_process	4	polysaccharide metabolic process
+GO:0006310	biological_process	7	DNA recombination
+GO:0006520	biological_process	6	cellular amino acid metabolic process
+GO:0006753	biological_process	6	nucleoside phosphate metabolic process
+GO:0006810	biological_process	3	transport
+GO:0006811	biological_process	4	ion transport
+GO:0008270	molecular_function	6	zinc ion binding
+GO:0008879	molecular_function	5	glucose-1-phosphate thymidylyltransferase activity
+GO:0009059	biological_process	4	macromolecule biosynthetic process
+GO:0009117	biological_process	7	nucleotide metabolic process
+GO:0016043	biological_process	3	cellular component organization
+GO:0016051	biological_process	4	carbohydrate biosynthetic process
+GO:0016053	biological_process	4	organic acid biosynthetic process
+GO:0016070	biological_process	6	RNA metabolic process
+GO:0016310	biological_process	5	phosphorylation
+GO:0016462	molecular_function	5	pyrophosphatase activity
+GO:0016491	molecular_function	2	oxidoreductase activity
+GO:0016773	molecular_function	4	phosphotransferase activity, alcohol group as acceptor
+GO:0016817	molecular_function	3	hydrolase activity, acting on acid anhydrides
+GO:0016853	molecular_function	2	isomerase activity
+GO:0017076	molecular_function	5	purine nucleotide binding
+GO:0017111	molecular_function	6	nucleoside-triphosphatase activity
+GO:0018130	biological_process	4	heterocycle biosynthetic process
+GO:0019200	molecular_function	5	carbohydrate kinase activity
+GO:0019438	biological_process	4	aromatic compound biosynthetic process
+GO:0019538	biological_process	4	protein metabolic process
+GO:0022857	molecular_function	2	transmembrane transporter activity
+GO:0030554	molecular_function	6	adenyl nucleotide binding
+GO:0032555	molecular_function	6	purine ribonucleotide binding
+GO:0033692	biological_process	6	cellular polysaccharide biosynthetic process
+GO:0034637	biological_process	5	cellular carbohydrate biosynthetic process
+GO:0034654	biological_process	5	nucleobase-containing compound biosynthetic process
+GO:0035639	molecular_function	4	purine ribonucleoside triphosphate binding
+GO:0036094	molecular_function	2	small molecule binding
+GO:0043412	biological_process	4	macromolecule modification
+GO:0044262	biological_process	4	cellular carbohydrate metabolic process
+GO:0044264	biological_process	5	cellular polysaccharide metabolic process
+GO:0045226	biological_process	7	extracellular polysaccharide biosynthetic process
+GO:0046379	biological_process	6	extracellular polysaccharide metabolic process
+GO:0046835	biological_process	6	carbohydrate phosphorylation
+GO:0046914	molecular_function	5	transition metal ion binding
+GO:0051179	biological_process	1	localization
+GO:0051234	biological_process	2	establishment of localization
+GO:0055085	biological_process	4	transmembrane transport
+GO:0055114	biological_process	2	oxidation-reduction process
+GO:0071702	biological_process	4	organic substance transport
+GO:0071705	biological_process	4	nitrogen compound transport
+GO:0071840	biological_process	2	cellular component organization or biogenesis
+GO:0072527	biological_process	4	pyrimidine-containing compound metabolic process
+GO:0072528	biological_process	5	pyrimidine-containing compound biosynthetic process
+GO:0090501	biological_process	7	RNA phosphodiester bond hydrolysis
+GO:0090503	biological_process	8	RNA phosphodiester bond hydrolysis, exonucleolytic
+GO:0097159	molecular_function	2	organic cyclic compound binding
+GO:0140098	molecular_function	2	catalytic activity, acting on RNA
+GO:1901265	molecular_function	3	nucleoside phosphate binding
+GO:1901565	biological_process	4	organonitrogen compound catabolic process

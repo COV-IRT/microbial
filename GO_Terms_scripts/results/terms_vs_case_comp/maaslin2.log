@@ -1,0 +1,31 @@
+2021-03-30 16:12:48 INFO::Writing function arguments to log file
+2021-03-30 16:12:48 DEBUG::Function arguments
+2021-03-30 16:12:48 DEBUG::Output folder: ./results/terms_vs_case_comp
+2021-03-30 16:12:48 DEBUG::Min Abundance: 0.000000
+2021-03-30 16:12:48 DEBUG::Min Prevalence: 0.000000
+2021-03-30 16:12:48 DEBUG::Normalization: CLR
+2021-03-30 16:12:48 DEBUG::Transform: NONE
+2021-03-30 16:12:48 DEBUG::Analysis method: LM
+2021-03-30 16:12:48 DEBUG::Max significance: 0.050000
+2021-03-30 16:12:48 DEBUG::Random effects: patient,publication
+2021-03-30 16:12:48 DEBUG::Fixed effects: case
+2021-03-30 16:12:48 DEBUG::Correction method: BH
+2021-03-30 16:12:48 DEBUG::Standardize: TRUE
+2021-03-30 16:12:48 DEBUG::Cores: 8
+2021-03-30 16:12:48 INFO::Verifying options selected are valid
+2021-03-30 16:12:49 INFO::Determining format of input files
+2021-03-30 16:12:49 INFO::Input format is data samples as rows and metadata samples as rows
+2021-03-30 16:12:49 DEBUG::A total of 86 samples were found in both the data and metadata
+2021-03-30 16:12:49 DEBUG::Reordering data/metadata to use same sample ordering
+2021-03-30 16:12:49 INFO::Formula for random effects: expr ~ (1 | patient) + (1 | publication)
+2021-03-30 16:12:49 INFO::Formula for fixed effects: expr ~  case
+2021-03-30 16:12:49 INFO::Running selected normalization method: CLR
+2021-03-30 16:12:50 INFO::Filter data based on min abundance and min prevalence
+2021-03-30 16:12:50 INFO::Total samples in data: 86
+2021-03-30 16:12:50 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2021-03-30 16:12:50 INFO::Total filtered features: 0
+2021-03-30 16:12:50 INFO::Filtered feature names:
+2021-03-30 16:12:50 INFO::Applying z-score to standardize continuous metadata
+2021-03-30 16:12:50 INFO::Running selected transform method: NONE
+2021-03-30 16:12:50 INFO::Running selected analysis method: LM
+2021-03-30 16:12:50 INFO::Creating cluster of 8 R processes
