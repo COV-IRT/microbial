@@ -1,6 +1,7 @@
 library(tidyverse)
 library(phyloseq)
-setwd("c:/github/microbial/step2_kraken2_analysis/")
+getwd()
+#setwd("c:/github/microbial/step2_kraken2_analysis/")
 
 # if wanting to load the objects
 #load("heat-tree.RData")
@@ -76,6 +77,7 @@ pseq<-phyloseq(otu_table(bac_tax_counts_tab,taxa_are_rows = T),tax_table(as.matr
 pseq
 
 library(decontam)
+
 #export the shen et al. samples for parsing with decontam
 pseq_shen<-subset_samples(pseq,bioproject=="CRA002476")
 pseq_not_shen<-subset_samples(pseq,bioproject!="CRA002476")
@@ -112,19 +114,19 @@ clean_count_df_shen<-count_df_shen%>%filter(!taxid%in%contam_shen)
 a<-clean_count_df_shen%>%select(-taxid)
 b<-count_df_shen%>%select(-taxid)
 perc_remain<-(colSums(a)/colSums(b))*100
-write.table(perc_remain,"percent_remaining_post_decontam.tsv",sep = "\t",quote = F,row.names = F)
-tax<-as.tibble(bac_tax_info_tab,rownames="taxid")
+#write.table(perc_remain,"percent_remaining_post_decontam.tsv",sep = "\t",quote = F,row.names = F)
+tax<-as_tibble(bac_tax_info_tab,rownames="taxid")
 contaminants<-tax%>%filter(taxid %in% contam_shen)
 not_contaminants<-tax%>%filter(!taxid %in% contam_shen)
 
-contaminants
-not_contaminants
+contaminants%>%filter(genus=="Variovorax")
+not_contaminants%>%filter(genus=="Variovorax")
 
 
 
 not_contaminants
-write.table(x = contaminants,file = "Shen_contaminants.tsv",sep = "\t",row.names = F,quote = F)
-write.table(x = not_contaminants,file = "Shen_not_contaminants.tsv",sep = "\t",row.names = F,quote = F)
+#write.table(x = contaminants,file = "Shen_contaminants.tsv",sep = "\t",row.names = F,quote = F)
+#write.table(x = not_contaminants,file = "Shen_not_contaminants.tsv",sep = "\t",row.names = F,quote = F)
 
 contam_shen<-as.factor(contam_shen)
 
@@ -146,12 +148,12 @@ pseq_decontam_no_neg_core #[ 566 taxa and 86 samples ]
 
 
 
-
+#install.packages('metacoder')
 library(metacoder)
 # making our data look like theirs in this example page: https://grunwaldlab.github.io/metacoder_documentation/example.html
   # which we can look at in the hmp_otus object after loading the metacoder library
 hmp_otus
-   # they have an ID column, a lineage column, then the counts, we're going to turn our tax info into their lineage column format
+# they have an ID column, a lineage column, then the counts, we're going to turn our tax info into their lineage column format
 hmp_otus$lineage %>% head(30) %>% tail
 
 lineage_vector <- paste0(
@@ -168,40 +170,48 @@ lineage_vector <- gsub("(;[c-s]__NA)*$", "", lineage_vector)
 head(lineage_vector)
 # beautiful, building table like hmp_otus
 tab_for_taxa_object <- data.frame(taxid = row.names(bac_tax_info_tab), lineage = lineage_vector, bac_tax_counts_tab)
-
+dim(tab_for_taxa_object)
+tab_for_taxa_object<-tab_for_taxa_object%>%select(-negs)
 
 head(tab_for_taxa_object)
 head(hmp_otus)[, 1:10]
 str(tab_for_taxa_object)
-   # i think all's ok, let's give it a shot
+# i think all's ok, let's give it a shot
+sample_data(pseq_decontam_no_neg_core)$case<-gsub('Control_Healthy','Uninfected',sample_data(pseq_decontam_no_neg_core)$case)
+sample_data(pseq_decontam_no_neg_core)$case<-gsub('COVID 19','COVID-19',sample_data(pseq_decontam_no_neg_core)$case)
+sample_data(pseq_decontam_no_neg_core)$case<-gsub('Control_Sick','CAP',sample_data(pseq_decontam_no_neg_core)$case)
+
+
+
+
+
+
 
 pseq_obj<-parse_phyloseq(pseq_decontam_no_neg_core)
-pseq_obj
+
 taxa_obj <- parse_tax_data(tab_for_taxa_object,
                            class_cols = "lineage",
                            class_sep = ";",
                            class_regex = "^([c-s]{1})__(.*)$",
                            class_key = c(tax_rank = "info", tax_name = "taxon_name"))
 
-taxa_obj
+
+library(taxa)
 # looks ok so far, following along with same example page to filter low abundance things, just picking anything
+taxa_obj_filt <- filter_taxa(taxa_obj, n_obs > 5)
+pseq_obj_filt <- filter_taxa(pseq_obj, n_obs > 5)
 
-taxa_obj_filt <- taxa::filter_taxa(taxa_obj, n_obs > 5)
-pseq_obj_filt <- taxa::filter_taxa(pseq_obj, n_obs > 5)
 
-taxa_obj_filt
-pseq_obj_filt
 # this is where we normalize across samples (i'm curious what this spits out when there are negative values in the table like from the vst, ha)
 #################################################################################
 pseq_obj_filt$data$tax_proportions <- calc_obs_props(pseq_obj_filt, "otu_table") # call this by the otu-table
-
 taxa_obj_filt$data$tax_proportions <- calc_obs_props(taxa_obj_filt, "tax_data")
 ########################################################################################
 
 # i don't yet understand why the calc_taxon_abund() step is dropping us down to 755, when all of our taxa are unique already... but oh well
-
 pseq_obj_filt$data$tax_abund <- calc_taxon_abund(pseq_obj_filt, "tax_proportions", cols = target_samples_no_neg)
-taxa_obj_filt$data$tax_abund <- calc_taxon_abund(taxa_obj_filt, "tax_proportions", cols = target_samples)
+
+taxa_obj_filt$data$tax_abund <- calc_taxon_abund(taxa_obj_filt, "tax_proportions", cols = target_samples_no_neg)
 
 # not sure if we want the groups argument here or not
 pseq_obj_filt$data$tax_occ <- calc_n_samples(pseq_obj_filt, "tax_abund")
@@ -211,68 +221,137 @@ taxa_obj_filt$data$tax_occ <- calc_n_samples(taxa_obj_filt, "tax_abund")
 pseq_obj_filt$data$compare_tax_abund <- compare_groups(pseq_obj_filt,
                                                        "tax_abund",
                                                        cols = target_samples_no_neg,
-                                                       groups = pseq_obj_filt$data$sample_data$sample_type)
+                                                       groups = pseq_obj_filt$data$sample_data$case)
 
 
 
 taxa_obj_filt$data$compare_tax_abund <- compare_groups(taxa_obj_filt,
-                                                             "tax_abund",
-                                                             cols = target_samples,
-                                                             groups = target_sample_info_tab$sample_type)
+                                                       "tax_abund",
+                                                       cols = target_samples_no_neg,
+                                                       groups =pseq_obj_filt$data$sample_data$case)
+
 
 
 range(pseq_obj_filt$data$compare_tax_abund$log2_median_ratio, finite = TRUE)
 
 range(taxa_obj_filt$data$compare_tax_abund$log2_median_ratio, finite = TRUE)
+
+taxa_obj_filt_slim<-taxa_obj_filt$data$compare_tax_abund
+taxa_obj_filt$data$compare_tax_abund
+taxa_obj_filt$data$compare_tax_abund%>%filter(taxon_id=="bow")
+
+pseq_obj_filt$data$tax_data%>%filter(genus=="Sphingomonas")
+
+pseq_obj_filt$data$compare_tax_abund%>%filter(taxon_id=="aoz")
+#%>%filter(wilcox_p_value<0.05) 
+df2<-taxa_obj_filt$data$compare_tax_abund%>%filter(treatment_1=="COVID19"|treatment_2=="Uninfected")%>%filter(wilcox_p_value<=0.08)#%>%filter(abs(log2_median_ratio)>=1.76)
+df3<-taxa_obj_filt$data$compare_tax_abund%>%filter(treatment_1=="COVID19")%>%filter(treatment_2=="CAP")%>%filter(wilcox_p_value<=0.9)#%>%filter(abs(log2_median_ratio)>=1.76)
+#df31<-taxa_obj_filt$data$compare_tax_abund%>%filter(treatment_1=="Uninfected")%>%filter(treatment_2=="CAP")%>%filter(wilcox_p_value<=0.3)#%>%filter(abs(log2_median_ratio)>=1.76)
+
+df2
+df3
+df31
+df31
+df4<-full_join(df2,df3)
+#df4<-full_join(df31,df4)
+df4
+
+
+df5<-inner_join(df4,pseq_obj_filt$data$tax_data)%>%filter(!is.na(genus))%>%filter(wilcox_p_value<=0.05)
+df5
+
+
+
+
+
+df6<-df5%>%filter(!is.na(species))%>%distinct_all()%>%filter(duplicated(genus))%>%arrange(treatment_1,treatment_2)
+df6
+as.data.frame(df6)
+df4
+hist(df4$wilcox_p_value)
+keep<-df4$taxon_id
+pseq_obj
+pseq_obj_filt<-pseq_obj%>%filter_taxa(taxon_ids%in%keep,supertaxa = T)
+pseq_obj_filt
+taxa_obj_filt
+
+##########re-run the tax stuff#########
+pseq_obj_filt<-pseq_obj%>%filter_taxa(taxon_ids%in%keep,supertaxa = T)
+pseq_obj_filt
+pseq_obj_filt$data$tax_proportions <- calc_obs_props(pseq_obj_filt, "otu_table") # call this by the otu-table
+pseq_obj_filt$data$tax_abund <- calc_taxon_abund(pseq_obj_filt, "tax_proportions", cols = target_samples_no_neg)
+pseq_obj_filt$data$tax_occ <- calc_n_samples(pseq_obj_filt, "tax_abund")
+pseq_obj_filt$data$compare_tax_abund <- compare_groups(pseq_obj_filt,
+                                                       "tax_abund",
+                                                       cols = target_samples_no_neg,
+                                                       groups = pseq_obj_filt$data$sample_data$case)
+warnings()
+range(pseq_obj_filt$data$compare_tax_abund$log2_median_ratio, finite = TRUE)
+pseq_obj_filt$data$compare_tax_abund$log2_median_ratio
+taxon_ids(obj = pseq_obj_filt)
+pseq_obj_filt
 # we're looking at -6.8 to 7.3
 
 # trying a plot (commenting out node_label = taxon_names makes them plot much faster once saved to an object, good for when trying different things)
-
-fig1 <- heat_tree_matrix(taxa_obj_filt,
-                         data = "compare_tax_abund",
-                         node_size = n_obs,
-                         node_label = taxon_names,
-                         node_color = log2_median_ratio,
-                         node_color_range = diverging_palette(),
-                         node_color_trans = "linear",
-                         node_color_interval = c(-7.5,7.5),
-                         node_size_axis_label = "Taxa counts",
-                         node_color_axis_label = "Log2 median ratio",
-                         layout = "davidson-harel",
-                         initial_layout = "reingold-tilford",
-                         output_file = "node_color_trans_linear.pdf",
-                         verbose = TRUE)
+# 
+# fig1 <- heat_tree_matrix(taxa_obj_filt,
+#                          data = "compare_tax_abund",
+#                          node_size = n_obs,
+#                          node_label = taxon_names,
+#                          node_color = log2_median_ratio,
+#                          node_color_range = diverging_palette(),
+#                          node_color_trans = "linear",
+#                          node_color_interval = c(-3,3),
+#                          node_size_axis_label = "Taxa counts",
+#                          node_color_axis_label = "Log2 median ratio",
+#                          layout = "davidson-harel",
+#                          initial_layout = "reingold-tilford",
+#                          output_file = "node_color_trans_linear.pdf",
+#                          verbose = TRUE)
+# fig1
+range(pseq_obj_filt$data$compare_tax_abund$log2_median_ratio, finite = TRUE)
 pseq_fig1 <- heat_tree_matrix(pseq_obj_filt,
                          data = "compare_tax_abund",
                          node_size = n_obs,
                          node_label = taxon_names,
                          node_color = log2_median_ratio,
                          node_color_range = diverging_palette(),
-                         node_color_trans = "linear",
-                         node_color_interval = c(-3.9,3.9),
+                         node_color_trans = "area",
+                         node_color_interval = c(-2,2),
                          node_size_axis_label = "Taxa counts",
                          node_color_axis_label = "Log2 median ratio",
                          layout = "davidson-harel",
+                         key_size = 0.7,
+                         seed = 314,  
+                         aspect_ratio = 1.5,
                          initial_layout = "reingold-tilford",
+                         repel_labels=T,
                          output_file = "node_color_trans_linear.pdf",
                          verbose = TRUE)
-
 pseq_fig1
-fig2 <- heat_tree_matrix(taxa_obj_filt,
-                         data = "compare_tax_abund",
-                         node_size = n_obs,
-                         node_label = taxon_names,
-                         node_color = log2_median_ratio,
-                         node_color_range = diverging_palette(),
-                         node_color_trans = "area",
-                         node_color_interval = c(-7.5,7.5),
-                         node_size_axis_label = "Taxa counts",
-                         node_color_axis_label = "Log2 median ratio",
-                         layout = "davidson-harel",
-                         initial_layout = "reingold-tilford",
-                         output_file = "node_color_trans_area.pdf",
-                         verbose = TRUE)
 
+# 
+# 
+# fig2 <- heat_tree_matrix(taxa_obj_filt,
+#                          data = "compare_tax_abund",
+#                          node_size = n_obs,
+#                          node_label = taxon_names,
+#                          node_color = log2_median_ratio,
+#                          node_color_range = diverging_palette(),
+#                          node_color_trans = "area",
+#                          node_color_interval = c(-9,9),
+# #                         node_color_interval = c(-7.5,7.5),
+#                          node_size_axis_label = "Taxa counts",
+#                          node_color_axis_label = "Log2 median ratio",
+#                          layout = "davidson-harel",
+#                          initial_layout = "reingold-tilford",
+#                          output_file = "node_color_trans_area.pdf",
+#                          key_size = 0.5,
+#                          seed = 314,  
+#                          title = "Taxonomic Comparison of COVID19 vs Uninfected & CAP",
+#                          title_size = 0.08,
+#                          verbose = TRUE)
+# fig2
 pseq_fig2 <- heat_tree_matrix(pseq_obj_filt,
                          data = "compare_tax_abund",
                          node_size = n_obs,

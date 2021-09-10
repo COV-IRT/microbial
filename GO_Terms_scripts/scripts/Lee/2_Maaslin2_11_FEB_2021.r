@@ -7,18 +7,19 @@ setwd('/home/jovyan/work/microbial/GO_term_analysis/16_DEC_2020_dmm_troubleshoot
 load(file = "././images/1_dmm_03222021.RDA")
 
 term_pseq_no_neg_comp<-microbiome::transform(x = term_pseq_no_neg,transform = "compositional")
+term_pseq_no_neg_comp<-microbiome::transform(x = pseq_decontam_no_neg_core,transform = "compositional")
 
 library(microbiome)
 
 df_input_data<-data.frame(t(otu_table(term_pseq_no_neg_comp)))
 df_input_metadata<-data.frame(sample_data(term_pseq_no_neg_comp))
 
-write.table(x = df_input_metadata,file = "maaslin2_case_analysis_metadata.tsv",quote = F,sep = "\t",row.names = T,)
+#write.table(x = df_input_metadata,file = "maaslin2_case_analysis_metadata.tsv",quote = F,sep = "\t",row.names = T,)
 
 case_norm<-Maaslin2(
   input_data = df_input_data,
   input_metadata = df_input_metadata,
-  output="./results/terms_vs_case_comp_norm",
+  output="./trash",
   min_abundance = 0.01, 
   min_prevalence = 0.1, 
   normalization = "CLR",
@@ -29,11 +30,34 @@ case_norm<-Maaslin2(
   fixed_effects = c("case"),
   correction="BH",
   standardize = TRUE,
-  cores = 48,
+  cores = 24,
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num,
  reference="case,COVID19")
+
+
+
+res<-unique(case_norm$results$feature)
+res<-gsub("X","",res)
+pseq_res<-prune_taxa(taxa = res,x = pseq_decontam_no_neg_core)
+resmelt<-psmelt(pseq_res)
+resmelt
+library(ggpubr)
+library(ggsci)
+ggviolin(data = resmelt,x = "case",y = "Abundance",)
+library(ggsci)
+library(ggpubr)
+ggviolin(data = s,x = "case",y = "Abundance",add = "jitter")+
+  yscale(.scale = "log10",.format = T)+
+  stat_compare_means(aes(label = ..p.signif..),method = "t.test", ref.group = "COVID19")
+my_comparisons <- list( c("COVID19", "CAP"), c("CAP","Uninfected"),c("COVID19", "Uninfected"))
+
+ggviolin(data = s,x = "case",y = "Abundance",add = "jitter",trim = T)+#,facet.by = "species")+
+  yscale(.scale = "log10",.format = T)+
+  stat_compare_means(comparisons = my_comparisons,label.y = c(6,6.25,6.5))+
+  stat_compare_means(label.y = c(5))+rotate_x_text()#,aes
+
 
 term_pseq_outcome<-subset_samples(physeq = term_pseq_no_neg,outcome!="NA")
 x<-sample_sums(term_pseq_outcome)

@@ -100,21 +100,20 @@ taxa_obj <- parse_tax_data(tab_for_taxa_object,
                            class_key = c(tax_rank = "info", tax_name = "taxon_name"))
 
 taxa_obj
-  # looks ok so far, following along with same example page to filter low abundance things, just picking anything
+# looks ok so far, following along with same example page to filter low abundance things, just picking anything
 
 taxa_obj_filt <- taxa::filter_taxa(taxa_obj, n_obs > 5)
-
 
 # this is where we normalize across samples (i'm curious what this spits out when there are negative values in the table like from the vst, ha)
 taxa_obj_filt$data$tax_proportions <- calc_obs_props(taxa_obj_filt, "tax_data")
 
-  # i don't yet understand why the calc_taxon_abund() step is dropping us down to 755, when all of our taxa are unique already... but oh well
+# i don't yet understand why the calc_taxon_abund() step is dropping us down to 755, when all of our taxa are unique already... but oh well
 taxa_obj_filt$data$tax_abund <- calc_taxon_abund(taxa_obj_filt, "tax_proportions", cols = target_samples)
 
-  # not sure if we want the groups argument here or not
+# not sure if we want the groups argument here or not
 taxa_obj_filt$data$tax_occ <- calc_n_samples(taxa_obj_filt, "tax_abund")
 
-  # doing the compare now with the abund table
+# doing the compare now with the abund table
 taxa_obj_filt$data$compare_tax_abund <- compare_groups(taxa_obj_filt,
                                                              "tax_abund",
                                                              cols = target_samples,
@@ -158,9 +157,11 @@ fig2 <- heat_tree_matrix(taxa_obj_filt,
                          output_file = "node_color_trans_area.pdf",
                          verbose = TRUE)
 
+getwd()
 
+
+fig2
 ## it looks to me like the default "area" node_color_trans gives a better pop than the "linear"
-
 ## i think we might want to slim it down more, and i think we can do that much more easily outside of metacoder, just like
 ## we made the object above with what we wanted, we can trim them down first and then not have to worry about trimming them down in there (which is confusing me, ha)
 ## although maybe we can do it conveniently enough with the supertaxa() function: https://github.com/ropensci/taxa#supertaxa
@@ -171,6 +172,10 @@ fig2 <- heat_tree_matrix(taxa_obj_filt,
 ## last note for now while i'm remembering it, there are NAs still in the taxonomy, because there are stupid ones that are right in the middle, and not at the end where my little code above took care of them
 ## we can see them with this:
 lineage_vector[grep("NA", x=lineage_vector)]
-    ## some show up in the plot, and some nodes have no labels, not sure if that's another problem or not currently
-    ## some of these are consistent enough it'd be easy to fix, like the Cyanobacteria all have NA for class, we can fix that and it cuts
-    ## this list from 530 down to like 330, if there are others that are big chunks, maybe we could fix them all if we wanted
+## some show up in the plot, and some nodes have no labels, not sure if that's another problem or not currently
+## some of these are consistent enough it'd be easy to fix, like the Cyanobacteria all have NA for class, we can fix that and it cuts
+## this list from 530 down to like 330, if there are others that are big chunks, maybe we could fix them all if we wanted
+
+
+
+
