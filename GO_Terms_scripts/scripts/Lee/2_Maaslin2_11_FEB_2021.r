@@ -7,19 +7,30 @@ setwd('/home/jovyan/work/microbial/GO_term_analysis/16_DEC_2020_dmm_troubleshoot
 load(file = "././images/1_dmm_03222021.RDA")
 
 term_pseq_no_neg_comp<-microbiome::transform(x = term_pseq_no_neg,transform = "compositional")
+<<<<<<< Updated upstream
 term_pseq_no_neg_comp<-microbiome::transform(x = pseq_decontam_no_neg_core,transform = "compositional")
+=======
+>>>>>>> Stashed changes
 
 library(microbiome)
 
 df_input_data<-data.frame(t(otu_table(term_pseq_no_neg_comp)))
 df_input_metadata<-data.frame(sample_data(term_pseq_no_neg_comp))
 
+<<<<<<< Updated upstream
 #write.table(x = df_input_metadata,file = "maaslin2_case_analysis_metadata.tsv",quote = F,sep = "\t",row.names = T,)
+=======
+write.table(x = df_input_metadata,file = "maaslin2_case_analysis_metadata.tsv",quote = F,sep = "\t",row.names = T,)
+>>>>>>> Stashed changes
 
 case_norm<-Maaslin2(
   input_data = df_input_data,
   input_metadata = df_input_metadata,
+<<<<<<< Updated upstream
   output="./trash",
+=======
+  output="./results/terms_vs_case_comp_norm",
+>>>>>>> Stashed changes
   min_abundance = 0.01, 
   min_prevalence = 0.1, 
   normalization = "CLR",
@@ -30,12 +41,17 @@ case_norm<-Maaslin2(
   fixed_effects = c("case"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 24,
+=======
+  cores = 20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num,
  reference="case,COVID19")
 
+<<<<<<< Updated upstream
 
 
 res<-unique(case_norm$results$feature)
@@ -59,6 +75,8 @@ ggviolin(data = s,x = "case",y = "Abundance",add = "jitter",trim = T)+#,facet.by
   stat_compare_means(label.y = c(5))+rotate_x_text()#,aes
 
 
+=======
+>>>>>>> Stashed changes
 term_pseq_outcome<-subset_samples(physeq = term_pseq_no_neg,outcome!="NA")
 x<-sample_sums(term_pseq_outcome)
 y<-as_tibble(x,,rownames="sample")%>%arrange(value)
@@ -105,11 +123,19 @@ tally(~sample_name+publication,data=COVID19_df_input_metadata,"count")
 tally(~sample_name+outcome,data=COVID19_df_input_metadata,"count")
 
 tally(~outcome+publication,data=COVID19_df_input_metadata,"count")
+<<<<<<< Updated upstream
 
 subset_outcome<-Maaslin2(
   input_data = COVID19_df_input_data,
   input_metadata = COVID19_df_input_metadata,
   output="./results/subset_outcome",
+=======
+getwd()
+subset_outcome<-Maaslin2(
+  input_data = COVID19_df_input_data,
+  input_metadata = COVID19_df_input_metadata,
+  output="./results/subset_outcome_05042021",
+>>>>>>> Stashed changes
   min_abundance = 0.00001, 
   min_prevalence = 0.01,  #test only features with at least 10% non-zero values. min 2.5samples to be run
   normalization = "CLR",
@@ -120,7 +146,11 @@ subset_outcome<-Maaslin2(
   fixed_effects = c("outcome"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 48,
+=======
+  cores = 20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num)
@@ -139,7 +169,11 @@ subset_outcome<-Maaslin2(
   fixed_effects = c("outcome"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 48,
+=======
+  cores =20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num)
@@ -158,7 +192,11 @@ subset_outcome<-Maaslin2(
   fixed_effects = c("outcome"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 48,
+=======
+  cores =20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num)
@@ -177,7 +215,11 @@ subset_outcome<-Maaslin2(
   fixed_effects = c("outcome"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 48,
+=======
+  cores =20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num)
@@ -198,7 +240,11 @@ subset_outcome<-Maaslin2(
   fixed_effects = c("outcome"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 48,
+=======
+  cores =20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num)
@@ -225,7 +271,11 @@ subset_outcome<-Maaslin2(
   fixed_effects = c("outcome"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 48,
+=======
+  cores =20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num)
@@ -247,7 +297,11 @@ subset_outcome<-Maaslin2(
   fixed_effects = c("outcome"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 48,
+=======
+  cores =20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num)
@@ -269,7 +323,11 @@ subset_outcome<-Maaslin2(
   fixed_effects = c("outcome"),
   correction="BH",
   standardize = TRUE,
+<<<<<<< Updated upstream
   cores = 48,
+=======
+  cores =20,
+>>>>>>> Stashed changes
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =num)

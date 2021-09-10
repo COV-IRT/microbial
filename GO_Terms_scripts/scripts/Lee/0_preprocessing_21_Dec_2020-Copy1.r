@@ -2,9 +2,15 @@ setwd('/home/jovyan/work/microbial/GO_term_analysis/16_DEC_2020_dmm_troubleshoot
 
 library(tidyverse)
 library(phyloseq)
+<<<<<<< Updated upstream
 setwd("./")
 
 raw<-as_tibble(read.table("../Combined_BALF_GO_Terms_parent_propagated.tsv", sep = "\t", row.names = NULL, header = T, quote = "", comment.char = ""))
+=======
+setwd("C:/Users/jochum/OneDrive - Baylor College of Medicine/Documents/github/microbial/GO_Terms_scripts/")
+
+raw<-as_tibble(read.table("./datasets/Combined_BALF_GO_Terms_parent_propagated_03292021.tsv", sep = "\t", row.names = NULL, header = T, quote = "", comment.char = ""))
+>>>>>>> Stashed changes
 colnames(raw)<-gsub("NA_tax","unclass", colnames(raw))%>%str_replace_all("NC1_SRR7796663", "NC1.SRR7796663")
 
 df<-raw %>%
@@ -28,7 +34,11 @@ term_counts<-data.frame(term[5:172], row.names = term$GO_term)
 term_counts_phy <- otu_table(term_counts, taxa_are_rows=TRUE)
 term_tax_phy <- tax_table(as.matrix(term_tax), errorIfNULL=TRUE)
 
+<<<<<<< Updated upstream
 term_sam<-as.data.frame(read.table("../Combined_BALF_GO_Terms_metadata3.txt",header = T, sep = "\t",row.names = 1))
+=======
+term_sam<-as.data.frame(read.table("./datasets/Combined_BALF_GO_Terms_metadata_03292021.tsv",header = T, sep = "\t",row.names = 1))
+>>>>>>> Stashed changes
 rownames(term_sam)<-rownames(term_sam)%>%str_replace_all("NC1_SRR7796663", "NC1.SRR7796663")
 term_sam$accession<-rownames(term_sam)
 

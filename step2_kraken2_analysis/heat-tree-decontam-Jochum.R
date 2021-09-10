@@ -367,19 +367,72 @@ pseq_fig2 <- heat_tree_matrix(pseq_obj_filt,
                          output_file = "node_color_trans_area.pdf",
                          verbose = TRUE)
 
-pseq_fig2
-## it looks to me like the default "area" node_color_trans gives a better pop than the "linear"
 
-## i think we might want to slim it down more, and i think we can do that much more easily outside of metacoder, just like
-## we made the object above with what we wanted, we can trim them down first and then not have to worry about trimming them down in there (which is confusing me, ha)
-## although maybe we can do it conveniently enough with the supertaxa() function: https://github.com/ropensci/taxa#supertaxa
-## i haven't tried it yet, but it seems that may help. Looks like we can pick a rank and tell it to bump everything up to that level
 
-## and i think we will probably want to add in which labels to *not* plot, like removing smaller/less important ones (#2 example at top here: https://grunwaldlab.github.io/metacoder_documentation/faq.html)
 
-## last note for now while i'm remembering it, there are NAs still in the taxonomy, because there are stupid ones that are right in the middle, and not at the end where my little code above took care of them
-## we can see them with this:
-lineage_vector[grep("NA", x=lineage_vector)]
-    ## some show up in the plot, and some nodes have no labels, not sure if that's another problem or not currently
-    ## some of these are consistent enough it'd be easy to fix, like the Cyanobacteria all have NA for class, we can fix that and it cuts
-    ## this list from 530 down to like 330, if there are others that are big chunks, maybe we could fix them all if we wanted
+
+#alpha diversity
+
+library(vegan)
+
+pseq_obj_filt$data$sample_data$inv_simp <- diversity(pseq_obj_filt$data$otu_table[, pseq_obj_filt$data$sample_data$sample_id],
+                                                     index = "invsimpson",
+                                                     MARGIN = 2) # What orietation the matrix is in
+library(ggplot2)
+ggplot(pseq_obj_filt$data$sample_data, aes(x = case, y = inv_simp)) +
+  geom_boxplot()
+anova_result <- aov(inv_simp ~ case, pseq_obj_filt$data$sample_data)
+summary(anova_result)
+# Df Sum Sq Mean Sq F value Pr(>F)  
+# case         2    992   495.8    2.83 0.0647 .
+# Residuals   83  14537   175.1                 
+# ---
+#   Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+#Tukey’s Honest Significant Difference (HSD) 
+library(agricolae)
+tukey_result <- HSD.test(anova_result, "case", group = TRUE)
+print(tukey_result)
+# $statistics
+# MSerror Df     Mean       CV
+# 175.1488 83 15.48333 85.47501
+# 
+# $parameters
+# test name.t ntr StudentizedRange alpha
+# Tukey   case   3         3.374985  0.05
+# 
+# $means
+# inv_simp      std  r      Min      Max      Q25       Q50      Q75
+# Control_Healthy 20.04256 17.78298 29 2.580625 70.27482 8.188479 14.876679 23.64051
+# Control_Sick    14.52070 10.11376 25 1.218328 42.50921 6.817982 14.506570 17.72547
+# COVID19         12.10359 10.20416 32 1.791336 46.79076 7.475984  9.352815 13.03280
+# 
+# $comparison
+# NULL
+# 
+# $groups
+# inv_simp groups
+# Control_Healthy 20.04256      a
+# Control_Sick    14.52070      a
+# COVID19         12.10359      a
+# 
+# attr(,"class")
+# [1] "group"
+
+
+group_data <- tukey_result$groups[order(rownames(tukey_result$groups)),]
+ggplot(pseq_obj_filt$data$sample_data, aes(x = case, y = inv_simp)) +
+  geom_text(data = data.frame(),
+            aes(x = rownames(group_data), y = max(pseq_obj_filt$data$sample_data$inv_simp) + 3, label = group_data$groups),
+            col = 'black',
+            size = 10) +
+  geom_boxplot() +
+  ggtitle("Alpha diversity of disease case sites") +
+  xlab("disease case") +
+  ylab("Inverse Simpson Index")
+library(ggpubr)
+ggboxplot(data =pseq_obj_filt$data$sample_data,x = "case",y = "inv_simp",add = "jitter",color="case")+
+  stat_compare_means(method = "t.test", ref.group = "Control_Healthy")
+
++stat_compare_means()

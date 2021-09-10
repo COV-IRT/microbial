@@ -280,7 +280,11 @@ setwd("C:/github/microbial/GO_Terms_scripts/")
 #   facet_wrap(nrow =2,ncol = 4,facets = ~patient)
 # write.table(shen,"shen_sample_sums.tsv",sep = "\t",quote = F,row.names = F)
 
+<<<<<<< Updated upstream
 
+=======
+Sys.Date()
+>>>>>>> Stashed changes
 
 
 #Transform GO Terms counts to relative abundances
