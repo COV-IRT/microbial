@@ -154,9 +154,9 @@ tally(taxid+contam~count(Abundance),
 
 
 
-
+d$
 library(ggpubr)
-ggboxplot(d,x = "sample_type",y = "Abundance",fill="sample_type",palette = "aaas",facet.by = "phylum")+
+ggboxplot(d,x = "sample_type",y = "Abundance",palette = "aaas",facet.by = "phylum")+
   yscale("log10",.format = T)+rotate_x_text()
 
 n_distinct(d$family)
@@ -168,7 +168,7 @@ d$sample_type
 tally(sample_type~count(Abundance),
       data = d, margins = TRUE)
 library(mosaic)
-ggbarplot(data = d,x = "sample_type",y = "Abundance",fill = "contam",palette = "aaas",)
+ggbarplot(data = d,x = "sample_type",y = "Abundance",color = "contam",palette = "npg",)
 
 
 favstats(x =Abundance~contam+sample_name,data = d)

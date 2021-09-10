@@ -1,0 +1,22 @@
+GO_ID	Depth	Depth 1 Parent(s)	NameSpace
+GO:0005975-carbohydrate metabolic process	3	GO:0008152 | metabolic process	Biological Process
+GO:0009059-macromolecule biosynthetic process	4	GO:0008152 | metabolic process	Biological Process
+GO:1901565-organonitrogen compound catabolic process	4	GO:0008152 | metabolic process	Biological Process
+GO:0072527-pyrimidine-containing compound metabolic process	4	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0019438-aromatic compound biosynthetic process	4	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0018130-heterocycle biosynthetic process	4	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0034654-nucleobase-containing compound biosynthetic process	5	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0016310-phosphorylation	5	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0072528-pyrimidine-containing compound biosynthetic process	5	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0016070-RNA metabolic process	6	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0090501-RNA phosphodiester bond hydrolysis	7	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0006310-DNA recombination	7	GO:0008152 metabolic process | GO:0009987  cellular process	Biological Process
+GO:0016491-oxidoreductase activity	2	GO:0003824 | catalytic activity	Molecular Function
+GO:0140098-catalytic activity, acting on RNA	2	GO:0003824 | catalytic activity	Molecular Function
+GO:0004175-endopeptidase activity	4	GO:0003824 | catalytic activity	Molecular Function
+GO:0016462-pyrophosphatase activity	5	GO:0003824 | catalytic activity	Molecular Function
+GO:0097159-organic cyclic compound binding	2	GO:0005488 | binding	Molecular Function
+GO:0003723-RNA binding	4	GO:0005488 | binding	Molecular Function
+GO:0046914-transition metal ion binding	5	GO:0005488 | binding	Molecular Function
+GO:0000287-magnesium ion binding	5	GO:0005488 | binding	Molecular Function
+GO:0008270-zinc ion binding	6	GO:0005488 | binding	Molecular Function

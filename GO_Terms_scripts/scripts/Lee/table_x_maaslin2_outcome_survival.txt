@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 feature	coef	stderr	pval	qval	N	N.not.zero	namespace	ontology	depth	name
 pyrimidine-containing compound metabolic process GO:0072527	-4.815	0.867	0.000	0.000	25	12	GO:0072527	biological_process	4	pyrimidine-containing compound metabolic process
 nucleobase-containing compound biosynthetic process GO:0034654	-0.630	0.117	0.000	0.000	25	25	GO:0034654	biological_process	5	nucleobase-containing compound biosynthetic process
@@ -67,3 +68,74 @@ carbohydrate phosphorylation GO:0046835	3.776	1.797	0.036	0.232	25	3	GO:0046835	
 ribokinase activity GO:0004747	3.746	1.790	0.036	0.234	25	3	GO:0004747	molecular_function	6	ribokinase activity
 protein metabolic process GO:0019538	0.409	0.198	0.039	0.246	25	25	GO:0019538	biological_process	4	protein metabolic process
 organic acid biosynthetic process GO:0016053	2.216	1.110	0.046	0.287	25	13	GO:0016053	biological_process	4	organic acid biosynthetic process
+=======
+feature	namespace	ontology	depth	name	metadata	value	coef	stderr	pval	name	qval	N	N.not.zero
+pyrimidine-containing compound metabolic process GO:0072527	GO:0072527	biological_process	4	pyrimidine-containing compound metabolic process	outcome	Survived	-4.815337939	0.867123706	2.80E-08	outcomeSurvived	1.19E-05	25	12
+nucleobase-containing compound biosynthetic process GO:0034654	GO:0034654	biological_process	5	nucleobase-containing compound biosynthetic process	outcome	Survived	-0.629839871	0.116851388	7.04E-08	outcomeSurvived	1.49E-05	25	25
+transition metal ion binding GO:0046914	GO:0046914	molecular_function	5	transition metal ion binding	outcome	Survived	-0.545489118	0.105975204	2.64E-07	outcomeSurvived	3.73E-05	25	25
+aromatic compound biosynthetic process GO:0019438	GO:0019438	biological_process	4	aromatic compound biosynthetic process	outcome	Survived	-0.477522535	0.115894959	3.78E-05	outcomeSurvived	0.004010741	25	25
+heterocycle biosynthetic process GO:0018130	GO:0018130	biological_process	4	heterocycle biosynthetic process	outcome	Survived	-0.393053717	0.100170823	8.72E-05	outcomeSurvived	0.007390376	25	25
+macromolecule biosynthetic process GO:0009059	GO:0009059	biological_process	4	macromolecule biosynthetic process	outcome	Survived	0.382498364	0.103299197	0.000213216	outcomeSurvived	0.015067258	25	25
+RNA metabolic process GO:0016070	GO:0016070	biological_process	6	RNA metabolic process	outcome	Survived	-0.310227678	0.08574731	0.00029697	outcomeSurvived	0.017987887	25	25
+RNA phosphodiester bond hydrolysis GO:0090501	GO:0090501	biological_process	7	RNA phosphodiester bond hydrolysis	outcome	Survived	-1.411923928	0.40224968	0.000447991	outcomeSurvived	0.023743538	25	17
+magnesium ion binding GO:0000287	GO:0000287	molecular_function	5	magnesium ion binding	outcome	Survived	-2.335946577	0.708784862	0.000981747	outcomeSurvived	0.036053499	25	11
+RNA binding GO:0003723	GO:0003723	molecular_function	4	RNA binding	outcome	Survived	0.988573546	0.303036597	0.001105414	outcomeSurvived	0.036053499	25	23
+zinc ion binding GO:0008270	GO:0008270	molecular_function	6	zinc ion binding	outcome	Survived	-0.879558408	0.265798362	0.000935901	outcomeSurvived	0.036053499	25	24
+phosphorylation GO:0016310	GO:0016310	biological_process	5	phosphorylation	outcome	Survived	2.897367568	0.887969845	0.001102737	outcomeSurvived	0.036053499	25	13
+organonitrogen compound catabolic process GO:1901565	GO:1901565	biological_process	4	organonitrogen compound catabolic process	outcome	Survived	-2.38751901	0.72082774	0.000925684	outcomeSurvived	0.036053499	25	12
+endopeptidase activity GO:0004175	GO:0004175	molecular_function	4	endopeptidase activity	outcome	Survived	-0.994621856	0.309442256	0.0013079	outcomeSurvived	0.036969985	25	21
+pyrimidine-containing compound biosynthetic process GO:0072528	GO:0072528	biological_process	5	pyrimidine-containing compound biosynthetic process	outcome	Survived	-5.504760819	1.711418506	0.00129769	outcomeSurvived	0.036969985	25	7
+DNA recombination GO:0006310	GO:0006310	biological_process	7	DNA recombination	outcome	Survived	-2.129912424	0.667191803	0.001411183	outcomeSurvived	0.03739634	25	12
+oxidoreductase activity GO:0016491	GO:0016491	molecular_function	2	oxidoreductase activity	outcome	Survived	2.541387368	0.800687915	0.001503512	outcomeSurvived	0.037499346	25	13
+carbohydrate metabolic process GO:0005975	GO:0005975	biological_process	3	carbohydrate metabolic process	outcome	Survived	2.244558419	0.717090714	0.001747528	outcomeSurvived	0.038997467	25	15
+"catalytic activity, acting on RNA GO:0140098"	GO:0140098	molecular_function	2	"catalytic activity, acting on RNA"	outcome	Survived	-0.546045944	0.173992364	0.001699118	outcomeSurvived	0.038997467	25	25
+pyrophosphatase activity GO:0016462	GO:0016462	molecular_function	5	pyrophosphatase activity	outcome	Survived	-0.325699331	0.107200258	0.002379701	outcomeSurvived	0.048047297	25	25
+organic cyclic compound binding GO:0097159	GO:0097159	molecular_function	2	organic cyclic compound binding	outcome	Survived	0.443179596	0.14521281	0.002273737	outcomeSurvived	0.048047297	25	25
+"hydrolase activity, acting on acid anhydrides GO:0016817"	GO:0016817	molecular_function	3	"hydrolase activity, acting on acid anhydrides"	outcome	Survived	-0.322528513	0.107458883	0.002687296	outcomeSurvived	0.051791526	25	25
+macromolecule modification GO:0043412	GO:0043412	biological_process	4	macromolecule modification	outcome	Survived	3.405301255	1.159329626	0.003310815	outcomeSurvived	0.061034153	25	13
+purine ribonucleotide binding GO:0032555	GO:0032555	molecular_function	6	purine ribonucleotide binding	outcome	Survived	0.761095863	0.264852161	0.004057416	outcomeSurvived	0.066682605	25	23
+oxidation-reduction process GO:0055114	GO:0055114	biological_process	2	oxidation-reduction process	outcome	Survived	2.822536052	0.981181943	0.004018964	outcomeSurvived	0.066682605	25	13
+cellular component organization or biogenesis GO:0071840	GO:0071840	biological_process	2	cellular component organization or biogenesis	outcome	Survived	1.283155354	0.44690392	0.004089028	outcomeSurvived	0.066682605	25	21
+nitrogen compound transport GO:0071705	GO:0071705	biological_process	4	nitrogen compound transport	outcome	Survived	6.014977856	2.169504989	0.005562553	outcomeSurvived	0.087352682	25	11
+transport GO:0006810	GO:0006810	biological_process	3	transport	outcome	Survived	2.244451812	0.822855021	0.006378929	outcomeSurvived	0.088570641	25	15
+small molecule binding GO:0036094	GO:0036094	molecular_function	2	small molecule binding	outcome	Survived	0.399697173	0.145909107	0.006155944	outcomeSurvived	0.088570641	25	25
+localization GO:0051179	GO:0051179	biological_process	1	localization	outcome	Survived	2.235136212	0.82093561	0.006475684	outcomeSurvived	0.088570641	25	15
+establishment of localization GO:0051234	GO:0051234	biological_process	2	establishment of localization	outcome	Survived	2.240990649	0.821893963	0.006398712	outcomeSurvived	0.088570641	25	15
+nucleotide binding GO:0000166	GO:0000166	molecular_function	4	nucleotide binding	outcome	Survived	0.371649822	0.138280977	0.007195841	outcomeSurvived	0.092357509	25	25
+nucleotide metabolic process GO:0009117	GO:0009117	biological_process	7	nucleotide metabolic process	outcome	Survived	-1.195038506	0.446240683	0.007406027	outcomeSurvived	0.092357509	25	19
+nucleoside phosphate binding GO:1901265	GO:1901265	molecular_function	3	nucleoside phosphate binding	outcome	Survived	0.371649822	0.138280977	0.007195841	outcomeSurvived	0.092357509	25	25
+nucleoside phosphate metabolic process GO:0006753	GO:0006753	biological_process	6	nucleoside phosphate metabolic process	outcome	Survived	-1.160542724	0.437745738	0.008021109	outcomeSurvived	0.09717001	25	19
+purine nucleotide binding GO:0017076	GO:0017076	molecular_function	5	purine nucleotide binding	outcome	Survived	1.07817181	0.411548714	0.008798355	outcomeSurvived	0.103625069	25	23
+polysaccharide metabolic process GO:0005976	GO:0005976	biological_process	4	polysaccharide metabolic process	outcome	Survived	2.580159613	0.994254257	0.00945716	outcomeSurvived	0.105521991	25	11
+nucleoside-triphosphatase activity GO:0017111	GO:0017111	molecular_function	6	nucleoside-triphosphatase activity	outcome	Survived	0.534829106	0.206008518	0.009427477	outcomeSurvived	0.105521991	25	23
+"phosphotransferase activity, alcohol group as acceptor GO:0016773"	GO:0016773	molecular_function	4	"phosphotransferase activity, alcohol group as acceptor"	outcome	Survived	4.000153274	1.553374814	0.010020033	outcomeSurvived	0.108317522	25	11
+purine ribonucleoside triphosphate binding GO:0035639	GO:0035639	molecular_function	4	purine ribonucleoside triphosphate binding	outcome	Survived	0.784421332	0.305419369	0.010218634	outcomeSurvived	0.108317522	25	23
+cellular carbohydrate metabolic process GO:0044262	GO:0044262	biological_process	4	cellular carbohydrate metabolic process	outcome	Survived	2.23960308	0.875199677	0.010498509	outcomeSurvived	0.108569948	25	12
+nucleic acid binding GO:0003676	GO:0003676	molecular_function	3	nucleic acid binding	outcome	Survived	0.466719535	0.18323958	0.010863929	outcomeSurvived	0.109673951	25	25
+transmembrane transport GO:0055085	GO:0055085	biological_process	4	transmembrane transport	outcome	Survived	2.762678832	1.091993774	0.0114082	outcomeSurvived	0.112490161	25	13
+cellular polysaccharide metabolic process GO:0044264	GO:0044264	biological_process	5	cellular polysaccharide metabolic process	outcome	Survived	2.60522253	1.053374128	0.013390291	outcomeSurvived	0.129033709	25	8
+ATP binding GO:0005524	GO:0005524	molecular_function	8	ATP binding	outcome	Survived	0.626919057	0.256237	0.014419578	outcomeSurvived	0.135864466	25	23
+ribonuclease activity GO:0004540	GO:0004540	molecular_function	5	ribonuclease activity	outcome	Survived	-0.964144387	0.402288136	0.016545661	outcomeSurvived	0.15250783	25	19
+carbohydrate biosynthetic process GO:0016051	GO:0016051	biological_process	4	carbohydrate biosynthetic process	outcome	Survived	2.549394798	1.087164329	0.01902734	outcomeSurvived	0.16807484	25	9
+"RNA phosphodiester bond hydrolysis, exonucleolytic GO:0090503"	GO:0090503	biological_process	8	"RNA phosphodiester bond hydrolysis, exonucleolytic"	outcome	Survived	-0.968238698	0.412063225	0.018786865	outcomeSurvived	0.16807484	25	17
+transporter activity GO:0005215	GO:0005215	molecular_function	1	transporter activity	outcome	Survived	2.510107245	1.085571374	0.020764172	outcomeSurvived	0.172623256	25	13
+cellular component organization GO:0016043	GO:0016043	biological_process	3	cellular component organization	outcome	Survived	0.924181863	0.400959633	0.021170777	outcomeSurvived	0.172623256	25	21
+isomerase activity GO:0016853	GO:0016853	molecular_function	2	isomerase activity	outcome	Survived	1.431314177	0.617006441	0.020353222	outcomeSurvived	0.172623256	25	15
+transmembrane transporter activity GO:0022857	GO:0022857	molecular_function	2	transmembrane transporter activity	outcome	Survived	2.486937842	1.075219646	0.02072495	outcomeSurvived	0.172623256	25	13
+polysaccharide biosynthetic process GO:0000271	GO:0000271	biological_process	5	polysaccharide biosynthetic process	outcome	Survived	2.568536265	1.126458919	0.022596638	outcomeSurvived	0.180773103	25	8
+cellular carbohydrate biosynthetic process GO:0034637	GO:0034637	biological_process	5	cellular carbohydrate biosynthetic process	outcome	Survived	2.559167128	1.143028159	0.025160067	outcomeSurvived	0.197553122	25	7
+glucose-1-phosphate thymidylyltransferase activity GO:0008879	GO:0008879	molecular_function	5	glucose-1-phosphate thymidylyltransferase activity	outcome	Survived	2.741601439	1.237025326	0.026671947	outcomeSurvived	0.205274147	25	5
+extracellular polysaccharide biosynthetic process GO:0045226	GO:0045226	biological_process	7	extracellular polysaccharide biosynthetic process	outcome	Survived	2.711707782	1.230924393	0.027595817	outcomeSurvived	0.205274147	25	5
+extracellular polysaccharide metabolic process GO:0046379	GO:0046379	biological_process	6	extracellular polysaccharide metabolic process	outcome	Survived	2.711707782	1.230924393	0.027595817	outcomeSurvived	0.205274147	25	5
+cellular amino acid metabolic process GO:0006520	GO:0006520	biological_process	6	cellular amino acid metabolic process	outcome	Survived	1.890199707	0.862811232	0.028470224	outcomeSurvived	0.208127157	25	13
+adenyl nucleotide binding GO:0030554	GO:0030554	molecular_function	6	adenyl nucleotide binding	outcome	Survived	0.701960748	0.321832378	0.029173229	outcomeSurvived	0.208368024	25	23
+cellular polysaccharide biosynthetic process GO:0033692	GO:0033692	biological_process	6	cellular polysaccharide biosynthetic process	outcome	Survived	2.547285296	1.170129138	0.029486041	outcomeSurvived	0.208368024	25	7
+organic substance transport GO:0071702	GO:0071702	biological_process	4	organic substance transport	outcome	Survived	2.63349397	1.216290035	0.030373456	outcomeSurvived	0.211120413	25	12
+ion transport GO:0006811	GO:0006811	biological_process	4	ion transport	outcome	Survived	2.356854971	1.109895662	0.033712614	outcomeSurvived	0.23055078	25	13
+DNA binding GO:0003677	GO:0003677	molecular_function	4	DNA binding	outcome	Survived	1.028584917	0.488104619	0.035091219	outcomeSurvived	0.232255096	25	19
+carbohydrate kinase activity GO:0019200	GO:0019200	molecular_function	5	carbohydrate kinase activity	outcome	Survived	3.788384701	1.799673189	0.035287795	outcomeSurvived	0.232255096	25	3
+carbohydrate phosphorylation GO:0046835	GO:0046835	biological_process	6	carbohydrate phosphorylation	outcome	Survived	3.775882456	1.796834316	0.035605144	outcomeSurvived	0.232255096	25	3
+ribokinase activity GO:0004747	GO:0004747	molecular_function	6	ribokinase activity	outcome	Survived	3.745684113	1.790024478	0.036390922	outcomeSurvived	0.233784103	25	3
+protein metabolic process GO:0019538	GO:0019538	biological_process	4	protein metabolic process	outcome	Survived	0.408563389	0.197839949	0.038911574	outcomeSurvived	0.246246381	25	25
+organic acid biosynthetic process GO:0016053	GO:0016053	biological_process	4	organic acid biosynthetic process	outcome	Survived	2.216180891	1.110476054	0.045966211	outcomeSurvived	0.286612847	25	13
+>>>>>>> Stashed changes

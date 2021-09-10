@@ -1,0 +1,19 @@
+Table X. Significant Gene Ontologies associated with Survival of COVID19						
+						
+Biological process	coef	stderr	pval	qval	namespace	depth
+phosphorylation	2.897	0.888	0.001	0.036	GO:0016310	3
+transition metal ion binding	-0.545	0.106	0	<0.001	GO:0046914	4
+magnesium ion binding	-2.336	0.709	0.001	0.036	GO:0000287	4
+nucleobase-containing compound biosynthetic process	-0.63	0.117	0	<0.001	GO:0034654	5
+RNA phosphodiester bond hydrolysis	-1.412	0.402	0	0.024	GO:0090501	5
+RNA binding	0.989	0.303	0.001	0.036	GO:0003723	5
+RNA metabolic process	-0.31	0.086	0	0.018	GO:0016070	7
+zinc ion binding	-0.88	0.266	0.001	0.036	GO:0008270	7
+Molecular Function	coef	stderr	pval	qval	namespace	depth
+endopeptidase activity	-0.995	0.309	0.001	0.037	GO:0004175	5
+DNA recombination	-2.13	0.667	0.001	0.037	GO:0006310	6
+pyrophosphatase activity	-0.326	0.107	0.002	0.048	GO:0016462	5
+oxidoreductase activity	2.541	0.801	0.002	0.037	GO:0016491	4
+"hydrolase activity, acting on acid anhydrides"	-0.323	0.107	0.003	0.052	GO:0016817	3
+"catalytic activity, acting on RNA"	-0.546	0.174	0.002	0.039	GO:0140098	2
+organonitrogen compound catabolic process	-2.388	0.721	0.001	0.036	GO:1901565	5
