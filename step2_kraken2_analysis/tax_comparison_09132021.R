@@ -195,15 +195,16 @@ case_norm<-Maaslin2(
 
 #make a copy of the results
 res<-as_tibble(case_norm$results)
-#filter the results to only include significatn taxa
-keep<-res%>%filter(qval<0.25)
+#filter the results to only include significant taxa
+keep<-res%>%filter(qval<0.05)
 #fix the character
 keep<-keep%>%mutate(feature=gsub("X","",feature))
 
 #make a phyloseq_object that has subsets only the stat. significant taxa
 physeq_keep<-prune_taxa(taxa = keep$feature,x =  pseq_decontam_no_neg)
 
-physeq_keep #[ 135 taxa and 86 samples ]
+physeq_keep #[ 516 taxa and 86 samples ]
+
 # make a key containing the taxonomy of the sig. taxa
 keep_tax<-data.frame(tax_table(physeq_keep))  
 keep_tax$feature<-rownames(keep_tax)
@@ -235,7 +236,7 @@ keep<-unite(data = keep,col ="classification", c("domain","phylum","class","orde
 head(keep$classification) #cool
 
 
-
+keep%>%filter(genus=="Sphingomonas")
 
 
 ################################################################################
@@ -288,12 +289,6 @@ str(tab_for_taxa_object)
 # i think all's ok, let's give it a shot
 
 
-
-
-
-
-library(metacoder)
-
 pseq_obj<-parse_phyloseq(physeq_keep) #MJ here trying to pase from the sig. taxa only
 
 taxa_obj <- parse_tax_data(tab_for_taxa_object,
@@ -306,13 +301,13 @@ taxa_obj <- parse_tax_data(tab_for_taxa_object,
 
 # library(taxa)
 # # looks ok so far, following along with same example page to filter low abundance things, just picking anything
-taxa_obj_filt <- filter_taxa(taxa_obj, n_obs >5)
-pseq_obj_filt <- filter_taxa(pseq_obj, n_obs > 5)
+taxa_obj_filt <- filter_taxa(taxa_obj, n_obs >1)
+pseq_obj_filt <- filter_taxa(pseq_obj, n_obs > 1)
 
 
 # 
-dim(taxa_obj_filt$edge_list)# 755   2
-dim(pseq_obj_filt$edge_list)# 92  2
+dim(taxa_obj_filt$edge_list)# 1808   2
+dim(pseq_obj_filt$edge_list)# 79  2
  
 
 # this is where we normalize across samples (i'm curious what this spits out when there are negative values in the table like from the vst, ha)
@@ -324,12 +319,15 @@ taxa_obj_filt$data$tax_proportions <- calc_obs_props(taxa_obj_filt, "tax_data")
 # ML here- i don't yet understand why the calc_taxon_abund() step is dropping us down to 755, when all of our taxa are unique already... but oh well
 
 # MJ here, could this have something to do with the parse taxa_data not yielding rank names 
-# I noticed that the ranks for the taxa_obj are all listed as NA
-taxon_ranks(taxa_obj) 
-# whereas the pseq_obj hase the correct classifications.   
+# I noticed that the ranks for the taxa_obj are all listed as NA:
+
+#taxon_ranks(taxa_obj) 
+
+# whereas the pseq_obj has the correct classifications.   
 # I'm a little concerned that maybe there are some dropping down of taxonomy 
-# due to duplicate names taht might occure in different ranks
-taxon_ranks(pseq_obj) 
+# due to duplicate names that might occur in different ranks:
+
+#taxon_ranks(pseq_obj) 
 
 
 pseq_obj_filt$data$tax_abund <- calc_taxon_abund(pseq_obj_filt, "tax_proportions", cols = target_samples_no_neg)
