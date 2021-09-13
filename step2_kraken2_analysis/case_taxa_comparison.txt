@@ -1,0 +1,15 @@
+treatment 1	treatment 2	log2 median ratio	median diff	mean diff	p value	q value	taxon name
+COVID_19	Community_aquired_penumonia	-2.0539	-0.0728	-0.1332	0.0067	0.0224	Paracoccus
+COVID_19	Community_aquired_penumonia	-2.0539	-0.0728	-0.1332	0.0067	0.0224	Sphingobium
+COVID_19	Community_aquired_penumonia	-2.0539	-0.0728	-0.1332	0.0067	0.0224	Sphingopyxis
+COVID_19	Community_aquired_penumonia	-2.0539	-0.0728	-0.1332	0.0067	0.0224	Sphingomonas
+COVID_19	Uninfected	-1.2141	-0.0092	-0.0323	0.0001	0.0007	Paracoccus
+COVID_19	Uninfected	-1.2141	-0.0092	-0.0323	0.0001	0.0007	Sphingobium
+COVID_19	Uninfected	-1.2141	-0.0092	-0.0323	0.0001	0.0007	Sphingopyxis
+COVID_19	Uninfected	-1.2141	-0.0092	-0.0323	0.0001	0.0007	Sphingomonas
+COVID_19	Uninfected	-4.3829	-0.4587	-0.3767	0.0000	0.0000	Paracoccus
+COVID_19	Uninfected	-4.3829	-0.4587	-0.3767	0.0000	0.0000	Sphingobium
+COVID_19	Uninfected	-4.3829	-0.4587	-0.3767	0.0000	0.0000	Sphingopyxis
+COVID_19	Uninfected	-4.3829	-0.4587	-0.3767	0.0000	0.0000	Sphingomonas
+COVID_19	Uninfected	-5.1294	-0.4164	-0.3356	0.0000	0.0000	Bradyrhizobium
+COVID_19	Uninfected	-5.1294	-0.4164	-0.3356	0.0000	0.0000	Methylobacterium
