@@ -1,0 +1,41 @@
+2021-09-28 13:47:20 INFO::Writing function arguments to log file
+2021-09-28 13:47:20 DEBUG::Function arguments
+2021-09-28 13:47:20 DEBUG::Output folder: ./survival_09282021
+2021-09-28 13:47:20 DEBUG::Min Abundance: 0.010000
+2021-09-28 13:47:20 DEBUG::Min Prevalence: 0.100000
+2021-09-28 13:47:20 DEBUG::Normalization: CLR
+2021-09-28 13:47:20 DEBUG::Transform: LOG
+2021-09-28 13:47:20 DEBUG::Analysis method: LM
+2021-09-28 13:47:20 DEBUG::Max significance: 0.050000
+2021-09-28 13:47:20 DEBUG::Random effects: patient
+2021-09-28 13:47:20 DEBUG::Fixed effects: survival
+2021-09-28 13:47:20 DEBUG::Correction method: BH
+2021-09-28 13:47:20 DEBUG::Standardize: TRUE
+2021-09-28 13:47:20 DEBUG::Cores: 8
+2021-09-28 13:47:20 INFO::Verifying options selected are valid
+2021-09-28 13:47:20 INFO::Determining format of input files
+2021-09-28 13:47:20 INFO::Input format is data samples as rows and metadata samples as rows
+2021-09-28 13:47:20 DEBUG::A total of 25 samples were found in both the data and metadata
+2021-09-28 13:47:20 DEBUG::Reordering data/metadata to use same sample ordering
+2021-09-28 13:47:20 INFO::Formula for random effects: expr ~ (1 | patient)
+2021-09-28 13:47:20 INFO::Formula for fixed effects: expr ~  survival
+2021-09-28 13:47:20 INFO::Running selected normalization method: CLR
+2021-09-28 13:47:20 INFO::Filter data based on min abundance and min prevalence
+2021-09-28 13:47:20 INFO::Total samples in data: 25
+2021-09-28 13:47:20 INFO::Min samples required with min abundance for a feature not to be filtered: 2.500000
+2021-09-28 13:47:20 INFO::Total filtered features: 54
+2021-09-28 13:47:20 INFO::Filtered feature names: X159, X583, X680, X691, X847, X914, X960, X1642, X2026, X29546, X37692, X40576, X51669, X60552, X65393, X235559, X260554, X316056, X316058, X400770, X414684, X488538, X526224, X650377, X673862, X763057, X1150469, X1191459, X1196095, X1218801, X1241833, X1261131, X1267766, X1315998, X1355477, X1424653, X1427984, X1492737, X1503054, X1503055, X1528098, X1608628, X1670800, X1671868, X1759059, X1798205, X1808001, X1926494, X1972133, X1977865, X2493639, X2594003, X2630218, X2699395
+2021-09-28 13:47:20 INFO::Applying z-score to standardize continuous metadata
+2021-09-28 13:47:20 INFO::Running selected transform method: LOG
+2021-09-28 13:47:20 INFO::Running selected analysis method: LM
+2021-09-28 13:47:20 INFO::Creating cluster of 8 R processes
+2021-09-28 13:48:45 INFO::Counting total values for each feature
+2021-09-28 13:48:45 WARNING::Deleting existing residuals file: ./survival_09282021/residuals.rds
+2021-09-28 13:48:45 INFO::Writing residuals to file ./survival_09282021/residuals.rds
+2021-09-28 13:48:45 INFO::Writing all results to file (ordered by increasing q-values): ./survival_09282021/all_results.tsv
+2021-09-28 13:48:45 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): ./survival_09282021/significant_results.tsv
+2021-09-28 13:48:45 INFO::Writing heatmap of significant results to file: ./survival_09282021/heatmap.pdf
+2021-09-28 13:48:45 INFO::Writing association plots (one for each significant association) to output folder: ./survival_09282021
+2021-09-28 13:48:45 INFO::Plotting associations from most to least significant, grouped by metadata
+2021-09-28 13:48:45 INFO::Plotting data for metadata number 1, survival
+2021-09-28 13:48:45 INFO::Creating boxplot for categorical data, survival vs X59374

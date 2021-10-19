@@ -148,6 +148,75 @@ range(taxa_sums(survival_pseq_decontam_no_neg_core)) #124 3071073
 range(sample_sums(survival_pseq_decontam_no_neg_core)) # 267 9385857
 
 
+
+
+
+################################################################################
+################################ Maaslin2 ######################################
+################################################################################
+
+library(Maaslin2)
+#make a data frame containine the abundances and metadata for the counts
+df_input_data<-data.frame(t(otu_table(survival_pseq_decontam_no_neg_core)))
+df_input_metadata<-data.frame(sample_data(survival_pseq_decontam_no_neg_core))
+colnames(df_input_metadata)
+#run Maaslin2 on the taxa counts using following paramenters
+
+# CLR normalization
+# Log transformation
+# 0.1 and 0.1 abundance and prevalence cutoffs
+# Bejamini Hochberg multiple test correction
+
+#########################################
+# warning this takes FOREVER to run
+##########################################
+case_norm<-Maaslin2(
+  input_data = df_input_data,
+  input_metadata = df_input_metadata,
+  output="./survival_09282021",
+  min_abundance = 0.01,
+  min_prevalence = 0.1,
+  normalization = "CLR",
+  transform = "LOG",
+  analysis_method = "LM",
+  max_significance = 0.05,
+  random_effects = c("patient"),
+  fixed_effects = c("survival"),
+  correction="BH",
+  standardize = TRUE,
+  cores = 8,
+  plot_heatmap = TRUE,
+  plot_scatter = TRUE,
+  heatmap_first_n =100)
+
+###########################################
+
+#make a copy of the results
+res<-as_tibble(case_norm$results)
+#filter the results to only include significant taxa
+keep<-res%>%filter(pval<0.05)
+#fix the character
+keep<-keep%>%mutate(feature=gsub("X","",feature))
+keep
+#make a phyloseq_object that has subsets only the stat. significant taxa
+physeq_keep<-prune_taxa(taxa = keep$feature, x =  pseq_decontam_no_neg)
+
+physeq_keep #[ 516 taxa and 86 samples ]
+
+# make a key containing the taxonomy of the sig. taxa
+keep_tax<-data.frame(tax_table(physeq_keep))
+keep_tax$feature<-rownames(keep_tax)
+
+keep<-inner_join(keep,keep_tax)
+unique(keep$genus)
+
+
+keep
+
+
+
+
+
 ################################################################################
 ############## Metacoder hat tree data visualiz(s)ations #######################
 ################################################################################
@@ -266,6 +335,14 @@ names$taxon_id<-rownames(names)
 #merge the two datasets together
 sig<-inner_join(pseq_obj_filt$data$diff_table_sig,names)
 sig
+
+pseq_obj_filt$data$diff_table
+
+sig
+write.table(keep,"../Additional_file_6_Supplementary_Table_5.tsv",sep = "\t",row.names = F)
+
+
+keep
 # # A tibble: 14 x 9
 # taxon_id treatment_1 treatment_2 log2_median_ratio median_diff mean_diff wilcox_p_value p.adjust `pseq_obj_filt$taxon_names()`
 # <chr>    <chr>       <chr>                   <dbl>       <dbl>     <dbl>          <dbl>    <dbl> <chr>                        
