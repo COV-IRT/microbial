@@ -1,7 +1,7 @@
 library(tidyverse)
 getwd()
 <<<<<<< Updated upstream
-tib<-read.table(file = "unique_genera.tsv",sep = "\t",header = T)
+tib<-read.table(file = "unique_genera2.txt",sep = "\t",header = T)
 tib<-as_tibble(tib)
 tib
 #filter only those taxa that were signigifacnt to COVID19
@@ -55,9 +55,9 @@ as.data.frame(tib4)
 =======
 
 # import the results
-tib<-read.table(file = "unique_genera.tsv",sep = "\t",header = T)
+tib<-read.table(file = "unique_genera2.txt",sep = "\t",header = T)
 tib<-as_tibble(tib)
-
+tib
 
 #filter only those taxa that were signigifacnt to COVID19
 tib<-tib%>%filter(treatment_1=="COVID_19")
@@ -76,9 +76,16 @@ tib
 
 #Combine the columned treatement 1 and treatment to into COVID vers tmt1 and covidvs tmt2
 # and get rid of the HealthyvsCommunity_acquired_pneumonia tab
-tib2<-tib%>%
+ tib_tmp<-tib%>%
+   group_by(treatment_1,treatment_2,genus,species)%>%
+   summarise(across(where(is.numeric),mean))
+# 
+
+
+
+tib2<-tib_tmp%>%
   pivot_wider(names_from =c(treatment_1,treatment_2),names_sep="vs",values_from=wilcox_p_value)%>%#select(-HealthyvsCommunity_acquired_pneumonia)%>%
-  pivot_longer(c(COVID_19vsCommunity_acquired_pneumonia,COVID_19vsHealthy),names_to="comparison",values_to="wilcox_p_value")
+  pivot_longer(c(COVID_19vsCommunity_acquired_pneumonia,COVID_19vsUninfected),names_to="comparison",values_to="wilcox_p_value")
 
 tib2
 #get rid of any rows without a wilcox_p_value 
@@ -106,12 +113,12 @@ tib3
 
 
 #Make a vector that had the most prevalent genera in the list (only greater than 10)
-vector<-tally(~genus,tib3,"data.frame")%>%filter(Freq>10)
+vector<-tally(~genus,tib3,"data.frame")%>%filter(Freq>8)
 vector
 #filter the most significant genera using the vector
 tib5<-tib3%>%
   filter(genus%in%vector$genus)%>%
-  select(-c(taxon_id,otu_id))%>%filter(!is.na(genus))
+  filter(!is.na(genus))
 tib5
 #get rid of the species names and make the genera distinct
 # and arrange them by the most significant
@@ -121,7 +128,7 @@ unique(tib5$log2_median_ratio)
 unique(tib5$mean_diff)
 unique(tib5$median_diff)
 as.data.frame(tib5)
-
+tib5
 write.table(x = tib5,file = "top_taxa_assoc_w_SARS_COV2_infection.tsv",sep = "\t",row.names = F)
 
 >>>>>>> Stashed changes

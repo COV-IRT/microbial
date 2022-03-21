@@ -1,0 +1,146 @@
+2021-12-07 14:19:31 INFO::Writing function arguments to log file
+2021-12-07 14:19:31 DEBUG::Function arguments
+2021-12-07 14:19:31 DEBUG::Output folder: ./case_11022021
+2021-12-07 14:19:31 DEBUG::Min Abundance: 0.000000
+2021-12-07 14:19:31 DEBUG::Min Prevalence: 0.000000
+2021-12-07 14:19:31 DEBUG::Normalization: CLR
+2021-12-07 14:19:31 DEBUG::Transform: LOG
+2021-12-07 14:19:31 DEBUG::Analysis method: LM
+2021-12-07 14:19:31 DEBUG::Max significance: 0.250000
+2021-12-07 14:19:31 DEBUG::Random effects:
+2021-12-07 14:19:31 DEBUG::Fixed effects: case
+2021-12-07 14:19:31 DEBUG::Correction method: BH
+2021-12-07 14:19:31 DEBUG::Standardize: TRUE
+2021-12-07 14:19:32 DEBUG::Cores: 8
+2021-12-07 14:19:32 INFO::Verifying options selected are valid
+2021-12-07 14:19:32 INFO::Determining format of input files
+2021-12-07 14:19:32 INFO::Input format is data samples as rows and metadata samples as rows
+2021-12-07 14:19:32 DEBUG::A total of 86 samples were found in both the data and metadata
+2021-12-07 14:19:32 DEBUG::Reordering data/metadata to use same sample ordering
+2021-12-07 14:19:34 INFO::Formula for fixed effects: expr ~  case
+2021-12-07 14:19:34 INFO::Running selected normalization method: CLR
+2021-12-07 14:19:36 INFO::Filter data based on min abundance and min prevalence
+2021-12-07 14:19:36 INFO::Total samples in data: 86
+2021-12-07 14:19:36 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2021-12-07 14:19:36 INFO::Total filtered features: 0
+2021-12-07 14:19:38 INFO::Filtered feature names:
+2021-12-07 14:19:38 INFO::Applying z-score to standardize continuous metadata
+2021-12-07 14:19:38 INFO::Running selected transform method: LOG
+2021-12-07 14:19:38 INFO::Running selected analysis method: LM
+2021-12-07 14:19:38 INFO::Creating cluster of 8 R processes
+2021-12-07 14:23:19 INFO::Counting total values for each feature
+2021-12-07 14:23:20 WARNING::Deleting existing residuals file: ./case_11022021/residuals.rds
+2021-12-07 14:23:20 INFO::Writing residuals to file ./case_11022021/residuals.rds
+2021-12-07 14:23:20 INFO::Writing all results to file (ordered by increasing q-values): ./case_11022021/all_results.tsv
+2021-12-07 14:23:25 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): ./case_11022021/significant_results.tsv
+2021-12-07 14:23:25 INFO::Writing heatmap of significant results to file: ./case_11022021/heatmap.pdf
+2021-12-07 14:23:25 INFO::Writing association plots (one for each significant association) to output folder: ./case_11022021
+2021-12-07 14:23:26 INFO::Plotting associations from most to least significant, grouped by metadata
+2021-12-07 14:23:26 INFO::Plotting data for metadata number 1, case
+2021-12-07 14:23:26 INFO::Creating boxplot for categorical data, case vs X2126319
+2021-12-07 14:23:31 INFO::Creating boxplot for categorical data, case vs X1360
+2021-12-07 14:23:33 INFO::Creating boxplot for categorical data, case vs X34072
+2021-12-07 14:23:34 INFO::Creating boxplot for categorical data, case vs X93973
+2021-12-07 14:23:36 INFO::Creating boxplot for categorical data, case vs X1528098
+2021-12-07 14:23:38 INFO::Creating boxplot for categorical data, case vs X2696063
+2021-12-07 14:23:40 INFO::Creating boxplot for categorical data, case vs X624
+2021-12-07 14:23:42 INFO::Creating boxplot for categorical data, case vs X436515
+2021-12-07 14:23:43 INFO::Creating boxplot for categorical data, case vs X2202826
+2021-12-07 14:23:44 INFO::Creating boxplot for categorical data, case vs X2509614
+2021-12-07 14:23:46 INFO::Creating boxplot for categorical data, case vs X908290
+2021-12-07 14:23:47 INFO::Creating boxplot for categorical data, case vs X338969
+2021-12-07 14:23:49 INFO::Creating boxplot for categorical data, case vs X663243
+2021-12-07 14:23:53 INFO::Creating boxplot for categorical data, case vs X946333
+2021-12-07 14:23:55 INFO::Creating boxplot for categorical data, case vs X2014887
+2021-12-07 14:23:57 INFO::Creating boxplot for categorical data, case vs X2116657
+2021-12-07 14:23:58 INFO::Creating boxplot for categorical data, case vs X573061
+2021-12-07 14:23:58 INFO::Creating boxplot for categorical data, case vs X742013
+2021-12-07 14:23:59 INFO::Creating boxplot for categorical data, case vs X2603276
+2021-12-07 14:23:59 INFO::Creating boxplot for categorical data, case vs X224471
+2021-12-07 14:24:00 INFO::Creating boxplot for categorical data, case vs X1229205
+2021-12-07 14:24:00 INFO::Creating boxplot for categorical data, case vs X2202826
+2021-12-07 14:24:01 INFO::Creating boxplot for categorical data, case vs X2599600
+2021-12-07 14:24:02 INFO::Creating boxplot for categorical data, case vs X329
+2021-12-07 14:24:02 INFO::Creating boxplot for categorical data, case vs X2664291
+2021-12-07 14:24:03 INFO::Creating boxplot for categorical data, case vs X1849491
+2021-12-07 14:24:03 INFO::Creating boxplot for categorical data, case vs X2638319
+2021-12-07 14:24:03 INFO::Creating boxplot for categorical data, case vs X766
+2021-12-07 14:24:04 INFO::Creating boxplot for categorical data, case vs X28188
+2021-12-07 14:24:05 INFO::Creating boxplot for categorical data, case vs X1768
+2021-12-07 14:24:05 INFO::Creating boxplot for categorical data, case vs X2603276
+2021-12-07 14:24:06 INFO::Creating boxplot for categorical data, case vs X426355
+2021-12-07 14:24:06 INFO::Creating boxplot for categorical data, case vs X1660
+2021-12-07 14:24:07 INFO::Creating boxplot for categorical data, case vs X748678
+2021-12-07 14:24:07 INFO::Creating boxplot for categorical data, case vs X1697053
+2021-12-07 14:24:08 INFO::Creating boxplot for categorical data, case vs X81
+2021-12-07 14:24:08 INFO::Creating boxplot for categorical data, case vs X59814
+2021-12-07 14:24:08 INFO::Creating boxplot for categorical data, case vs X159087
+2021-12-07 14:24:09 INFO::Creating boxplot for categorical data, case vs X231049
+2021-12-07 14:24:09 INFO::Creating boxplot for categorical data, case vs X2057025
+2021-12-07 14:24:10 INFO::Creating boxplot for categorical data, case vs X2486578
+2021-12-07 14:24:10 INFO::Creating boxplot for categorical data, case vs X186801
+2021-12-07 14:24:11 INFO::Creating boxplot for categorical data, case vs X2509614
+2021-12-07 14:24:11 INFO::Creating boxplot for categorical data, case vs X413882
+2021-12-07 14:24:12 INFO::Creating boxplot for categorical data, case vs X1844971
+2021-12-07 14:24:12 INFO::Creating boxplot for categorical data, case vs X881260
+2021-12-07 14:24:13 INFO::Creating boxplot for categorical data, case vs X1437824
+2021-12-07 14:24:13 INFO::Creating boxplot for categorical data, case vs X402626
+2021-12-07 14:24:14 INFO::Creating boxplot for categorical data, case vs X1599
+2021-12-07 14:24:14 INFO::Creating boxplot for categorical data, case vs X54736
+2021-12-07 14:24:15 INFO::Creating boxplot for categorical data, case vs X983917
+2021-12-07 14:24:15 INFO::Creating boxplot for categorical data, case vs X2587161
+2021-12-07 14:24:15 INFO::Creating boxplot for categorical data, case vs X2233999
+2021-12-07 14:24:16 INFO::Creating boxplot for categorical data, case vs X2697032
+2021-12-07 14:24:16 INFO::Creating boxplot for categorical data, case vs X488538
+2021-12-07 14:24:17 INFO::Creating boxplot for categorical data, case vs X908290
+2021-12-07 14:24:17 INFO::Creating boxplot for categorical data, case vs X1852377
+2021-12-07 14:24:18 INFO::Creating boxplot for categorical data, case vs X1160717
+2021-12-07 14:24:18 INFO::Creating boxplot for categorical data, case vs X1246301
+2021-12-07 14:24:18 INFO::Creating boxplot for categorical data, case vs X2014534
+2021-12-07 14:24:19 INFO::Creating boxplot for categorical data, case vs X169427
+2021-12-07 14:24:19 INFO::Creating boxplot for categorical data, case vs X224471
+2021-12-07 14:24:20 INFO::Creating boxplot for categorical data, case vs X1648923
+2021-12-07 14:24:20 INFO::Creating boxplot for categorical data, case vs X1670800
+2021-12-07 14:24:21 INFO::Creating boxplot for categorical data, case vs X43662
+2021-12-07 14:24:21 INFO::Creating boxplot for categorical data, case vs X2638319
+2021-12-07 14:24:22 INFO::Creating boxplot for categorical data, case vs X292
+2021-12-07 14:24:22 INFO::Creating boxplot for categorical data, case vs X95485
+2021-12-07 14:24:23 INFO::Creating boxplot for categorical data, case vs X138074
+2021-12-07 14:24:23 INFO::Creating boxplot for categorical data, case vs X313596
+2021-12-07 14:24:24 INFO::Creating boxplot for categorical data, case vs X2652307
+2021-12-07 14:24:24 INFO::Creating boxplot for categorical data, case vs X696485
+2021-12-07 14:24:25 INFO::Creating boxplot for categorical data, case vs X2303331
+2021-12-07 14:24:25 INFO::Creating boxplot for categorical data, case vs X2202827
+2021-12-07 14:24:26 INFO::Creating boxplot for categorical data, case vs X59814
+2021-12-07 14:24:26 INFO::Creating boxplot for categorical data, case vs X929713
+2021-12-07 14:24:27 INFO::Creating boxplot for categorical data, case vs X546
+2021-12-07 14:24:27 INFO::Creating boxplot for categorical data, case vs X13373
+2021-12-07 14:24:27 INFO::Creating boxplot for categorical data, case vs X53335
+2021-12-07 14:24:27 INFO::Creating boxplot for categorical data, case vs X83333
+2021-12-07 14:24:28 INFO::Creating boxplot for categorical data, case vs X159
+2021-12-07 14:24:28 INFO::Creating boxplot for categorical data, case vs X1784714
+2021-12-07 14:24:29 INFO::Creating boxplot for categorical data, case vs X1812935
+2021-12-07 14:24:30 INFO::Creating boxplot for categorical data, case vs X1360
+2021-12-07 14:24:30 INFO::Creating boxplot for categorical data, case vs X669502
+2021-12-07 14:24:31 INFO::Creating boxplot for categorical data, case vs X964
+2021-12-07 14:24:31 INFO::Creating boxplot for categorical data, case vs X72274
+2021-12-07 14:24:31 INFO::Creating boxplot for categorical data, case vs X1660158
+2021-12-07 14:24:31 INFO::Creating boxplot for categorical data, case vs X628
+2021-12-07 14:24:32 INFO::Creating boxplot for categorical data, case vs X1129771
+2021-12-07 14:24:32 INFO::Creating boxplot for categorical data, case vs X53408
+2021-12-07 14:24:33 INFO::Creating boxplot for categorical data, case vs X946483
+2021-12-07 14:24:33 INFO::Creating boxplot for categorical data, case vs X1868589
+2021-12-07 14:24:34 INFO::Creating boxplot for categorical data, case vs X2086577
+2021-12-07 14:24:34 INFO::Creating boxplot for categorical data, case vs X1082851
+2021-12-07 14:24:35 INFO::Creating boxplot for categorical data, case vs X2509675
+2021-12-07 14:24:35 INFO::Creating boxplot for categorical data, case vs X2599297
+2021-12-07 14:24:36 INFO::Creating boxplot for categorical data, case vs X63
+2021-12-07 14:24:36 INFO::Creating boxplot for categorical data, case vs X853
+2021-12-07 14:24:36 INFO::Creating boxplot for categorical data, case vs X29521
+2021-12-07 14:24:37 INFO::Creating boxplot for categorical data, case vs X864051
+2021-12-07 14:24:37 INFO::Creating boxplot for categorical data, case vs X1798205
+2021-12-07 14:24:38 INFO::Creating boxplot for categorical data, case vs X171
+2021-12-07 14:24:38 INFO::Creating boxplot for categorical data, case vs X329854
+2021-12-07 14:24:39 INFO::Creating boxplot for categorical data, case vs X1660158
+2021-12-07 14:24:39 INFO::Creating boxplot for categorical data, case vs X81
+2021-12-07 14:24:40 INFO::Creating boxplot for categorical data, case vs X1697053

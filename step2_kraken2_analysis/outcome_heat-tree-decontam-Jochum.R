@@ -157,8 +157,8 @@ range(sample_sums(survival_pseq_decontam_no_neg_core)) # 267 9385857
 
 library(Maaslin2)
 #make a data frame containine the abundances and metadata for the counts
-df_input_data<-data.frame(t(otu_table(survival_pseq_decontam_no_neg_core)))
-df_input_metadata<-data.frame(sample_data(survival_pseq_decontam_no_neg_core))
+df_input_data<-data.frame(t(otu_table(pseq_decontam_no_neg_core)))
+df_input_metadata<-data.frame(sample_data(pseq_decontam_no_neg_core))
 colnames(df_input_metadata)
 #run Maaslin2 on the taxa counts using following paramenters
 
@@ -166,22 +166,22 @@ colnames(df_input_metadata)
 # Log transformation
 # 0.1 and 0.1 abundance and prevalence cutoffs
 # Bejamini Hochberg multiple test correction
-
+df_input_metadata$sample_name
 #########################################
 # warning this takes FOREVER to run
 ##########################################
 case_norm<-Maaslin2(
   input_data = df_input_data,
   input_metadata = df_input_metadata,
-  output="./survival_09282021",
+  output="./case_11022021",
   min_abundance = 0.01,
   min_prevalence = 0.1,
   normalization = "CLR",
   transform = "LOG",
   analysis_method = "LM",
   max_significance = 0.05,
-  random_effects = c("patient"),
-  fixed_effects = c("survival"),
+  random_effects = c("sample_name","publication"),
+  fixed_effects = c("case"),
   correction="BH",
   standardize = TRUE,
   cores = 8,
@@ -190,11 +190,11 @@ case_norm<-Maaslin2(
   heatmap_first_n =100)
 
 ###########################################
-
+res
 #make a copy of the results
 res<-as_tibble(case_norm$results)
 #filter the results to only include significant taxa
-keep<-res%>%filter(pval<0.05)
+keep<-res%>%filter(pval<0.08)
 #fix the character
 keep<-keep%>%mutate(feature=gsub("X","",feature))
 keep
@@ -210,13 +210,13 @@ keep_tax$feature<-rownames(keep_tax)
 keep<-inner_join(keep,keep_tax)
 unique(keep$genus)
 
-
-keep
-
+unique(keep$value)
 
 
+keep%>%mutate(value)
 
-
+sping<-keep%>%filter(genus=="Sphingomonas")
+sping
 ################################################################################
 ############## Metacoder hat tree data visualiz(s)ations #######################
 ################################################################################

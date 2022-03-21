@@ -1,0 +1,384 @@
+treatment_1	treatment_2	genus	species	log2_median_ratio	median_diff	mean_diff	wilcox_p_value
+COVID_19	Uninfected	Acetobacter	Acetobacter persici	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Acetobacter	Acetobacter persici	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Acetobacter	Acetobacter persici	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Actinomadura	Actinomadura sp. WMMA1423	1.764939362	1.06E-05	3.86E-05	0.024348267
+COVID_19	Uninfected	Actinomadura	Actinomadura sp. WMMB 499	1.764939362	1.06E-05	3.86E-05	0.024348267
+COVID_19	Uninfected	Actinomyces	Actinomyces naeslundii	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Actinomyces	Actinomyces pacaensis	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Actinomyces	Actinomyces slackii	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Actinomyces	Actinomyces sp. oral taxon 171	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Actinomyces	Actinomyces sp. oral taxon 414	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Actinomyces	Actinomyces sp. oral taxon 848	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Actinomyces	Actinomyces sp. oral taxon 897	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Actinomyces	Actinomyces viscosus	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Community_acquired_pneumonia	Adlercreutzia	Adlercreutzia equolifaciens	0	0	2.64E-06	0.007320503
+COVID_19	Uninfected	Adlercreutzia	Adlercreutzia equolifaciens	3.054926309	3.38E-05	0.000589545	0.019333923
+COVID_19	Uninfected	Aeromonas	Aeromonas hydrophila	2.795442226	0.000136481	0.000181253	0.002709644
+COVID_19	Uninfected	Aeromonas	Aeromonas veronii	2.795442226	0.000136481	0.000181253	0.002709644
+COVID_19	Uninfected	Agrobacterium	Agrobacterium tumefaciens	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Agrobacterium	Agrobacterium tumefaciens	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Ancylobacter	Ancylobacter sp. TS-1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Ancylobacter	Ancylobacter sp. TS-1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Aromatoleum	Aromatoleum aromaticum	3.507662226	0.000130325	0.000348821	0.000930141
+COVID_19	Uninfected	Azoarcus	Azoarcus communis	3.507662226	0.000130325	0.000348821	0.000930141
+COVID_19	Uninfected	Azoarcus	Azoarcus sp. KH32C	3.507662226	0.000130325	0.000348821	0.000930141
+COVID_19	Uninfected	Azoarcus	Azoarcus sp. SY39	3.507662226	0.000130325	0.000348821	0.000930141
+COVID_19	Uninfected	Azospirillum	Azospirillum lipoferum	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Azospirillum	Azospirillum thiophilum	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Azospirillum	Azospirillum lipoferum	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Azospirillum	Azospirillum thiophilum	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Azospirillum	Azospirillum lipoferum	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Azospirillum	Azospirillum thiophilum	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Bartonella	Bartonella australis	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Bartonella	Bartonella australis	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Bifidobacterium	Bifidobacterium adolescentis	2.19011583	4.04E-05	0.000106882	0.005361627
+COVID_19	Uninfected	Bifidobacterium	Bifidobacterium scardovii	2.19011583	4.04E-05	0.000106882	0.005361627
+COVID_19	Uninfected	Blastochloris	Blastochloris viridis	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Blastochloris	Blastochloris viridis	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Blastomonas	Blastomonas fulva	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Blastomonas	Blastomonas fulva	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Blastomonas	Blastomonas fulva	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Bombella	Bombella sp. KACC 21507	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Bombella	Bombella sp. KACC 21507	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Bombella	Bombella sp. KACC 21507	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Brachyspira	Brachyspira hampsonii	-3.18545036	-2.10E-05	-0.000122991	0.043900334
+COVID_19	Uninfected	Brachyspira	Brachyspira intermedia	-3.18545036	-2.10E-05	-0.000122991	0.043900334
+COVID_19	Uninfected	Brachyspira	Brachyspira pilosicoli	-3.18545036	-2.10E-05	-0.000122991	0.043900334
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium amphicarpaeae	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium betae	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium canariense	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium cosmicum	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium cosmicum	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium erythrophlei	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium guangxiense	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium guangzhouense	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium icense	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium japonicum	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium lablabi	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium oligotrophicum	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium paxllaeri	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. 6(2017)	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. BTAi1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. CCBAU 051011	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. LCT2	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. ORS 278	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. ORS 285	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. ORS 3257	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. SK17	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium sp. WSM471	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Bradyrhizobium	Bradyrhizobium zhanjiangense	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium amphicarpaeae	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium betae	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium canariense	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium cosmicum	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium cosmicum	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium erythrophlei	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium guangxiense	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium guangzhouense	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium icense	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium japonicum	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium lablabi	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium oligotrophicum	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium paxllaeri	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. 6(2017)	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. BTAi1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. CCBAU 051011	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. LCT2	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. ORS 278	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. ORS 285	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. ORS 3257	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. SK17	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium sp. WSM471	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Bradyrhizobium	Bradyrhizobium zhanjiangense	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Brevundimonas	Brevundimonas diminuta	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Brevundimonas	Brevundimonas diminuta	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Brevundimonas	Brevundimonas diminuta	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Brucella	Brucella melitensis	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Brucella	Brucella melitensis	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Candidatus	Candidatus Hodgkinia cicadicola	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Candidatus	Candidatus Liberibacter africanus	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Candidatus	Candidatus Liberibacter solanacearum	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Candidatus	Candidatus Pelagibacter sp. FZCC0015	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Candidatus	Candidatus Pelagibacter sp. FZCC0015	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Candidatus	Candidatus Pelagibacter sp. FZCC0015	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Community_acquired_pneumonia	Candidatus	Candidatus Hodgkinia cicadicola	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Candidatus	Candidatus Liberibacter africanus	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Candidatus	Candidatus Liberibacter solanacearum	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Caulobacter	Caulobacter sp. FWC26	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Caulobacter	Caulobacter vibrioides	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Caulobacter	Caulobacter sp. FWC26	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Caulobacter	Caulobacter vibrioides	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Caulobacter	Caulobacter sp. FWC26	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Caulobacter	Caulobacter vibrioides	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Celeribacter	Celeribacter manganoxidans	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Celeribacter	Celeribacter manganoxidans	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Celeribacter	Celeribacter manganoxidans	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Chroococcidiopsis	Chroococcidiopsis thermalis	4.170797305	7.18E-06	6.34E-06	0.033779727
+COVID_19	Community_acquired_pneumonia	Chroococcidiopsis	Chroococcidiopsis thermalis	Inf	7.60E-06	2.17E-05	0.000273006
+COVID_19	Uninfected	Dechloromonas	Dechloromonas aromatica	3.507662226	0.000130325	0.000348821	0.000930141
+COVID_19	Uninfected	Dechloromonas	Dechloromonas sp. HYN0024	3.507662226	0.000130325	0.000348821	0.000930141
+COVID_19	Uninfected	Desulfurella	Desulfurella acetivorans	-2.947042345	-4.66E-06	-2.61E-05	0.00840564
+COVID_19	Community_acquired_pneumonia	Desulfurella	Desulfurella acetivorans	Inf	6.94E-07	-2.02E-07	0.039230254
+COVID_19	Uninfected	Dialister	Dialister pneumosintes	3.639369584	0.003267157	0.040631146	0.002999146
+COVID_19	Uninfected	Erythrobacter	Erythrobacter flavus	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Erythrobacter	Erythrobacter flavus	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Erythrobacter	Erythrobacter flavus	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Gardnerella	Gardnerella vaginalis	2.19011583	4.04E-05	0.000106882	0.005361627
+COVID_19	Uninfected	Hypericibacter	Hypericibacter terrae	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Hypericibacter	Hypericibacter terrae	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Hypericibacter	Hypericibacter terrae	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Hyphomicrobium	Hyphomicrobium nitrativorans	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Hyphomicrobium	Hyphomicrobium nitrativorans	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Komagataeibacter	Komagataeibacter xylinus	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Komagataeibacter	Komagataeibacter xylinus	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Komagataeibacter	Komagataeibacter xylinus	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Labrenzia	Labrenzia sp. VG12	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Labrenzia	Labrenzia sp. VG12	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Labrenzia	Labrenzia sp. VG12	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Labrys	Labrys neptuniae	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Labrys	Labrys neptuniae	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Lancefieldella	Lancefieldella parvula	4.621883641	3.40E-05	0.000593639	0.007259867
+COVID_19	Uninfected	Leisingera	Leisingera aquaemixtae	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Leisingera	Leisingera aquaemixtae	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Leisingera	Leisingera aquaemixtae	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Lentilitoribacter	Lentilitoribacter sp. Alg239-R112	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Lentilitoribacter	Lentilitoribacter sp. Alg239-R112	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Lichenihabitans	Lichenihabitans psoromatis	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Lichenihabitans	Lichenihabitans psoromatis	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Limihaloglobus	Limihaloglobus sulfuriphilus	0	0	-4.04E-06	0.012887827
+COVID_19	Community_acquired_pneumonia	Mariprofundus	Mariprofundus aestuarium	Inf	6.79E-06	4.37E-05	8.99E-05
+COVID_19	Uninfected	Martelella	Martelella sp. AD-3	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Martelella	Martelella sp. AD-3	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Megasphaera	Megasphaera elsdenii	3.639369584	0.003267157	0.040631146	0.002999146
+COVID_19	Uninfected	Megasphaera	Megasphaera stantonii	3.639369584	0.003267157	0.040631146	0.002999146
+COVID_19	Uninfected	Mesorhizobium	Mesorhizobium amorphae	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Mesorhizobium	Mesorhizobium loti	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Mesorhizobium	Mesorhizobium soli	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Mesorhizobium	Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Mesorhizobium	Mesorhizobium sp. M4B.F.Ca.ET.058.02.1.1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Mesorhizobium	Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Mesorhizobium	Mesorhizobium sp. M9A.F.Ca.ET.002.03.1.2	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Mesorhizobium	Mesorhizobium amorphae	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Mesorhizobium	Mesorhizobium loti	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Mesorhizobium	Mesorhizobium soli	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Mesorhizobium	Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Mesorhizobium	Mesorhizobium sp. M4B.F.Ca.ET.058.02.1.1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Mesorhizobium	Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Mesorhizobium	Mesorhizobium sp. M9A.F.Ca.ET.002.03.1.2	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Methylobacterium	Methylobacterium brachiatum	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium currus	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium durans	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium nodulans	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium phyllosphaerae	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium sp. 17Sr1-1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium sp. 17Sr1-43	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium sp. 4-46	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium sp. AMS5	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium sp. DM1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylobacterium	Methylobacterium sp. WL1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium brachiatum	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium currus	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium durans	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium nodulans	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium phyllosphaerae	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium sp. 17Sr1-1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium sp. 17Sr1-43	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium sp. 4-46	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium sp. AMS5	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium sp. DM1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylobacterium	Methylobacterium sp. WL1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Methylorubrum	Methylorubrum extorquens	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylorubrum	Methylorubrum extorquens	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Methylorubrum	Methylorubrum populi	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Methylorubrum	Methylorubrum extorquens	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylorubrum	Methylorubrum extorquens	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Methylorubrum	Methylorubrum populi	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Microvirga	Microvirga sp. HR1	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Microvirga	Microvirga sp. HR1	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Nakamurella	Nakamurella panacisegetis	3.359118108	5.52E-06	3.26E-05	0.054324959
+COVID_19	Community_acquired_pneumonia	Nakamurella	Nakamurella panacisegetis	Inf	6.11E-06	2.76E-05	0.014324986
+COVID_19	Uninfected	Neorhizobium	Neorhizobium galegae	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Neorhizobium	Neorhizobium galegae	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Nitrobacter	Nitrobacter hamburgensis	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Nitrobacter	Nitrobacter hamburgensis	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Niveispirillum	Niveispirillum cyanobacteriorum	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Niveispirillum	Niveispirillum cyanobacteriorum	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Niveispirillum	Niveispirillum cyanobacteriorum	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Nordella	Nordella sp. HKS 07	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Nordella	Nordella sp. HKS 07	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Novosphingobium	Novosphingobium pentaromativorans	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Novosphingobium	Novosphingobium resinovorum	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Novosphingobium	Novosphingobium sp. PP1Y	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Novosphingobium	Novosphingobium pentaromativorans	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Novosphingobium	Novosphingobium resinovorum	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Novosphingobium	Novosphingobium sp. PP1Y	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Novosphingobium	Novosphingobium pentaromativorans	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Novosphingobium	Novosphingobium resinovorum	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Novosphingobium	Novosphingobium sp. PP1Y	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Oceanicola	Oceanicola sp. D3	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Oceanicola	Oceanicola sp. D3	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Oceanicola	Oceanicola sp. D3	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Ochrobactrum	Ochrobactrum anthropi	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Ochrobactrum	Ochrobactrum anthropi	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Ochrobactrum	Ochrobactrum anthropi	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Ochrobactrum	Ochrobactrum anthropi	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Oligotropha	Oligotropha carboxidovorans	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Oligotropha	Oligotropha carboxidovorans	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Orientia	Orientia tsutsugamushi	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Orientia	Orientia tsutsugamushi	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Orientia	Orientia tsutsugamushi	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Paracoccus	Paracoccus aminovorans	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Paracoccus	Paracoccus kondratievae	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Paracoccus	Paracoccus liaowanqingii	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Paracoccus	Paracoccus sp. Arc7-R13	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Paracoccus	Paracoccus aminovorans	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Paracoccus	Paracoccus kondratievae	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Paracoccus	Paracoccus liaowanqingii	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Paracoccus	Paracoccus sp. Arc7-R13	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Paracoccus	Paracoccus aminovorans	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Paracoccus	Paracoccus kondratievae	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Paracoccus	Paracoccus liaowanqingii	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Paracoccus	Paracoccus sp. Arc7-R13	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Phaeobacter	Phaeobacter gallaeciensis	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Phaeobacter	Phaeobacter inhibens	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Phaeobacter	Phaeobacter gallaeciensis	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Phaeobacter	Phaeobacter inhibens	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Phaeobacter	Phaeobacter gallaeciensis	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Phaeobacter	Phaeobacter inhibens	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Phyllobacterium	Phyllobacterium zundukense	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Phyllobacterium	Phyllobacterium zundukense	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Porphyrobacter	Porphyrobacter sp. YT40	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Porphyrobacter	Porphyrobacter sp. YT40	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Porphyrobacter	Porphyrobacter sp. YT40	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Pseudolabrys	Pseudolabrys taiwanensis	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Pseudolabrys	Pseudolabrys taiwanensis	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Pseudorhodobacter	Pseudorhodobacter sp. S12M18	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Pseudorhodobacter	Pseudorhodobacter sp. S12M18	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Pseudorhodobacter	Pseudorhodobacter sp. S12M18	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Rhizobium	Rhizobium sp. NXC24	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Rhizobium	Rhizobium tropici	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Rhizobium	Rhizobium sp. NXC24	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Rhizobium	Rhizobium tropici	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Rhodobacter	Rhodobacter sphaeroides	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Rhodobacter	Rhodobacter sphaeroides	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Rhodobacter	Rhodobacter sphaeroides	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Rhodomicrobium	Rhodomicrobium vannielii	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Rhodomicrobium	Rhodomicrobium vannielii	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Rhodoplanes	Rhodoplanes sp. Z2-YC6860	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Rhodoplanes	Rhodoplanes sp. Z2-YC6860	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Rhodopseudomonas	Rhodopseudomonas palustris	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Rhodopseudomonas	Rhodopseudomonas palustris	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Rhodopseudomonas	Rhodopseudomonas palustris	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Rhodopseudomonas	Rhodopseudomonas palustris	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Rhodopseudomonas	Rhodopseudomonas palustris	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Rhodopseudomonas	Rhodopseudomonas palustris	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Rhodospirillum	Rhodospirillum rubrum	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Rhodospirillum	Rhodospirillum rubrum	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Rhodospirillum	Rhodospirillum rubrum	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Rickettsia	Rickettsia amblyommatis	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Rickettsia	Rickettsia amblyommatis	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Rickettsia	Rickettsia amblyommatis	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Ruegeria	Ruegeria pomeroyi	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Ruegeria	Ruegeria pomeroyi	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Ruegeria	Ruegeria pomeroyi	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Schaalia	Schaalia meyeri	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Schaalia	Schaalia odontolytica	5.183768992	0.002548082	0.012674954	7.82E-06
+COVID_19	Uninfected	Sinorhizobium	Sinorhizobium medicae	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Uninfected	Sinorhizobium	Sinorhizobium sp. RAC02	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Sinorhizobium	Sinorhizobium medicae	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Community_acquired_pneumonia	Sinorhizobium	Sinorhizobium sp. RAC02	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Sphingobium	Sphingobium baderi	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingobium	Sphingobium cloacae	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingobium	Sphingobium sp. EP60837	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingobium	Sphingobium sp. PAMC28499	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingobium	Sphingobium sp. YG1	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Sphingobium	Sphingobium baderi	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingobium	Sphingobium cloacae	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingobium	Sphingobium sp. EP60837	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingobium	Sphingobium sp. PAMC28499	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingobium	Sphingobium sp. YG1	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Sphingobium	Sphingobium baderi	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingobium	Sphingobium cloacae	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingobium	Sphingobium sp. EP60837	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingobium	Sphingobium sp. PAMC28499	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingobium	Sphingobium sp. YG1	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas ginsengisoli An et al. 2013	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas hengshuiensis	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas insulae	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. AAP5	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. C33	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. C8-2	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. Cra20	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. FARSPH	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. HKS19	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. LK11	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. LM7	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. LMO-1	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. MM-1	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. PAMC26645	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. YZ-8	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas ginsengisoli An et al. 2013	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas hengshuiensis	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas insulae	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. AAP5	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. C33	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. C8-2	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. Cra20	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. FARSPH	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. HKS19	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. LK11	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. LM7	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. LMO-1	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. MM-1	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. PAMC26645	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingomonas	Sphingomonas sp. YZ-8	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Sphingomonas	Sphingomonas ginsengisoli An et al. 2013	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas hengshuiensis	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas insulae	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. AAP5	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. C33	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. C8-2	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. Cra20	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. FARSPH	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. HKS19	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. LK11	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. LM7	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. LMO-1	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. MM-1	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. PAMC26645	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingomonas	Sphingomonas sp. YZ-8	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingopyxis	Sphingopyxis sp. 113P3	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingopyxis	Sphingopyxis sp. EG6	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Uninfected	Sphingopyxis	Sphingopyxis sp. FD7	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Sphingopyxis	Sphingopyxis sp. 113P3	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingopyxis	Sphingopyxis sp. EG6	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Community_acquired_pneumonia	Sphingopyxis	Sphingopyxis sp. FD7	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Sphingopyxis	Sphingopyxis sp. 113P3	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingopyxis	Sphingopyxis sp. EG6	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingopyxis	Sphingopyxis sp. FD7	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingosinicella	Sphingosinicella sp. BN140058	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Sphingosinicella	Sphingosinicella sp. BN140058	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Sphingosinicella	Sphingosinicella sp. BN140058	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Sphingosinithalassobacter	Sphingosinithalassobacter sp. zrk23	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Sphingosinithalassobacter	Sphingosinithalassobacter sp. zrk23	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Sphingosinithalassobacter	Sphingosinithalassobacter sp. zrk23	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Starkeya	Starkeya novella	-5.12940584	-0.416377059	-0.335588726	1.07E-08
+COVID_19	Community_acquired_pneumonia	Starkeya	Starkeya novella	-0.989721676	-0.01207145	-0.117007573	0.007444185
+COVID_19	Uninfected	Tardibacter	Tardibacter chloracetimidivorans	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Tardibacter	Tardibacter chloracetimidivorans	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Tardibacter	Tardibacter chloracetimidivorans	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Thalassospira	Thalassospira marina	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Thalassospira	Thalassospira marina	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Thalassospira	Thalassospira marina	-1.214104314	-0.009181107	-0.032340368	0.000134444
+COVID_19	Uninfected	Thauera	Thauera sp. K11	3.507662226	0.000130325	0.000348821	0.000930141
+COVID_19	Uninfected	Thermobifida	Thermobifida fusca	1.764939362	1.06E-05	3.86E-05	0.024348267
+COVID_19	Uninfected	Tolumonas	Tolumonas auensis	2.795442226	0.000136481	0.000181253	0.002709644
+COVID_19	Uninfected	Veillonella	Veillonella atypica	3.639369584	0.003267157	0.040631146	0.002999146
+COVID_19	Uninfected	Veillonella	Veillonella dispar	3.639369584	0.003267157	0.040631146	0.002999146
+COVID_19	Uninfected	Veillonella	Veillonella parvula	3.639369584	0.003267157	0.040631146	0.002999146
+COVID_19	Uninfected	Veillonella	Veillonella parvula	3.639369584	0.003267157	0.040631146	0.002999146
+COVID_19	Uninfected	Veillonella	Veillonella rodentium	3.639369584	0.003267157	0.040631146	0.002999146
+COVID_19	Uninfected	Yangia	Yangia sp. CCB-MM3	-4.382880173	-0.45870186	-0.376650628	1.69E-08
+COVID_19	Community_acquired_pneumonia	Yangia	Yangia sp. CCB-MM3	-2.053878784	-0.072794544	-0.133228083	0.006723639
+COVID_19	Uninfected	Yangia	Yangia sp. CCB-MM3	-1.214104314	-0.009181107	-0.032340368	0.000134444
