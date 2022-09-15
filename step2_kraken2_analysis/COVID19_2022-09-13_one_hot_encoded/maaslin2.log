@@ -1,0 +1,56 @@
+2022-09-13 14:28:01 INFO::Writing function arguments to log file
+2022-09-13 14:28:01 DEBUG::Function arguments
+2022-09-13 14:28:01 DEBUG::Output folder: ./COVID19_2022-09-13_one_hot_encoded
+2022-09-13 14:28:01 DEBUG::Min Abundance: 0.010000
+2022-09-13 14:28:01 DEBUG::Min Prevalence: 0.010000
+2022-09-13 14:28:01 DEBUG::Normalization: CLR
+2022-09-13 14:28:01 DEBUG::Transform: LOG
+2022-09-13 14:28:01 DEBUG::Analysis method: LM
+2022-09-13 14:28:01 DEBUG::Max significance: 0.050000
+2022-09-13 14:28:01 DEBUG::Random effects: tech_rep,publication
+2022-09-13 14:28:01 DEBUG::Fixed effects: COVID19
+2022-09-13 14:28:01 DEBUG::Correction method: BH
+2022-09-13 14:28:01 DEBUG::Standardize: TRUE
+2022-09-13 14:28:01 DEBUG::Cores: 20
+2022-09-13 14:28:01 INFO::Verifying options selected are valid
+2022-09-13 14:28:01 INFO::Determining format of input files
+2022-09-13 14:28:01 INFO::Input format is data samples as rows and metadata samples as rows
+2022-09-13 14:28:01 DEBUG::A total of 86 samples were found in both the data and metadata
+2022-09-13 14:28:01 DEBUG::Reordering data/metadata to use same sample ordering
+2022-09-13 14:28:01 INFO::Formula for random effects: expr ~ (1 | tech_rep) + (1 | publication)
+2022-09-13 14:28:01 INFO::Formula for fixed effects: expr ~  COVID19
+2022-09-13 14:28:01 INFO::Filter data based on min abundance and min prevalence
+2022-09-13 14:28:01 INFO::Total samples in data: 86
+2022-09-13 14:28:01 INFO::Min samples required with min abundance for a feature not to be filtered: 0.860000
+2022-09-13 14:28:01 INFO::Total filtered features: 0
+2022-09-13 14:28:01 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-09-13 14:28:01 INFO::Total filtered features with variance filtering: 0
+2022-09-13 14:28:01 INFO::Filtered feature names from variance filtering:
+2022-09-13 14:28:01 INFO::Running selected normalization method: CLR
+2022-09-13 14:28:01 INFO::Applying z-score to standardize continuous metadata
+2022-09-13 14:28:01 INFO::Running selected transform method: LOG
+2022-09-13 14:28:01 INFO::Running selected analysis method: LM
+2022-09-13 14:28:01 INFO::Creating cluster of 20 R processes
+2022-09-13 14:29:16 INFO::Counting total values for each feature
+2022-09-13 14:29:16 WARNING::Deleting existing residuals file: ./COVID19_2022-09-13_one_hot_encoded/residuals.rds
+2022-09-13 14:29:16 INFO::Writing residuals to file ./COVID19_2022-09-13_one_hot_encoded/residuals.rds
+2022-09-13 14:29:16 WARNING::Deleting existing fitted file: ./COVID19_2022-09-13_one_hot_encoded/fitted.rds
+2022-09-13 14:29:16 INFO::Writing fitted values to file ./COVID19_2022-09-13_one_hot_encoded/fitted.rds
+2022-09-13 14:29:16 WARNING::Deleting existing ranef file: ./COVID19_2022-09-13_one_hot_encoded/ranef.rds
+2022-09-13 14:29:16 INFO::Writing extracted random effects to file ./COVID19_2022-09-13_one_hot_encoded/ranef.rds
+2022-09-13 14:29:16 INFO::Writing all results to file (ordered by increasing q-values): ./COVID19_2022-09-13_one_hot_encoded/all_results.tsv
+2022-09-13 14:29:16 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): ./COVID19_2022-09-13_one_hot_encoded/significant_results.tsv
+2022-09-13 14:29:16 INFO::Writing heatmap of significant results to file: ./COVID19_2022-09-13_one_hot_encoded/heatmap.pdf
+2022-09-13 14:29:16 INFO::Writing association plots (one for each significant association) to output folder: ./COVID19_2022-09-13_one_hot_encoded
+2022-09-13 14:29:16 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-09-13 14:29:16 INFO::Plotting data for metadata number 1, COVID19
+2022-09-13 14:29:16 INFO::Creating boxplot for categorical data, COVID19 vs X1360
+2022-09-13 14:29:16 INFO::Creating boxplot for categorical data, COVID19 vs X402626
+2022-09-13 14:29:17 INFO::Creating boxplot for categorical data, COVID19 vs X742013
+2022-09-13 14:29:17 INFO::Creating boxplot for categorical data, COVID19 vs X2696063
+2022-09-13 14:29:17 INFO::Creating boxplot for categorical data, COVID19 vs X1599
+2022-09-13 14:29:17 INFO::Creating boxplot for categorical data, COVID19 vs X1229205
+2022-09-13 14:29:17 INFO::Creating boxplot for categorical data, COVID19 vs X1243
+2022-09-13 14:29:17 INFO::Creating boxplot for categorical data, COVID19 vs X13689
+2022-09-13 14:29:17 INFO::Creating boxplot for categorical data, COVID19 vs X2057025
+2022-09-13 14:29:17 INFO::Creating boxplot for categorical data, COVID19 vs X2587161

@@ -1,0 +1,33 @@
+2022-09-13 16:32:29 INFO::Writing function arguments to log file
+2022-09-13 16:32:29 DEBUG::Function arguments
+2022-09-13 16:32:29 DEBUG::Output folder: ./Community.Acquired.Pneumonia_2022-09-13_one_hot_encoded
+2022-09-13 16:32:29 DEBUG::Min Abundance: 0.010000
+2022-09-13 16:32:29 DEBUG::Min Prevalence: 0.010000
+2022-09-13 16:32:29 DEBUG::Normalization: CLR
+2022-09-13 16:32:29 DEBUG::Transform: LOG
+2022-09-13 16:32:29 DEBUG::Analysis method: LM
+2022-09-13 16:32:29 DEBUG::Max significance: 0.050000
+2022-09-13 16:32:29 DEBUG::Random effects: tech_rep,patient,publication
+2022-09-13 16:32:29 DEBUG::Fixed effects: Community.Acquired.Pneumonia
+2022-09-13 16:32:29 DEBUG::Correction method: BH
+2022-09-13 16:32:29 DEBUG::Standardize: TRUE
+2022-09-13 16:32:29 DEBUG::Cores: 20
+2022-09-13 16:32:29 INFO::Verifying options selected are valid
+2022-09-13 16:32:29 INFO::Determining format of input files
+2022-09-13 16:32:29 INFO::Input format is data samples as rows and metadata samples as rows
+2022-09-13 16:32:29 DEBUG::A total of 86 samples were found in both the data and metadata
+2022-09-13 16:32:29 DEBUG::Reordering data/metadata to use same sample ordering
+2022-09-13 16:32:29 INFO::Formula for random effects: expr ~ (1 | tech_rep) + (1 | patient) + (1 | publication)
+2022-09-13 16:32:29 INFO::Formula for fixed effects: expr ~  Community.Acquired.Pneumonia
+2022-09-13 16:32:29 INFO::Filter data based on min abundance and min prevalence
+2022-09-13 16:32:29 INFO::Total samples in data: 86
+2022-09-13 16:32:29 INFO::Min samples required with min abundance for a feature not to be filtered: 0.860000
+2022-09-13 16:32:29 INFO::Total filtered features: 0
+2022-09-13 16:32:29 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-09-13 16:32:29 INFO::Total filtered features with variance filtering: 0
+2022-09-13 16:32:29 INFO::Filtered feature names from variance filtering:
+2022-09-13 16:32:29 INFO::Running selected normalization method: CLR
+2022-09-13 16:32:29 INFO::Applying z-score to standardize continuous metadata
+2022-09-13 16:32:29 INFO::Running selected transform method: LOG
+2022-09-13 16:32:29 INFO::Running selected analysis method: LM
+2022-09-13 16:32:29 INFO::Creating cluster of 20 R processes

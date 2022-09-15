@@ -1,0 +1,96 @@
+2022-09-12 15:52:28 INFO::Writing function arguments to log file
+2022-09-12 15:52:28 DEBUG::Function arguments
+2022-09-12 15:52:28 DEBUG::Output folder: ./case_09122022_CAP_ref
+2022-09-12 15:52:28 DEBUG::Min Abundance: 0.010000
+2022-09-12 15:52:28 DEBUG::Min Prevalence: 0.010000
+2022-09-12 15:52:28 DEBUG::Normalization: CLR
+2022-09-12 15:52:28 DEBUG::Transform: LOG
+2022-09-12 15:52:28 DEBUG::Analysis method: LM
+2022-09-12 15:52:28 DEBUG::Max significance: 0.050000
+2022-09-12 15:52:28 DEBUG::Random effects: sample_name,publication
+2022-09-12 15:52:28 DEBUG::Fixed effects: case
+2022-09-12 15:52:28 DEBUG::Correction method: BH
+2022-09-12 15:52:28 DEBUG::Standardize: TRUE
+2022-09-12 15:52:28 DEBUG::Cores: 20
+2022-09-12 15:52:28 INFO::Verifying options selected are valid
+2022-09-12 15:52:28 INFO::Determining format of input files
+2022-09-12 15:52:28 INFO::Input format is data samples as rows and metadata samples as rows
+2022-09-12 15:52:28 DEBUG::A total of 86 samples were found in both the data and metadata
+2022-09-12 15:52:28 DEBUG::Reordering data/metadata to use same sample ordering
+2022-09-12 15:52:28 WARNING::Feature name not found in metadata so not applied to formula as random effect: sample_name
+2022-09-12 15:52:28 INFO::Formula for random effects: expr ~ (1 | publication)
+2022-09-12 15:52:28 INFO::Formula for fixed effects: expr ~  case
+2022-09-12 15:52:28 INFO::Filter data based on min abundance and min prevalence
+2022-09-12 15:52:28 INFO::Total samples in data: 86
+2022-09-12 15:52:28 INFO::Min samples required with min abundance for a feature not to be filtered: 0.860000
+2022-09-12 15:52:28 INFO::Total filtered features: 0
+2022-09-12 15:52:28 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-09-12 15:52:28 INFO::Total filtered features with variance filtering: 0
+2022-09-12 15:52:28 INFO::Filtered feature names from variance filtering:
+2022-09-12 15:52:28 INFO::Running selected normalization method: CLR
+2022-09-12 15:52:28 INFO::Applying z-score to standardize continuous metadata
+2022-09-12 15:52:28 INFO::Running selected transform method: LOG
+2022-09-12 15:52:28 INFO::Running selected analysis method: LM
+2022-09-12 15:52:28 INFO::Creating cluster of 20 R processes
+2022-09-12 15:53:55 INFO::Counting total values for each feature
+2022-09-12 15:53:55 INFO::Writing residuals to file ./case_09122022_CAP_ref/residuals.rds
+2022-09-12 15:53:55 INFO::Writing fitted values to file ./case_09122022_CAP_ref/fitted.rds
+2022-09-12 15:53:55 INFO::Writing extracted random effects to file ./case_09122022_CAP_ref/ranef.rds
+2022-09-12 15:53:55 INFO::Writing all results to file (ordered by increasing q-values): ./case_09122022_CAP_ref/all_results.tsv
+2022-09-12 15:53:55 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): ./case_09122022_CAP_ref/significant_results.tsv
+2022-09-12 15:53:55 INFO::Writing heatmap of significant results to file: ./case_09122022_CAP_ref/heatmap.pdf
+2022-09-12 15:53:55 INFO::Writing association plots (one for each significant association) to output folder: ./case_09122022_CAP_ref
+2022-09-12 15:53:55 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-09-12 15:53:55 INFO::Plotting data for metadata number 1, case
+2022-09-12 15:53:55 INFO::Creating boxplot for categorical data, case vs X1360
+2022-09-12 15:53:55 INFO::Creating boxplot for categorical data, case vs X34072
+2022-09-12 15:53:55 INFO::Creating boxplot for categorical data, case vs X2126319
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X663243
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X436515
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X2696063
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X964
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X93973
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X2202826
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X2509614
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X1528098
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X329
+2022-09-12 15:53:56 INFO::Creating boxplot for categorical data, case vs X338969
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X908290
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X2014887
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X2067957
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X402626
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X946333
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X2116657
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X2603276
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X742013
+2022-09-12 15:53:57 INFO::Creating boxplot for categorical data, case vs X573061
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X1849491
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X1229205
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X624
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X2202826
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X426355
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X2599600
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X32011
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X1768
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X2638319
+2022-09-12 15:53:58 INFO::Creating boxplot for categorical data, case vs X13689
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X231049
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X766
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X1660
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X28188
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X159087
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X946483
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X2603276
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X748678
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X1123519
+2022-09-12 15:53:59 INFO::Creating boxplot for categorical data, case vs X1697053
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X2057025
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X1392005
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X881260
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X1246301
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X43662
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X186801
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X2509614
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X413882
+2022-09-12 15:54:00 INFO::Creating boxplot for categorical data, case vs X1844971
+2022-09-12 15:54:01 INFO::Creating boxplot for categorical data, case vs X85015

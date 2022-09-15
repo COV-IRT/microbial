@@ -9,7 +9,7 @@ library(RColorBrewer)
 library(pheatmap)
 library(DESeq2)
 #set the working directory
-setwd("c:/github/microbial/02092022/Figure3/")
+setwd("K:/github/microbial/Figures/02092022/Figure3/")
 #load the necessary tables and phyloseq images
 #phyloseq image
 term_pseq_no_neg_gonames<-readRDS("term_pseq_no_neg_gonames.RDS")
@@ -39,10 +39,19 @@ deseq_counts <- DESeqDataSetFromMatrix(data.frame(otu_table(term_pseq_no_neg_gon
 vst_counts <- varianceStabilizingTransformation(deseq_counts)
 vst_counts_df <- assay(vst_counts)
 
+
+
+sample_euc_dist <- dist(t(data.frame(otu_table(term_pseq_no_neg_gonames))))
+sample_euc_dist
+
 sample_euc_dist <- dist(t(vst_counts_df))
+
 # not making a GO/row one because we won't have all of the terms in the figure, and we want to order them our own way anyway
 sample_hclust <- hclust(sample_euc_dist, method = "ward.D2")
 
+
+# Plot the obtained dendrogram
+plot(sample_hclust, cex = 0.6, hang = -1)
 ##############################
 # grouped sig GO terms in "maaslin2-outcome-survival-heatmap.xlsx", table we're reading in is from the tab "maaslin2-outcome-heatmap-info"
 ##############################
@@ -126,7 +135,7 @@ samples_with_outcomes_percentages_df <- percentages_df %>% select(row.names(samp
 samples_with_outcomes_GO_for_heatmap <- samples_with_outcomes_percentages_df[row.names(GO_annots_heatmap_info), ]
 
 
-
+round(range(samples_with_outcomes_GO_for_heatmap),2)
 #new annotations list with only the publications used in the analysis
 # annot_cols = list(Publication=c("Shen"="#56B4E9","Chen"= "#009E73","Zhou"="#0072B2"),
 #                   dmm_cluster=c("1"="#0072B2","2"= "#D55E00","3"="#CC79A7"),
@@ -146,15 +155,44 @@ annot_cols = list(Publication=c("Shen"="#56B4E9","Chen"= "#009E73","Zhou"= "#D55
                                          "GO:0008152 metabolic process | GO:0009987  cellular process"="#56B4E9",
                                          "GO:0003824 | catalytic activity"="#009E73",
                                          "GO:0005488 | binding"="#F0E442"))
+meths<-c('ward', 'ward.D', 'ward.D2', 'single', 'complete', 'average', 'mcquitty', 'median' , 'centroid')
+library(vegan)
+
+
+
+# new clustering (needed because we removed samples)
+
+library(tidyverse)
+sam<-data.frame(sample_data(samples_with_outcomes_term_pseq_no_neg_gonames))
+samples_with_outcomes_GO_for_heatmap_in<-samples_with_outcomes_GO_for_heatmap*10000
+range(samples_with_outcomes_GO_for_heatmap_in)
+class(samples_with_outcomes_GO_for_heatmap_in)
+samples_with_outcomes_sample_annots_df
+samples_with_outcomes_deseq_counts <- DESeqDataSetFromMatrix(samples_with_outcomes_GO_for_heatmap_in[1],
+                                                             colData = samples_with_outcomes_sample_annots_df, 
+                                                             design = ~ Outcome)
+samples_with_outcomes_vst_counts <- varianceStabilizingTransformation(samples_with_outcomes_deseq_counts)
+samples_with_outcomes_vst_counts_df <- assay(samples_with_outcomes_vst_counts)
+samples_with_outcomes_sample_euc_dist <- dist(t(samples_with_outcomes_vst_counts_df))
+# not making a GO/row one because we won't have all of the terms in the figure, and we want to order them our own way anyway
+samples_with_outcomes_sample_hclust <- hclust(samples_with_outcomes_sample_euc_dist, method = "ward.D2")
+samples_with_outcomes_percentages_df <- percentages_df %>% select(row.names(samples_with_outcomes_sample_annots_df))
+samples_with_outcomes_GO_for_heatmap <- samples_with_outcomes_percentages_df[row.names(GO_annots_heatmap_info), ]
+
+c<-hclust(vegdist(x = samples_with_outcomes_GO_for_heatmap,method = "manhattan"))
+
 
 pheatmap(mat = samples_with_outcomes_GO_for_heatmap,
                color = colorRampPalette(rev(brewer.pal(n = 10, name ="RdYlBu")))(20),
-               cluster_cols = samples_with_outcomes_sample_hclust,
+#               cluster_cols =samples_with_outcomes_sample_hclust,
+         cluster_cols =c,
+         #clustering_method = meths[5],
                cluster_rows = FALSE,
                cutree_cols = 2,
                annotation_col = samples_with_outcomes_sample_annots_df,
                annotation_row = GO_annots_heatmap_info,
                scale="row",
+         #main = paste0(meths[5]),
                border_color="black",
                annotation_colors = annot_cols,
                angle_col = 315,
@@ -175,10 +213,11 @@ pheatmap(mat = samples_with_outcomes_GO_for_heatmap,
                angle_col = 315,
                fontsize_row = 20, fontsize_col = 18, gaps_row = gaps_vec,
                cellwidth = 30, cellheight = 30, fontsize = 20,
-               filename = "Figure3_GO-outcome-survival-heatmap-only-those-with-outcomes_colorblind_friendly.pdf", 
+              # filename = "Figure3_GO-outcome-survival-heatmap-only-those-with-outcomes_colorblind_friendly.pdf", 
          width = 32, height = 14, main = "Significantly different GO Terms")
 
 dev.off()
+samples_with_outcomes_sample_hclust$dist.method
 
 save.image("Figure3_survival_heatmap_02092022.RData")
 

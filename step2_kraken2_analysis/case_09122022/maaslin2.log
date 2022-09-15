@@ -1,0 +1,22 @@
+2022-09-12 15:44:39 INFO::Writing function arguments to log file
+2022-09-12 15:44:40 DEBUG::Function arguments
+2022-09-12 15:44:40 DEBUG::Output folder: ./case_09122022
+2022-09-12 15:44:40 DEBUG::Min Abundance: 0.010000
+2022-09-12 15:44:40 DEBUG::Min Prevalence: 0.010000
+2022-09-12 15:44:40 DEBUG::Normalization: CLR
+2022-09-12 15:44:40 DEBUG::Transform: LOG
+2022-09-12 15:44:40 DEBUG::Analysis method: LM
+2022-09-12 15:44:40 DEBUG::Max significance: 0.050000
+2022-09-12 15:44:40 DEBUG::Random effects: sample_name,publication
+2022-09-12 15:44:40 DEBUG::Fixed effects: case
+2022-09-12 15:44:40 DEBUG::Correction method: BH
+2022-09-12 15:44:40 DEBUG::Standardize: TRUE
+2022-09-12 15:44:40 DEBUG::Cores: 8
+2022-09-12 15:44:40 INFO::Verifying options selected are valid
+2022-09-12 15:44:40 INFO::Determining format of input files
+2022-09-12 15:44:40 INFO::Input format is data samples as rows and metadata samples as rows
+2022-09-12 15:44:40 DEBUG::A total of 86 samples were found in both the data and metadata
+2022-09-12 15:44:40 DEBUG::Reordering data/metadata to use same sample ordering
+2022-09-12 15:44:40 WARNING::Feature name not found in metadata so not applied to formula as random effect: sample_name
+2022-09-12 15:44:40 INFO::Formula for random effects: expr ~ (1 | publication)
+2022-09-12 15:44:40 INFO::Formula for fixed effects: expr ~  case

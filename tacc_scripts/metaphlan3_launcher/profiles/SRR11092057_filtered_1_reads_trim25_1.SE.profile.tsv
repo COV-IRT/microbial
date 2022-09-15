@@ -1,0 +1,23 @@
+#mpa_v30_CHOCOPhlAn_201901
+#/home1/06176/jochum00/miniconda3/bin/metaphlan SRR11092057_filtered_1_reads_trim25_1.fq.gz --bowtie2db /scratch/06176/jochum00/COVIRT19/metaphlan3/mpa_v30_CHOCOPhlAn_201901 --input_type fastq --add_viruses -s /scratch/06176/jochum00/COVIRT19/7nrd3/osfstorage/Human_Metatranscriptomes/Final_Results/Microbial_Pre-Processing/Step1_Trimmed_Filtered_Reads/Step1c_Trimmed_Filtered_Read_Data/metaphlan3/sams/SRR11092057_filtered_1_reads_trim25_1.SE.sam --bowtie2out /scratch/06176/jochum00/COVIRT19/7nrd3/osfstorage/Human_Metatranscriptomes/Final_Results/Microbial_Pre-Processing/Step1_Trimmed_Filtered_Reads/Step1c_Trimmed_Filtered_Read_Data/metaphlan3/bowtie2/SRR11092057_filtered_1_reads_trim25_1.SE.bowtie2.bz2 -o /scratch/06176/jochum00/COVIRT19/7nrd3/osfstorage/Human_Metatranscriptomes/Final_Results/Microbial_Pre-Processing/Step1_Trimmed_Filtered_Reads/Step1c_Trimmed_Filtered_Read_Data/metaphlan3/profiles/SRR11092057_filtered_1_reads_trim25_1.SE.profile.tsv --nproc 48
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Viruses	10239	97.47234	
+k__Bacteria	2	2.52766	
+k__Viruses|p__Viruses_unclassified	10239|	97.47234	
+k__Bacteria|p__Actinobacteria	2|201174	2.52766	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified	10239||	97.47234	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria	2|201174|1760	2.52766	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales	10239|||548681	97.47234	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales	2|201174|1760|2037	2.52766	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales|f__Herpesviridae	10239|||548681|10292	80.54419	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales|f__Alloherpesviridae	10239|||548681|548682	16.92815	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Actinomycetaceae	2|201174|1760|2037|2049	2.52766	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales|f__Herpesviridae|g__Macavirus	10239|||548681|10292|548687	63.24959	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales|f__Herpesviridae|g__Rhadinovirus	10239|||548681|10292|10379	17.2946	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales|f__Alloherpesviridae|g__Cyprinivirus	10239|||548681|548682|692606	16.92815	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Actinomycetaceae|g__Actinomyces	2|201174|1760|2037|2049|1654	2.52766	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales|f__Herpesviridae|g__Macavirus|s__Alcelaphine_gammaherpesvirus_1	10239|||548681|10292|548687|35252	63.24959	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales|f__Herpesviridae|g__Rhadinovirus|s__Ateline_gammaherpesvirus_3	10239|||548681|10292|10379|85618	17.2946	
+k__Viruses|p__Viruses_unclassified|c__Viruses_unclassified|o__Herpesvirales|f__Alloherpesviridae|g__Cyprinivirus|s__Cyprinid_herpesvirus_3	10239|||548681|548682|692606|180230	16.92815	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Actinomycetales|f__Actinomycetaceae|g__Actinomyces|s__Actinomyces_sp_HPA0247	2|201174|1760|2037|2049|1654|1203556	2.52766	

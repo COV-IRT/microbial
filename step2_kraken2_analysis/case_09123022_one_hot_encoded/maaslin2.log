@@ -1,0 +1,274 @@
+2022-09-13 13:22:34 INFO::Writing function arguments to log file
+2022-09-13 13:22:34 DEBUG::Function arguments
+2022-09-13 13:22:34 DEBUG::Output folder: ./case_09123022_one_hot_encoded
+2022-09-13 13:22:34 DEBUG::Min Abundance: 0.000000
+2022-09-13 13:22:34 DEBUG::Min Prevalence: 0.100000
+2022-09-13 13:22:34 DEBUG::Normalization: TSS
+2022-09-13 13:22:34 DEBUG::Transform: LOG
+2022-09-13 13:22:34 DEBUG::Analysis method: LM
+2022-09-13 13:22:34 DEBUG::Max significance: 0.250000
+2022-09-13 13:22:34 DEBUG::Random effects: tech_rep,publication
+2022-09-13 13:22:34 DEBUG::Fixed effects: Uninfected,Community.Acquired.Pneumonia,COVID19,case
+2022-09-13 13:22:34 DEBUG::Correction method: BH
+2022-09-13 13:22:34 DEBUG::Standardize: TRUE
+2022-09-13 13:22:34 DEBUG::Cores: 20
+2022-09-13 13:22:34 INFO::Verifying options selected are valid
+2022-09-13 13:22:34 INFO::Determining format of input files
+2022-09-13 13:22:34 INFO::Input format is data samples as rows and metadata samples as rows
+2022-09-13 13:22:34 DEBUG::A total of 86 samples were found in both the data and metadata
+2022-09-13 13:22:34 DEBUG::Reordering data/metadata to use same sample ordering
+2022-09-13 13:22:34 INFO::Formula for random effects: expr ~ (1 | tech_rep) + (1 | publication)
+2022-09-13 13:22:34 INFO::Formula for fixed effects: expr ~  Uninfected + Community.Acquired.Pneumonia + COVID19 + case
+2022-09-13 13:22:34 INFO::Filter data based on min abundance and min prevalence
+2022-09-13 13:22:34 INFO::Total samples in data: 86
+2022-09-13 13:22:34 INFO::Min samples required with min abundance for a feature not to be filtered: 8.600000
+2022-09-13 13:22:34 INFO::Total filtered features: 0
+2022-09-13 13:22:34 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-09-13 13:22:34 INFO::Total filtered features with variance filtering: 0
+2022-09-13 13:22:34 INFO::Filtered feature names from variance filtering:
+2022-09-13 13:22:34 INFO::Running selected normalization method: TSS
+2022-09-13 13:22:35 INFO::Applying z-score to standardize continuous metadata
+2022-09-13 13:22:35 INFO::Running selected transform method: LOG
+2022-09-13 13:22:35 INFO::Running selected analysis method: LM
+2022-09-13 13:22:35 INFO::Creating cluster of 20 R processes
+2022-09-13 13:23:46 INFO::Counting total values for each feature
+2022-09-13 13:23:46 WARNING::Deleting existing residuals file: ./case_09123022_one_hot_encoded/residuals.rds
+2022-09-13 13:23:46 INFO::Writing residuals to file ./case_09123022_one_hot_encoded/residuals.rds
+2022-09-13 13:23:46 WARNING::Deleting existing fitted file: ./case_09123022_one_hot_encoded/fitted.rds
+2022-09-13 13:23:46 INFO::Writing fitted values to file ./case_09123022_one_hot_encoded/fitted.rds
+2022-09-13 13:23:46 WARNING::Deleting existing ranef file: ./case_09123022_one_hot_encoded/ranef.rds
+2022-09-13 13:23:46 INFO::Writing extracted random effects to file ./case_09123022_one_hot_encoded/ranef.rds
+2022-09-13 13:23:46 INFO::Writing all results to file (ordered by increasing q-values): ./case_09123022_one_hot_encoded/all_results.tsv
+2022-09-13 13:23:46 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): ./case_09123022_one_hot_encoded/significant_results.tsv
+2022-09-13 13:23:46 INFO::Writing heatmap of significant results to file: ./case_09123022_one_hot_encoded/heatmap.pdf
+2022-09-13 13:23:47 INFO::Writing association plots (one for each significant association) to output folder: ./case_09123022_one_hot_encoded
+2022-09-13 13:23:47 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-09-13 13:23:47 INFO::Plotting data for metadata number 1, Community.Acquired.Pneumonia
+2022-09-13 13:23:47 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X434
+2022-09-13 13:23:47 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X414684
+2022-09-13 13:23:47 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X266940
+2022-09-13 13:23:47 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2603276
+2022-09-13 13:23:47 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1608628
+2022-09-13 13:23:47 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X33958
+2022-09-13 13:23:47 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X81
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1503054
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2036206
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X929713
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1911586
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X908290
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X338187
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X960
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1243
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X763057
+2022-09-13 13:23:48 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X426355
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1849491
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X691
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1671868
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X408
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X41295
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X93064
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1696
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X766
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1358
+2022-09-13 13:23:49 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X60552
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1844971
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1305
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2202826
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X496057
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X260554
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2049
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X356322
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1549855
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1798205
+2022-09-13 13:23:50 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2529408
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X520
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X515620
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1357
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1599
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X402626
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X488538
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1660158
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X90964
+2022-09-13 13:23:51 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X946483
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1784714
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X159087
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X291112
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X395495
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1150469
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1235591
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X32207
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X78587
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X335928
+2022-09-13 13:23:52 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2597770
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2609248
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1796646
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1458985
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1813871
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X95485
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1267766
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2756
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X231049
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1429244
+2022-09-13 13:23:53 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2675225
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1697053
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X909932
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1613
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1349819
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X536
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X649716
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2699395
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X204441
+2022-09-13 13:23:54 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X149539
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X46170
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1261131
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X28129
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X31979
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1345
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X40480
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X1505036
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2638319
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X292
+2022-09-13 13:23:55 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2666025
+2022-09-13 13:23:56 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X2509614
+2022-09-13 13:23:56 INFO::Creating boxplot for categorical data, Community.Acquired.Pneumonia vs X316056
+2022-09-13 13:23:57 INFO::Plotting data for metadata number 2, Uninfected
+2022-09-13 13:23:57 INFO::Creating boxplot for categorical data, Uninfected vs X395495
+2022-09-13 13:23:57 INFO::Creating boxplot for categorical data, Uninfected vs X1223566
+2022-09-13 13:23:57 INFO::Creating boxplot for categorical data, Uninfected vs X375
+2022-09-13 13:23:57 INFO::Creating boxplot for categorical data, Uninfected vs X2126319
+2022-09-13 13:23:57 INFO::Creating boxplot for categorical data, Uninfected vs X32207
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X663243
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X1034889
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X2609248
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X436515
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X2049
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X1246301
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X282217
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X33958
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X76831
+2022-09-13 13:23:58 INFO::Creating boxplot for categorical data, Uninfected vs X2599297
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X1663
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X929713
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X46170
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X1599
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X376
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X266940
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X392593
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X1437824
+2022-09-13 13:23:59 INFO::Creating boxplot for categorical data, Uninfected vs X1348660
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X2036206
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X37928
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X1492737
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X1852377
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X1305
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X329
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X864051
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X2529408
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X1646
+2022-09-13 13:24:00 INFO::Creating boxplot for categorical data, Uninfected vs X356322
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X1911586
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X1049583
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X1867719
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X748678
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X1696
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X391735
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X231049
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X2005456
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X329854
+2022-09-13 13:24:01 INFO::Creating boxplot for categorical data, Uninfected vs X2638319
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X1858609
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X1660
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X1813871
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X1429244
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X2116657
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X316056
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X946483
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X946333
+2022-09-13 13:24:02 INFO::Creating boxplot for categorical data, Uninfected vs X1242245
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X2494373
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X1357
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X1697053
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X795665
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X80812
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X1241833
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X300
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X2518645
+2022-09-13 13:24:03 INFO::Creating boxplot for categorical data, Uninfected vs X172042
+2022-09-13 13:24:04 INFO::Creating boxplot for categorical data, Uninfected vs X29521
+2022-09-13 13:24:04 INFO::Creating boxplot for categorical data, Uninfected vs X80869
+2022-09-13 13:24:04 INFO::Creating boxplot for categorical data, Uninfected vs X573061
+2022-09-13 13:24:04 INFO::Creating boxplot for categorical data, Uninfected vs X1355477
+2022-09-13 13:24:04 INFO::Creating boxplot for categorical data, Uninfected vs X553814
+2022-09-13 13:24:04 INFO::Creating boxplot for categorical data, Uninfected vs X12916
+2022-09-13 13:24:04 INFO::Creating boxplot for categorical data, Uninfected vs X135727
+2022-09-13 13:24:04 INFO::Creating boxplot for categorical data, Uninfected vs X2630218
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X34072
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X2697032
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X2109914
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X1050370
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X1404367
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X2109913
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X2509614
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X165779
+2022-09-13 13:24:05 INFO::Creating boxplot for categorical data, Uninfected vs X881260
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X38294
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X32012
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X624
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X32011
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X43668
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X90371
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X169679
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X186807
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X428406
+2022-09-13 13:24:06 INFO::Creating boxplot for categorical data, Uninfected vs X650377
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X1427984
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X1842533
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X159087
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X54736
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X2603276
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X520
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X29394
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X115981
+2022-09-13 13:24:07 INFO::Creating boxplot for categorical data, Uninfected vs X1267766
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X1191459
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X1345702
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X1613
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X54291
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X224471
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X669502
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X1296669
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X433
+2022-09-13 13:24:08 INFO::Creating boxplot for categorical data, Uninfected vs X2067957
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X2056494
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X2493639
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X907
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X1243
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X637910
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X1768
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X1218801
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X1463165
+2022-09-13 13:24:09 INFO::Creating boxplot for categorical data, Uninfected vs X159
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X43662
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X63
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X536227
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X2579935
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X13373
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X68895
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X680646
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X592316
+2022-09-13 13:24:10 INFO::Creating boxplot for categorical data, Uninfected vs X742013
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X1229205
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X2547399
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X28221
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X2487353
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X75
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X1648923
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X65393
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X2202827
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X2597701
+2022-09-13 13:24:11 INFO::Creating boxplot for categorical data, Uninfected vs X83333
+2022-09-13 13:24:12 INFO::Creating boxplot for categorical data, Uninfected vs X225991
+2022-09-13 13:24:12 INFO::Creating boxplot for categorical data, Uninfected vs X663365
+2022-09-13 13:24:12 INFO::Creating boxplot for categorical data, Uninfected vs X208224
+2022-09-13 13:24:12 INFO::Creating boxplot for categorical data, Uninfected vs X1160717
+2022-09-13 13:24:12 INFO::Creating boxplot for categorical data, Uninfected vs X1219032

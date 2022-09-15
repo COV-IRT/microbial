@@ -1,0 +1,82 @@
+2022-09-13 14:29:19 INFO::Writing function arguments to log file
+2022-09-13 14:29:19 DEBUG::Function arguments
+2022-09-13 14:29:19 DEBUG::Output folder: ./Uninfected_2022-09-13_one_hot_encoded
+2022-09-13 14:29:19 DEBUG::Min Abundance: 0.010000
+2022-09-13 14:29:19 DEBUG::Min Prevalence: 0.010000
+2022-09-13 14:29:19 DEBUG::Normalization: CLR
+2022-09-13 14:29:19 DEBUG::Transform: LOG
+2022-09-13 14:29:19 DEBUG::Analysis method: LM
+2022-09-13 14:29:19 DEBUG::Max significance: 0.050000
+2022-09-13 14:29:19 DEBUG::Random effects: tech_rep,publication
+2022-09-13 14:29:19 DEBUG::Fixed effects: Uninfected
+2022-09-13 14:29:19 DEBUG::Correction method: BH
+2022-09-13 14:29:19 DEBUG::Standardize: TRUE
+2022-09-13 14:29:19 DEBUG::Cores: 20
+2022-09-13 14:29:19 INFO::Verifying options selected are valid
+2022-09-13 14:29:19 INFO::Determining format of input files
+2022-09-13 14:29:19 INFO::Input format is data samples as rows and metadata samples as rows
+2022-09-13 14:29:19 DEBUG::A total of 86 samples were found in both the data and metadata
+2022-09-13 14:29:19 DEBUG::Reordering data/metadata to use same sample ordering
+2022-09-13 14:29:19 INFO::Formula for random effects: expr ~ (1 | tech_rep) + (1 | publication)
+2022-09-13 14:29:19 INFO::Formula for fixed effects: expr ~  Uninfected
+2022-09-13 14:29:19 INFO::Filter data based on min abundance and min prevalence
+2022-09-13 14:29:19 INFO::Total samples in data: 86
+2022-09-13 14:29:19 INFO::Min samples required with min abundance for a feature not to be filtered: 0.860000
+2022-09-13 14:29:19 INFO::Total filtered features: 0
+2022-09-13 14:29:19 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-09-13 14:29:19 INFO::Total filtered features with variance filtering: 0
+2022-09-13 14:29:19 INFO::Filtered feature names from variance filtering:
+2022-09-13 14:29:19 INFO::Running selected normalization method: CLR
+2022-09-13 14:29:19 INFO::Applying z-score to standardize continuous metadata
+2022-09-13 14:29:19 INFO::Running selected transform method: LOG
+2022-09-13 14:29:19 INFO::Running selected analysis method: LM
+2022-09-13 14:29:19 INFO::Creating cluster of 20 R processes
+2022-09-13 14:30:35 INFO::Counting total values for each feature
+2022-09-13 14:30:35 WARNING::Deleting existing residuals file: ./Uninfected_2022-09-13_one_hot_encoded/residuals.rds
+2022-09-13 14:30:36 INFO::Writing residuals to file ./Uninfected_2022-09-13_one_hot_encoded/residuals.rds
+2022-09-13 14:30:36 WARNING::Deleting existing fitted file: ./Uninfected_2022-09-13_one_hot_encoded/fitted.rds
+2022-09-13 14:30:36 INFO::Writing fitted values to file ./Uninfected_2022-09-13_one_hot_encoded/fitted.rds
+2022-09-13 14:30:36 WARNING::Deleting existing ranef file: ./Uninfected_2022-09-13_one_hot_encoded/ranef.rds
+2022-09-13 14:30:36 INFO::Writing extracted random effects to file ./Uninfected_2022-09-13_one_hot_encoded/ranef.rds
+2022-09-13 14:30:36 INFO::Writing all results to file (ordered by increasing q-values): ./Uninfected_2022-09-13_one_hot_encoded/all_results.tsv
+2022-09-13 14:30:36 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): ./Uninfected_2022-09-13_one_hot_encoded/significant_results.tsv
+2022-09-13 14:30:36 INFO::Writing heatmap of significant results to file: ./Uninfected_2022-09-13_one_hot_encoded/heatmap.pdf
+2022-09-13 14:30:36 INFO::Writing association plots (one for each significant association) to output folder: ./Uninfected_2022-09-13_one_hot_encoded
+2022-09-13 14:30:36 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-09-13 14:30:36 INFO::Plotting data for metadata number 1, Uninfected
+2022-09-13 14:30:36 INFO::Creating boxplot for categorical data, Uninfected vs X34072
+2022-09-13 14:30:36 INFO::Creating boxplot for categorical data, Uninfected vs X2126319
+2022-09-13 14:30:36 INFO::Creating boxplot for categorical data, Uninfected vs X93973
+2022-09-13 14:30:36 INFO::Creating boxplot for categorical data, Uninfected vs X663243
+2022-09-13 14:30:36 INFO::Creating boxplot for categorical data, Uninfected vs X338969
+2022-09-13 14:30:36 INFO::Creating boxplot for categorical data, Uninfected vs X436515
+2022-09-13 14:30:36 INFO::Creating boxplot for categorical data, Uninfected vs X2067957
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X624
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X964
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X329
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X1768
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X43662
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X748678
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X908290
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X2303331
+2022-09-13 14:30:37 INFO::Creating boxplot for categorical data, Uninfected vs X2599600
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X946333
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X32011
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X853
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X135727
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X881260
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X54736
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X1812935
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X426355
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X946483
+2022-09-13 14:30:38 INFO::Creating boxplot for categorical data, Uninfected vs X1246301
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X85015
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X526224
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X1678128
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X2664291
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X413882
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X2697032
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X80811
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X2594473
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X313596
+2022-09-13 14:30:39 INFO::Creating boxplot for categorical data, Uninfected vs X2202826

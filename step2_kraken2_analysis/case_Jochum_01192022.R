@@ -10,6 +10,7 @@
 
 library(tidyverse)
 library(phyloseq)
+library(decontam)
 setwd("~/github/microbial/step2_kraken2_analysis")
 
 
@@ -162,15 +163,15 @@ colnames(df_input_metadata)
 # 0.1 and 0.1 abundance and prevalence cutoffs
 # Bejamini Hochberg multiple test correction
 
-colnames()
+
 df_input_metadata%>%select(publication,patient,case)
 #########################################
 # warning this takes FOREVER to run
 ##########################################
-case_norm<-Maaslin2(
+case_norm3<-Maaslin2(
   input_data = df_input_data,
   input_metadata = df_input_metadata,
-  output="./case_01182022",
+  output="./case_09122022_CAP_ref",
   min_abundance = 0.01,
   min_prevalence = 0.01,
   normalization = "CLR",
@@ -181,22 +182,39 @@ case_norm<-Maaslin2(
   fixed_effects = c("case"),
   correction="BH",
   standardize = TRUE,
-  cores = 8,
+  cores = 20,reference = 'case,Community Acquired Pneumonia',
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =100)
 
 ###########################################
-res
+
 #make a copy of the results
 res<-as_tibble(case_norm$results)
+res2<-as_tibble(case_norm2$results)
+res3<-as_tibble(case_norm3$results)
+
+res
+res2
+res3
+
+
 #filter the results to only include significant taxa
-keep<-res%>%filter(qval<=0.05)
+keep<-res%>%filter(qval<=0.05)%>%mutate(reference="Uninfected")
+keep2<-res2%>%filter(qval<=0.05)%>%mutate(reference="COVID19")
+keep3<-res3%>%filter(qval<=0.05)%>%mutate(reference="Community Acquired Pneumonia")
+
+keep # A tibble: 70 × 11
+keep2# A tibble: 59 × 11
+keep3# A tibble: 52 × 11
+keep4<-full_join(keep,keep2)
+keep4<-full_join(keep4,keep3)
+
 #fix the character
-keep<-keep%>%mutate(feature=gsub("X","",feature))
+keep4<-keep4%>%mutate(feature=gsub("X","",feature))
 keep
 #make a phyloseq_object that has subsets only the stat. significant taxa
-physeq_keep<-prune_taxa(taxa = keep$feature, x =  pseq_decontam_no_neg_core)
+physeq_keep<-prune_taxa(taxa = keep4$feature, x =  pseq_decontam_no_neg_core)
 
 physeq_keep #[ 34 taxa and 25 samples ]
 
@@ -204,32 +222,33 @@ physeq_keep #[ 34 taxa and 25 samples ]
 keep_tax<-data.frame(tax_table(physeq_keep))
 keep_tax$feature<-rownames(keep_tax)
 
-keep<-inner_join(keep,keep_tax)
-unique(keep$genus)
+keep4<-inner_join(keep4,keep_tax)
+unique(keep4$genus)
 
 unique(keep$value)
 
 
 keep%>%mutate(value)
-
-sping<-keep%>%filter(genus=="Sphingomonas")
+keep4
+sping<-keep4%>%filter(genus=="Sphingomonas")
 sping
 ################################################################################
 ############## Metacoder hat tree data visualiz(s)ations #######################
 ################################################################################
+#install.packages('metacoder')
 library(metacoder)
-
-pseq_obj<-parse_phyloseq(survival_pseq_decontam_no_neg_core)
+library(taxize)
+pseq_obj<-parse_phyloseq(physeq_keep)
 pseq_obj
 
 #convert all counts below a minimum number (5) to zero
 pseq_obj$data$tax_data <- zero_low_counts(pseq_obj, data = "tax_data", min_count = 5)
 #filter taxa with less than 5 observations
-pseq_obj_filt <- taxa::filter_taxa(pseq_obj, n_obs > 5)
+pseq_obj_filt <-metacoder::filter_taxa(pseq_obj, n_obs > 5)
 pseq_obj_filt
 
 # #double check to make sure there arent any rows with zero counts remaining in the dataset
- no_reads <- rowSums(pseq_obj_filt$data$otu_table[, pseq_obj_filt$data$sample_data$sample_id]) == 0
+no_reads <- rowSums(pseq_obj_filt$data$otu_table[, pseq_obj_filt$data$sample_data$sample_id]) == 0
  sum(no_reads) # [1] 0 good
 # 
 # #just in case there were, we could remove them by filtering the observations
@@ -253,14 +272,13 @@ pseq_obj_filt$data$tax_abund <- calc_taxon_abund(pseq_obj_filt,
 range(pseq_obj_filt$data$tax_abund[-1]) # 0 1 ... good
 
 # Count the number of samples
-pseq_obj_filt$data$tax_occ <- calc_n_samples(pseq_obj_filt, 
-                                             "tax_abund", 
-                                             cols = pseq_obj_filt$data$sample_data$sample_id,
-                                             groups = pseq_obj_filt$data$sample_data$survival)
+pseq_obj_filt
+pseq_obj_filt$data$tax_occ <- calc_n_samples(obj = pseq_obj_filt,data = "tax_abund", 
+                                             cols = pseq_obj_filt$data$sample_data$sample_id)#groups = pseq_obj_filt$data$sample_data$survival)
 
 #Calculating number of samples with a value greater than 0 for 25 columns in 2 groups for 84 observations
 pseq_obj_filt$data$tax_occ 
-
+pseq_obj_filt$data$sample_data$survival
 #make the individual data visualizations for each treatment
 set.seed(314) # This makes the plot appear the same each time it is run 
 
@@ -289,16 +307,32 @@ heat_tree(pseq_obj_filt,
           title="Survived",
           layout = "davidson-harel", # The primary layout algorithm
           initial_layout = "reingold-tilford")
-
-################################################################################
+pseq_obj_filt$data$sample_data$case
+pseq_obj_filt$data$sample_data$survival################################################################################
 #Compare the abundance of the taxon between deceased and survived
 ################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+#         CHANGE THIS COMBINATIONS LIST TO LOOK AT THE COMPARISIONS CORRECTLY
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+
+
+
 pseq_obj_filt$data$diff_table <- compare_groups(pseq_obj_filt,
                                       data = "tax_abund",
                                       cols = pseq_obj_filt$data$sample_data$sample_id,
-                                      groups = pseq_obj_filt$data$sample_data$survival,
-                                      combinations =list(c('Survived', 'Deceased')))
+                                      groups = pseq_obj_filt$data$sample_data$case,
+                                      combinations =list(c("COVID19", "Community Acquired Pneumonia" ),
+                                                         c("Uninfected","COVID19"),
+                                                         c("Uninfected","Community Acquired Pneumonia")))
 
+unique(pseq_obj_filt$data$diff_table$treatment_2)
 range(pseq_obj_filt$data$diff_table$log2_median_ratio) #[1] -5.175576  5.207248
 ################################################################################
 
@@ -323,7 +357,7 @@ pseq_obj_filt
 #adjust the p value for multiple test correction using n = 84 taxon comparisons 
 pseq_obj_filt$data$diff_table$p.adjust<-p.adjust(p = pseq_obj_filt$data$diff_table$wilcox_p_value, method = "BH", n = 84)
 pseq_obj_filt$data$diff_table$p.adjust
-
+library(tidyverse)
 #make a table with the statistically significant taxon ids 
 pseq_obj_filt$data$diff_table_sig<-as_tibble(pseq_obj_filt$data$diff_table%>%filter(wilcox_p_value<0.05))
 pseq_obj_filt$data$diff_table_sig
@@ -345,7 +379,7 @@ sig<-sig%>%
   rename(OTU=otu_id)%>%
   distinct_all()
 sig
-psmelt<-psmelt(survival_pseq_decontam_no_neg_core)
+psmelt<-psmelt(physeq_keep)
 psmelt<-psmelt%>%select(OTU,domain,phylum,class,order,family,genus,species)%>%distinct_all()
 psmelt
 
@@ -353,23 +387,29 @@ df2<-left_join(sig,psmelt)%>%
   arrange(genus)%>%
   distinct_all()
 
-unique(df2$)
+unique(df2)
 df2
 
 #write.table(df2,"../final/case_tmp.txt",sep = "\t",row.names = F)
-names
+
 res2<-as_tibble(df2)%>%filter(wilcox_p_value<=0.05)%>%distinct_all()
 res3<-res2[,2:9]%>%distinct_all()
+res2
 res3%>%arrange(log2_median_ratio,p.adjust)
 res2
 data.frame(res2)
 df2
+
+
+
+
 keep%>%pval>0.05
-write.table(keep,"../S4_survival_maaslin2.tsv",sep = "\t",row.names = F)
-write.table(res2,"../S4_survival_metacoder.tsv",sep = "\t",row.names = F)
+
+write.table(keep4,"09122022_maaslin2_multireference.tsv",sep = "\t",row.names = F)
+write.table(df2,"09122022_metacoder_multireference.tsv",sep = "\t",row.names = F)
 
 
-keep
+keep4
 
 # # A tibble: 14 x 9
 # taxon_id treatment_1 treatment_2 log2_median_ratio median_diff mean_diff wilcox_p_value p.adjust `pseq_obj_filt$taxon_names()`
