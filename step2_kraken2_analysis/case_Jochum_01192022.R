@@ -133,9 +133,12 @@ pseq_shen_decontam
 pseq_decontam<-merge_phyloseq(pseq_not_shen,pseq_shen_decontam)
 #remove the negative controls from the analysis
 pseq_decontam_no_neg<-subset_samples(physeq = pseq_decontam,case!="Control_Neg")
+pseq_decontam_no_neg
 
 #make a 50% prevalence and detection cutoff
-pseq_decontam_no_neg_core<-core(x = pseq_decontam_no_neg,detection = 50/100,prevalence = 50/100)
+pseq_decontam_no_neg_core<-core(x = pseq_decontam_no_neg,
+                                detection = 50/100,
+                                prevalence = 50/100)
 pseq_decontam_no_neg_core #[ 566 taxa and 86 samples ]
 
 
@@ -164,25 +167,26 @@ colnames(df_input_metadata)
 # Bejamini Hochberg multiple test correction
 
 
-df_input_metadata%>%select(publication,patient,case)
+df_input_metadata%>%select(publication,tech_rep,patient,case)
 #########################################
 # warning this takes FOREVER to run
 ##########################################
 case_norm3<-Maaslin2(
   input_data = df_input_data,
   input_metadata = df_input_metadata,
-  output="./case_09122022_CAP_ref",
+  output="./case_09152022",
   min_abundance = 0.01,
   min_prevalence = 0.01,
   normalization = "CLR",
   transform = "LOG",
   analysis_method = "LM",
   max_significance = 0.05,
-  random_effects = c("sample_name","publication"),
+  random_effects = c("tech_rep","publication"),
   fixed_effects = c("case"),
   correction="BH",
   standardize = TRUE,
-  cores = 20,reference = 'case,Community Acquired Pneumonia',
+  cores = 20,
+  reference = 'case,COVID19',
   plot_heatmap = TRUE,
   plot_scatter = TRUE,
   heatmap_first_n =100)
@@ -190,29 +194,16 @@ case_norm3<-Maaslin2(
 ###########################################
 
 #make a copy of the results
-res<-as_tibble(case_norm$results)
-res2<-as_tibble(case_norm2$results)
 res3<-as_tibble(case_norm3$results)
 
-res
-res2
-res3
-
-
 #filter the results to only include significant taxa
-keep<-res%>%filter(qval<=0.05)%>%mutate(reference="Uninfected")
-keep2<-res2%>%filter(qval<=0.05)%>%mutate(reference="COVID19")
-keep3<-res3%>%filter(qval<=0.05)%>%mutate(reference="Community Acquired Pneumonia")
 
-keep # A tibble: 70 × 11
-keep2# A tibble: 59 × 11
-keep3# A tibble: 52 × 11
-keep4<-full_join(keep,keep2)
-keep4<-full_join(keep4,keep3)
+keep3<-res3%>%filter(pval<=0.05)%>%mutate(reference="case")
+
 
 #fix the character
-keep4<-keep4%>%mutate(feature=gsub("X","",feature))
-keep
+keep4<-keep3%>%mutate(feature=gsub("X","",feature))
+
 #make a phyloseq_object that has subsets only the stat. significant taxa
 physeq_keep<-prune_taxa(taxa = keep4$feature, x =  pseq_decontam_no_neg_core)
 

@@ -1,0 +1,75 @@
+2022-09-27 13:49:23 INFO::Writing function arguments to log file
+2022-09-27 13:49:23 DEBUG::Function arguments
+2022-09-27 13:49:23 DEBUG::Output folder: ./survival_09272022
+2022-09-27 13:49:23 DEBUG::Min Abundance: 0.001000
+2022-09-27 13:49:23 DEBUG::Min Prevalence: 0.010000
+2022-09-27 13:49:23 DEBUG::Normalization: CLR
+2022-09-27 13:49:23 DEBUG::Transform: LOG
+2022-09-27 13:49:23 DEBUG::Analysis method: LM
+2022-09-27 13:49:23 DEBUG::Max significance: 0.050000
+2022-09-27 13:49:23 DEBUG::Random effects:
+2022-09-27 13:49:23 DEBUG::Fixed effects: survival
+2022-09-27 13:49:23 DEBUG::Correction method: BH
+2022-09-27 13:49:23 DEBUG::Standardize: TRUE
+2022-09-27 13:49:23 DEBUG::Cores: 8
+2022-09-27 13:49:23 INFO::Verifying options selected are valid
+2022-09-27 13:49:23 INFO::Determining format of input files
+2022-09-27 13:49:23 INFO::Input format is data samples as rows and metadata samples as rows
+2022-09-27 13:49:23 DEBUG::A total of 25 samples were found in both the data and metadata
+2022-09-27 13:49:23 DEBUG::Reordering data/metadata to use same sample ordering
+2022-09-27 13:49:23 INFO::Formula for fixed effects: expr ~  survival
+2022-09-27 13:49:23 INFO::Filter data based on min abundance and min prevalence
+2022-09-27 13:49:23 INFO::Total samples in data: 25
+2022-09-27 13:49:23 INFO::Min samples required with min abundance for a feature not to be filtered: 0.250000
+2022-09-27 13:49:23 INFO::Total filtered features: 0
+2022-09-27 13:49:23 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-09-27 13:49:23 INFO::Total filtered features with variance filtering: 0
+2022-09-27 13:49:23 INFO::Filtered feature names from variance filtering:
+2022-09-27 13:49:23 INFO::Running selected normalization method: CLR
+2022-09-27 13:49:23 INFO::Applying z-score to standardize continuous metadata
+2022-09-27 13:49:23 INFO::Running selected transform method: LOG
+2022-09-27 13:49:23 INFO::Running selected analysis method: LM
+2022-09-27 13:49:23 INFO::Creating cluster of 8 R processes
+2022-09-27 13:49:59 INFO::Counting total values for each feature
+2022-09-27 13:50:00 INFO::Writing residuals to file ./survival_09272022/residuals.rds
+2022-09-27 13:50:00 INFO::Writing fitted values to file ./survival_09272022/fitted.rds
+2022-09-27 13:50:00 INFO::Writing all results to file (ordered by increasing q-values): ./survival_09272022/all_results.tsv
+2022-09-27 13:50:00 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.050000 ) to file (ordered by increasing q-values): ./survival_09272022/significant_results.tsv
+2022-09-27 13:50:00 INFO::Writing heatmap of significant results to file: ./survival_09272022/heatmap.pdf
+2022-09-27 13:50:00 INFO::Writing association plots (one for each significant association) to output folder: ./survival_09272022
+2022-09-27 13:50:00 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-09-27 13:50:00 INFO::Plotting data for metadata number 1, survival
+2022-09-27 13:50:00 INFO::Creating boxplot for categorical data, survival vs X329
+2022-09-27 13:50:00 INFO::Creating boxplot for categorical data, survival vs X59374
+2022-09-27 13:50:00 INFO::Creating boxplot for categorical data, survival vs X335929
+2022-09-27 13:50:00 INFO::Creating boxplot for categorical data, survival vs X663243
+2022-09-27 13:50:00 INFO::Creating boxplot for categorical data, survival vs X1246301
+2022-09-27 13:50:00 INFO::Creating boxplot for categorical data, survival vs X2126319
+2022-09-27 13:50:00 INFO::Creating boxplot for categorical data, survival vs X34072
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X1218933
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X1349819
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X80869
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X1646
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X13689
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X57493
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X66269
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X149539
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X282217
+2022-09-27 13:50:01 INFO::Creating boxplot for categorical data, survival vs X401472
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X1034889
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X1311759
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X1813871
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X2093856
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X2594473
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X83771
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X748678
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X1128398
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X2498451
+2022-09-27 13:50:02 INFO::Creating boxplot for categorical data, survival vs X1613
+2022-09-27 13:50:03 INFO::Creating boxplot for categorical data, survival vs X28221
+2022-09-27 13:50:03 INFO::Creating boxplot for categorical data, survival vs X38294
+2022-09-27 13:50:03 INFO::Creating boxplot for categorical data, survival vs X85015
+2022-09-27 13:50:03 INFO::Creating boxplot for categorical data, survival vs X115981
+2022-09-27 13:50:03 INFO::Creating boxplot for categorical data, survival vs X266940
+2022-09-27 13:50:03 INFO::Creating boxplot for categorical data, survival vs X391735
+2022-09-27 13:50:03 INFO::Creating boxplot for categorical data, survival vs X2652307
